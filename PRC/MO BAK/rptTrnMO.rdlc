@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <ConnectionProperties>
+        <ConnectString />
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>dc9870b7-f70e-43ef-bac1-1da8d56001dc</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>3mm</BottomMargin>
+  <RightMargin>3mm</RightMargin>
+  <PageWidth>8.27in</PageWidth>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.2in</InteractiveWidth>
+  <rd:GridSpacing>0.1in</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ReportItems>
+      <Table Name="table1">
+        <Footer>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Rectangle Name="rectangle2">
+                      <ReportItems>
+                        <Rectangle Name="rectangle15">
+                          <Left>9.90476cm</Left>
+                          <ReportItems>
+                            <Textbox Name="order_descr">
+                              <Left>0.25397cm</Left>
+                              <Top>1.01587cm</Top>
+                              <rd:DefaultName>order_descr</rd:DefaultName>
+                              <ZIndex>1</ZIndex>
+                              <Width>7.61905cm</Width>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontSize>8pt</FontSize>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <Height>1.26984cm</Height>
+                              <Value>=Fields!order_descr.Value</Value>
+                            </Textbox>
+                            <Textbox Name="textbox6">
+                              <Left>0.25397cm</Left>
+                              <Top>0.25397cm</Top>
+                              <Width>2.79365cm</Width>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontWeight>700</FontWeight>
+                                <Color>DimGray</Color>
+                                <PaddingRight>2pt</PaddingRight>
+                                <FontStyle>Italic</FontStyle>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.7619cm</Height>
+                              <Value>Catatan :</Value>
+                            </Textbox>
+                          </ReportItems>
+                          <Top>2.53968cm</Top>
+                          <ZIndex>2</ZIndex>
+                          <Width>8.12698cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                          </Style>
+                          <Height>2.53968cm</Height>
+                        </Rectangle>
+                        <Rectangle Name="rectangle14">
+                          <Left>0.25397cm</Left>
+                          <ReportItems>
+                            <Textbox Name="textbox5">
+                              <Left>0.25397cm</Left>
+                              <Top>0.25397cm</Top>
+                              <Width>2.79365cm</Width>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontWeight>700</FontWeight>
+                                <Color>DimGray</Color>
+                                <PaddingRight>2pt</PaddingRight>
+                                <FontStyle>Italic</FontStyle>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.7619cm</Height>
+                              <Value>Disetujui oleh :</Value>
+                            </Textbox>
+                          </ReportItems>
+                          <Top>2.53968cm</Top>
+                          <ZIndex>1</ZIndex>
+                          <Width>8.12698cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                          </Style>
+                          <Height>2.53968cm</Height>
+                        </Rectangle>
+                        <Table Name="table3">
+                          <Footer>
+                            <TableRows>
+                              <TableRow>
+                                <TableCells>
+                                  <TableCell>
+                                    <ReportItems>
+                                      <Textbox Name="textbox27">
+                                        <rd:DefaultName>textbox27</rd:DefaultName>
+                                        <ZIndex>2</ZIndex>
+                                        <Style>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                        </Style>
+                                        <CanGrow>true</CanGrow>
+                                        <Value />
+                                      </Textbox>
+                                    </ReportItems>
+                                  </TableCell>
+                                  <TableCell>
+                                    <ReportItems>
+                                      <Rectangle Name="rectangle12">
+                                        <ReportItems>
+                                          <Textbox Name="textbox1">
+                                            <rd:DefaultName>textbox1</rd:DefaultName>
+                                            <ZIndex>1</ZIndex>
+                                            <Width>2.53968cm</Width>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                              <FontSize>8pt</FontSize>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <FontStyle>Italic</FontStyle>
+                                              <PaddingTop>2pt</PaddingTop>
+                                            </Style>
+                                            <CanGrow>true</CanGrow>
+                                            <Height>0.50794cm</Height>
+                                            <Value>Terbilang</Value>
+                                          </Textbox>
+                                          <Textbox Name="order_Terbilang">
+                                            <Left>0.1in</Left>
+                                            <Top>0.50794cm</Top>
+                                            <rd:DefaultName>order_Terbilang</rd:DefaultName>
+                                            <Width>5.5in</Width>
+                                            <Style>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                              <FontSize>8pt</FontSize>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                            </Style>
+                                            <Value>=Fields!order_Terbilang.Value + " RUPIAH"</Value>
+                                          </Textbox>
+                                        </ReportItems>
+                                        <ZIndex>1</ZIndex>
+                                        <Style>
+                                          <BorderStyle>
+                                            <Default>Solid</Default>
+                                          </BorderStyle>
+                                        </Style>
+                                      </Rectangle>
+                                    </ReportItems>
+                                  </TableCell>
+                                  <TableCell>
+                                    <ReportItems>
+                                      <Rectangle Name="rectangle13">
+                                        <ReportItems>
+                                          <Textbox Name="textbox2">
+                                            <Top>0.50794cm</Top>
+                                            <rd:DefaultName>textbox2</rd:DefaultName>
+                                            <Style>
+                                              <TextAlign>Right</TextAlign>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                              <FontSize>8pt</FontSize>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                            </Style>
+                                            <Value>="Rp. " &amp; Format((Fields!order_subtotalDetil.Value - Fields!order_discount.Value) + (Fields!order_PPN.Value - Fields!order_PPH.Value), "#,##0.00")</Value>
+                                          </Textbox>
+                                        </ReportItems>
+                                        <Style>
+                                          <BorderStyle>
+                                            <Default>Solid</Default>
+                                          </BorderStyle>
+                                        </Style>
+                                      </Rectangle>
+                                    </ReportItems>
+                                  </TableCell>
+                                </TableCells>
+                                <Height>1.01587cm</Height>
+                              </TableRow>
+                            </TableRows>
+                          </Footer>
+                          <Width>18.03175cm</Width>
+                          <TableColumns>
+                            <TableColumn>
+                              <Width>0.25397cm</Width>
+                            </TableColumn>
+                            <TableColumn>
+                              <Width>14.47619cm</Width>
+                            </TableColumn>
+                            <TableColumn>
+                              <Width>3.30159cm</Width>
+                            </TableColumn>
+                          </TableColumns>
+                          <Height>1.01587cm</Height>
+                        </Table>
+                      </ReportItems>
+                      <ZIndex>1</ZIndex>
+                    </Rectangle>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>2.1in</Height>
+            </TableRow>
+          </TableRows>
+        </Footer>
+        <Left>0.3in</Left>
+        <DataSetName>PRC_DataSource_clsRptTrnRO</DataSetName>
+        <Width>7.2in</Width>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Rectangle Name="rectangle1">
+                      <ReportItems>
+                        <Line Name="line7">
+                          <Left>18.03175cm</Left>
+                          <Top>0.7619cm</Top>
+                          <ZIndex>25</ZIndex>
+                          <Width>0cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                          </Style>
+                          <Height>12.95238cm</Height>
+                        </Line>
+                        <Line Name="line6">
+                          <Left>14.73016cm</Left>
+                          <Top>0.7619cm</Top>
+                          <ZIndex>24</ZIndex>
+                          <Width>0cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                          </Style>
+                          <Height>12.95238cm</Height>
+                        </Line>
+                        <Line Name="line5">
+                          <Left>11.42857cm</Left>
+                          <Top>0.7619cm</Top>
+                          <ZIndex>23</ZIndex>
+                          <Width>0cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                          </Style>
+                          <Height>12.95238cm</Height>
+                        </Line>
+                        <Line Name="line4">
+                          <Left>9.90476cm</Left>
+                          <Top>0.7619cm</Top>
+                          <ZIndex>22</ZIndex>
+                          <Width>0cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                          </Style>
+                          <Height>12.95238cm</Height>
+                        </Line>
+                        <Line Name="line3">
+                          <Left>8.38095cm</Left>
+                          <Top>0.7619cm</Top>
+                          <ZIndex>21</ZIndex>
+                          <Width>0cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                          </Style>
+                          <Height>12.95238cm</Height>
+                        </Line>
+                        <Line Name="line2">
+                          <Left>1.01587cm</Left>
+                          <Top>0.7619cm</Top>
+                          <ZIndex>20</ZIndex>
+                          <Width>0cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                          </Style>
+                          <Height>12.95238cm</Height>
+                        </Line>
+                        <Line Name="line1">
+                          <Left>0.25397cm</Left>
+                          <Top>0.7619cm</Top>
+                          <ZIndex>19</ZIndex>
+                          <Width>0cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                          </Style>
+                          <Height>12.95238cm</Height>
+                        </Line>
+                        <Subreport Name="subreport1">
+                          <Left>0.1in</Left>
+                          <Parameters>
+                            <Parameter Name="order_id">
+                              <Value>=Fields!order_id.Value</Value>
+                            </Parameter>
+                            <Parameter Name="order_discount">
+                              <Value>=Fields!order_discount.Value</Value>
+                            </Parameter>
+                            <Parameter Name="order_insurancecost">
+                              <Value>=Fields!order_insurancecost.Value</Value>
+                            </Parameter>
+                            <Parameter Name="order_transportationcost">
+                              <Value>=Fields!order_transportationcost.Value</Value>
+                            </Parameter>
+                            <Parameter Name="order_operatorcost">
+                              <Value>=Fields!order_operatorcost.Value</Value>
+                            </Parameter>
+                            <Parameter Name="order_pph_percent">
+                              <Value>=Fields!order_pph_percent.Value</Value>
+                            </Parameter>
+                            <Parameter Name="order_ppn_percent">
+                              <Value>=Fields!order_ppn_percent.Value</Value>
+                            </Parameter>
+                          </Parameters>
+                          <Top>0.3in</Top>
+                          <ZIndex>18</ZIndex>
+                          <Width>7in</Width>
+                          <ReportName>PRC.rptTrnPODetil.rdlc</ReportName>
+                          <Height>0.2in</Height>
+                        </Subreport>
+                        <Textbox Name="textbox26">
+                          <Left>14.73016cm</Left>
+                          <Top>0.25397cm</Top>
+                          <ZIndex>17</ZIndex>
+                          <Width>3.30159cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <TextAlign>Center</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>8pt</FontSize>
+                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.50794cm</Height>
+                          <Value>Total</Value>
+                        </Textbox>
+                        <Textbox Name="textbox25">
+                          <Left>11.42857cm</Left>
+                          <Top>0.25397cm</Top>
+                          <ZIndex>16</ZIndex>
+                          <Width>3.30159cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                              <Right>None</Right>
+                            </BorderStyle>
+                            <TextAlign>Center</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>8pt</FontSize>
+                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.50794cm</Height>
+                          <Value>Harga Per Unit</Value>
+                        </Textbox>
+                        <Textbox Name="textbox24">
+                          <Left>9.90476cm</Left>
+                          <Top>0.25397cm</Top>
+                          <ZIndex>15</ZIndex>
+                          <Width>1.52381cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                              <Right>None</Right>
+                            </BorderStyle>
+                            <TextAlign>Center</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>8pt</FontSize>
+                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.50794cm</Height>
+                          <Value>Unit</Value>
+                        </Textbox>
+                        <Textbox Name="textbox22">
+                          <Left>1.01587cm</Left>
+                          <Top>0.25397cm</Top>
+                          <ZIndex>14</ZIndex>
+                          <Width>7.36508cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                              <Right>None</Right>
+                            </BorderStyle>
+                            <TextAlign>Center</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>8pt</FontSize>
+                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.50794cm</Height>
+                          <Value>Keterangan</Value>
+                        </Textbox>
+                        <Rectangle Name="rectangle16">
+                          <Left>0.25397cm</Left>
+                          <Top>13.71429cm</Top>
+                          <ZIndex>13</ZIndex>
+                          <Width>0.7619cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                          </Style>
+                        </Rectangle>
+                        <Rectangle Name="rectangle18">
+                          <Left>8.38095cm</Left>
+                          <Top>13.71429cm</Top>
+                          <ZIndex>12</ZIndex>
+                          <Width>1.52381cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                              <Left>None</Left>
+                            </BorderStyle>
+                          </Style>
+                        </Rectangle>
+                        <Rectangle Name="rectangle17">
+                          <Left>1.01587cm</Left>
+                          <Top>13.71429cm</Top>
+                          <ZIndex>11</ZIndex>
+                          <Width>7.36508cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                              <Left>None</Left>
+                            </BorderStyle>
+                          </Style>
+                        </Rectangle>
+                        <Rectangle Name="rectangle19">
+                          <Left>9.90476cm</Left>
+                          <Top>13.71429cm</Top>
+                          <ZIndex>10</ZIndex>
+                          <Width>1.52381cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                              <Left>None</Left>
+                            </BorderStyle>
+                          </Style>
+                        </Rectangle>
+                        <Textbox Name="textbox14">
+                          <Left>11.42857cm</Left>
+                          <Top>14.73017cm</Top>
+                          <ZIndex>9</ZIndex>
+                          <Width>3.30159cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontSize>8pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.50794cm</Height>
+                          <Value>PPN</Value>
+                        </Textbox>
+                        <Textbox Name="textbox13">
+                          <Left>11.42857cm</Left>
+                          <Top>14.22222cm</Top>
+                          <ZIndex>8</ZIndex>
+                          <Width>3.30159cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontSize>8pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.50794cm</Height>
+                          <Value>Discount</Value>
+                        </Textbox>
+                        <Textbox Name="textbox12">
+                          <Left>11.42857cm</Left>
+                          <Top>13.71429cm</Top>
+                          <rd:DefaultName>textbox12</rd:DefaultName>
+                          <ZIndex>7</ZIndex>
+                          <Width>3.30159cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BorderWidth>
+                              <Top>2pt</Top>
+                            </BorderWidth>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontSize>8pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.50794cm</Height>
+                          <Value>Total Gross</Value>
+                        </Textbox>
+                        <Textbox Name="textbox15">
+                          <Left>11.42857cm</Left>
+                          <Top>15.2381cm</Top>
+                          <ZIndex>6</ZIndex>
+                          <Width>3.30159cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Bottom>None</Bottom>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontSize>8pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Value>PPh</Value>
+                        </Textbox>
+                        <Textbox Name="textbox18">
+                          <Left>14.73016cm</Left>
+                          <Top>14.73017cm</Top>
+                          <ZIndex>5</ZIndex>
+                          <Width>3.29894cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <TextAlign>Right</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontSize>8pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <Height>0.50794cm</Height>
+                          <Value>=Format(Fields!order_PPN.Value, "#,##0.00")</Value>
+                        </Textbox>
+                        <Textbox Name="textbox17">
+                          <Left>14.73016cm</Left>
+                          <Top>14.22222cm</Top>
+                          <ZIndex>4</ZIndex>
+                          <Width>3.29894cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <TextAlign>Right</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontSize>8pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <Height>0.50794cm</Height>
+                          <Value>=Format(Fields!order_discount.Value, "#,##0.00")</Value>
+                        </Textbox>
+                        <Textbox Name="textbox16">
+                          <Left>14.73016cm</Left>
+                          <Top>13.71429cm</Top>
+                          <rd:DefaultName>textbox16</rd:DefaultName>
+                          <ZIndex>3</ZIndex>
+                          <Width>3.29894cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <TextAlign>Right</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BorderWidth>
+                              <Top>2pt</Top>
+                            </BorderWidth>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontSize>8pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <Height>0.50794cm</Height>
+                          <Value>=Format(Fields!order_subtotalDetil.Value, "#,##0.00")</Value>
+                        </Textbox>
+                        <Textbox Name="textbox19">
+                          <Left>14.73016cm</Left>
+                          <Top>15.2381cm</Top>
+                          <ZIndex>2</ZIndex>
+                          <Width>3.29894cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Bottom>None</Bottom>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <TextAlign>Right</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontSize>8pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <Value>=Format(Fields!order_PPH.Value, "#,##0.00")</Value>
+                        </Textbox>
+                        <Textbox Name="textbox21">
+                          <Left>0.25397cm</Left>
+                          <Top>0.25397cm</Top>
+                          <ZIndex>1</ZIndex>
+                          <Width>0.7619cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                              <Right>None</Right>
+                            </BorderStyle>
+                            <TextAlign>Center</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>8pt</FontSize>
+                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.49732cm</Height>
+                          <Value>No.</Value>
+                        </Textbox>
+                        <Textbox Name="textbox23">
+                          <Left>8.38095cm</Left>
+                          <Top>0.25397cm</Top>
+                          <Width>1.52381cm</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                              <Right>None</Right>
+                            </BorderStyle>
+                            <TextAlign>Center</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>8pt</FontSize>
+                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.50794cm</Height>
+                          <Value>Qty</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </Rectangle>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>6.20208in</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Rectangle Name="rectangle3">
+                      <ReportItems>
+                        <List Name="list2">
+                          <ReportItems>
+                            <Rectangle Name="rectangle4">
+                              <Left>0.25397cm</Left>
+                              <ReportItems>
+                                <Textbox Name="textbox8">
+                                  <Left>0.25397cm</Left>
+                                  <Top>1.97884cm</Top>
+                                  <ZIndex>3</ZIndex>
+                                  <Width>7.61905cm</Width>
+                                  <Style>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                    <FontSize>8pt</FontSize>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                  </Style>
+                                  <CanGrow>true</CanGrow>
+                                  <Height>0.50794cm</Height>
+                                  <Value>="Telp. "+Fields!rekanan_telpon.Value</Value>
+                                </Textbox>
+                                <Textbox Name="textbox3">
+                                  <Left>0.25396cm</Left>
+                                  <Top>1.4709cm</Top>
+                                  <ZIndex>2</ZIndex>
+                                  <Width>7.61905cm</Width>
+                                  <Style>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                    <FontSize>8pt</FontSize>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                  </Style>
+                                  <CanGrow>true</CanGrow>
+                                  <Height>0.50794cm</Height>
+                                  <Value>=Fields!rekanan_alamat.Value</Value>
+                                </Textbox>
+                                <Textbox Name="rekanan_name">
+                                  <Left>0.25397cm</Left>
+                                  <Top>0.96296cm</Top>
+                                  <rd:DefaultName>rekanan_name</rd:DefaultName>
+                                  <ZIndex>1</ZIndex>
+                                  <Width>7.61905cm</Width>
+                                  <Style>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                    <FontSize>8pt</FontSize>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                  </Style>
+                                  <CanGrow>true</CanGrow>
+                                  <Height>0.50794cm</Height>
+                                  <Value>=Fields!rekanan_name.Value</Value>
+                                </Textbox>
+                                <Textbox Name="textbox4">
+                                  <Left>0.25397cm</Left>
+                                  <Top>0.25397cm</Top>
+                                  <rd:DefaultName>textbox4</rd:DefaultName>
+                                  <Width>2.79365cm</Width>
+                                  <Style>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                    <FontWeight>700</FontWeight>
+                                    <Color>DimGray</Color>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <FontStyle>Italic</FontStyle>
+                                    <PaddingTop>2pt</PaddingTop>
+                                  </Style>
+                                  <CanGrow>true</CanGrow>
+                                  <Height>0.50793cm</Height>
+                                  <Value>Nama Vendor :</Value>
+                                </Textbox>
+                              </ReportItems>
+                              <Top>2.53968cm</Top>
+                              <ZIndex>9</ZIndex>
+                              <Width>8.12698cm</Width>
+                              <Style>
+                                <BorderStyle>
+                                  <Default>Solid</Default>
+                                </BorderStyle>
+                              </Style>
+                            </Rectangle>
+                            <Image Name="image1">
+                              <Sizing>FitProportional</Sizing>
+                              <Left>0.1in</Left>
+                              <Top>0.1in</Top>
+                              <ZIndex>8</ZIndex>
+                              <Width>0.6in</Width>
+                              <Source>External</Source>
+                              <Style />
+                              <Height>0.6in</Height>
+                              <Value>="http://transbrowser.transtv.co.id/services/live/solutions/images/" &amp; Fields!channel_id.Value &amp; ".jpg"</Value>
+                            </Image>
+                            <Textbox Name="textbox7">
+                              <Left>4.875in</Left>
+                              <Top>0.52292in</Top>
+                              <ZIndex>7</ZIndex>
+                              <Width>2.25in</Width>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontSize>8pt</FontSize>
+                                <PaddingRight>2pt</PaddingRight>
+                                <FontStyle>Italic</FontStyle>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.2in</Height>
+                              <Value>="Tanggal:" &amp; Format(Fields!order_date.Value,"dd MMM yyyy")</Value>
+                            </Textbox>
+                            <Textbox Name="textbox60">
+                              <Left>4.875in</Left>
+                              <Top>0.32292in</Top>
+                              <ZIndex>6</ZIndex>
+                              <Width>2.25in</Width>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <FontWeight>700</FontWeight>
+                                <VerticalAlign>Bottom</VerticalAlign>
+                                <PaddingRight>2pt</PaddingRight>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.2in</Height>
+                              <Value>=Fields!order_id.Value</Value>
+                            </Textbox>
+                            <Textbox Name="textbox37">
+                              <Left>4.875in</Left>
+                              <Top>0.12292in</Top>
+                              <ZIndex>5</ZIndex>
+                              <Width>2.25in</Width>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <FontWeight>700</FontWeight>
+                                <FontSize>14pt</FontSize>
+                                <VerticalAlign>Bottom</VerticalAlign>
+                                <PaddingRight>2pt</PaddingRight>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.2in</Height>
+                              <Value>PURCHASE ORDER</Value>
+                            </Textbox>
+                            <Textbox Name="channelname">
+                              <Left>0.8in</Left>
+                              <Top>0.125in</Top>
+                              <rd:DefaultName>channelname</rd:DefaultName>
+                              <ZIndex>4</ZIndex>
+                              <Width>3.75in</Width>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontWeight>700</FontWeight>
+                                <FontSize>12pt</FontSize>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.275in</Height>
+                              <Value>=Fields!channelname.Value</Value>
+                            </Textbox>
+                            <Textbox Name="channeltelp">
+                              <Left>0.8in</Left>
+                              <Top>0.54792in</Top>
+                              <rd:DefaultName>channeltelp</rd:DefaultName>
+                              <ZIndex>3</ZIndex>
+                              <Width>1.72917in</Width>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontSize>7pt</FontSize>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.16667in</Height>
+                              <Value>="Telp. "+Fields!channeltelp.Value</Value>
+                            </Textbox>
+                            <Textbox Name="channeladdr">
+                              <Left>0.8in</Left>
+                              <Top>0.39167in</Top>
+                              <rd:DefaultName>channeladdr</rd:DefaultName>
+                              <ZIndex>2</ZIndex>
+                              <Width>3.75in</Width>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontSize>7pt</FontSize>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.15625in</Height>
+                              <Value>=Fields!channeladdr.Value</Value>
+                            </Textbox>
+                            <Textbox Name="channelfax">
+                              <Left>2.55in</Left>
+                              <Top>0.54792in</Top>
+                              <rd:DefaultName>channelfax</rd:DefaultName>
+                              <ZIndex>1</ZIndex>
+                              <Width>2in</Width>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontSize>7pt</FontSize>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.16667in</Height>
+                              <Value>="Fax. "+Fields!channelfax.Value</Value>
+                            </Textbox>
+                            <Rectangle Name="rectangle5">
+                              <Left>9.90476cm</Left>
+                              <ReportItems>
+                                <Textbox Name="textbox9">
+                                  <Left>0.25397cm</Left>
+                                  <Top>1.97884cm</Top>
+                                  <ZIndex>3</ZIndex>
+                                  <Width>7.61905cm</Width>
+                                  <Style>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                    <FontSize>8pt</FontSize>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                  </Style>
+                                  <CanGrow>true</CanGrow>
+                                  <Height>0.50794cm</Height>
+                                  <Value>="Telp. "+Fields!channeltelp.Value</Value>
+                                </Textbox>
+                                <Textbox Name="textbox10">
+                                  <Left>0.25396cm</Left>
+                                  <Top>1.4709cm</Top>
+                                  <ZIndex>2</ZIndex>
+                                  <Width>7.61905cm</Width>
+                                  <Style>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                    <FontSize>8pt</FontSize>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                  </Style>
+                                  <CanGrow>true</CanGrow>
+                                  <Height>0.50794cm</Height>
+                                  <Value>=Fields!channeladdr.Value</Value>
+                                </Textbox>
+                                <Textbox Name="textbox20">
+                                  <Left>0.25397cm</Left>
+                                  <Top>0.96296cm</Top>
+                                  <ZIndex>1</ZIndex>
+                                  <Width>7.61905cm</Width>
+                                  <Style>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                    <FontSize>8pt</FontSize>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <PaddingTop>2pt</PaddingTop>
+                                  </Style>
+                                  <CanGrow>true</CanGrow>
+                                  <Height>0.50794cm</Height>
+                                  <Value>=Fields!channelname.Value</Value>
+                                </Textbox>
+                                <Textbox Name="textbox11">
+                                  <Left>0.25397cm</Left>
+                                  <Top>0.25397cm</Top>
+                                  <Width>2.79365cm</Width>
+                                  <Style>
+                                    <PaddingLeft>2pt</PaddingLeft>
+                                    <PaddingBottom>2pt</PaddingBottom>
+                                    <FontWeight>700</FontWeight>
+                                    <Color>DimGray</Color>
+                                    <PaddingRight>2pt</PaddingRight>
+                                    <FontStyle>Italic</FontStyle>
+                                    <PaddingTop>2pt</PaddingTop>
+                                  </Style>
+                                  <CanGrow>true</CanGrow>
+                                  <Height>0.50793cm</Height>
+                                  <Value>Dikirim ke :</Value>
+                                </Textbox>
+                              </ReportItems>
+                              <Top>2.53968cm</Top>
+                              <Width>8.12698cm</Width>
+                              <Style>
+                                <BorderStyle>
+                                  <Default>Solid</Default>
+                                </BorderStyle>
+                              </Style>
+                            </Rectangle>
+                          </ReportItems>
+                          <DataSetName>PRINT_RO_DataSource_clsRptTrnRO</DataSetName>
+                          <Height>5.34392cm</Height>
+                        </List>
+                      </ReportItems>
+                      <ZIndex>2</ZIndex>
+                    </Rectangle>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>2.3in</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>7.2in</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+    </ReportItems>
+    <Height>10.60208in</Height>
+  </Body>
+  <rd:ReportID>b8c11429-8293-4a48-a77f-b8fbcf3c7bdc</rd:ReportID>
+  <LeftMargin>3mm</LeftMargin>
+  <EmbeddedImages>
+    <EmbeddedImage Name="tv7">
+      <ImageData>/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAcAFQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDxSxDyzzebM5O49XNWpYMAnzWwO+816h+z7dSz+MLPRbiK0m0yaWaSSKW1jcsfLJ++VLYyo4ziup8Bzf2x8WDBqdvZTW1vHdpHH9liRVAPGQFAOMDk5r6KdX2cpJra7PO5L2s9z52mU87ZWOPRzVRncHHmPn/eNe5/E6NLH4d6
+fZ+JrSD/AISqe6e5tp4oUBWzycbnQBWz6ZJxjNWfBfgiy1L4dal4cl06T/hJNQsBrdvdvEdqYbEUIbHUqMkZ6Se1DrwUOdrrb/g+gKEuayZ8/tI4OPNfJ/2jUbSOOsrjP+0a9Z+EEnhq38N+Jv8AhNrHzdNubm1sXm2jzLRnEp8wHqMFBnH69KNT8BXXgifxhFdrFf6dNoMk2m6gEDJKpmiAYHoHAbnHrkcGonUipOLX/BLjFtJ3PI/tcsZwLmRT6ByK7fwtbpd/DLxxqVyZJL6weyFtMZG3Rb5CGxz3FelyeH7rV/Aem33wsudIvbKDTPK1XRZII2naYqfMkbcMs+TxkjG0bc9K868FjHwc+Iw54fT+v/XU1g5KS0XVfmbJWOh+Enwws/HnheXVdT8ZTaVKl09uLclWyFVTu+Zgedx/Ku4X9m3RpLWe5Xx3cyQQgtJIscZVABkkndxxzXzFa2UuoX1vaWkXm3VxIsMSAcszHAH5mvoD433EHw0+HGi/DfQXVLi8i+1arOnDSjODn2Zgf+AoB0rCrGSkknuaReh89XDss8ipM0iKxVXz94A8GioiKK1sB7R8LdfHhnxPHqv2f7SYC+It+3O5SvXB9a3vDni4eHfFk2uCyFyZBKPI8zbjzD64PSuBsHFq8mxEYljy2fWpp75iP9VF+R/xr1alCM5Nvr+R5ntWrWOk1PxtBf8Ag+z0DXNKN8tjc+da3In2PHGWyYjwcgjK/l6Vk23xK1my8fp4jjmuPJW5Mv8AZwuGEIjxt8oDoAF4Bx2zXNXdwWz+7j/I/wCNZcr8/cWj6tBJ6f0wVWR0uv8Ai221C08S21npIs4tZ1CG/C+buEBQPlRwMglyfbpU+mfEnVLT4b6t4Mu4xeafdoEtpHfD2nzBiB6qcdO1cVJJ/sr+VQtIf7q/lWM6ULWsaxnK9zutA8baT4YvV1fw5od1a66LQ2u573dbBim1pNm0MSeu0tgHmneDcn4PfEgkkky
+aeST3PnGvP2f2H5VPBqt9a6deWFvcyRWV4UNzCpwsuw5XcO+DyK55wXTy/A3jJnffs3WFtffF/R3vWRYbNJbv52AG5VwvX/aYH8Kz/wBoHVm1n4u+Ipi4eOGYWseDkbY1C8fjk/jXAsfamGsXH3+Y0T0sR0U4Ju5yR9KKhzSLsf/Z</ImageData>
+      <MIMEType>image/jpeg</MIMEType>
+    </EmbeddedImage>
+    <EmbeddedImage Name="ttv">
+      <ImageData>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</ImageData>
+      <MIMEType>image/gif</MIMEType>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <DataSets>
+    <DataSet Name="PRC_DataSource_clsRptTrnRO">
+      <rd:DataSetInfo>
+        <rd:DataSetName>PRC.DataSource</rd:DataSetName>
+        <rd:ObjectDataSourceType>PRC.DataSource.clsRptTrnRO, PRC, Version=1.0.3048.27000, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+        <rd:TableName>clsRptTrnRO</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText />
+        <DataSourceName>DummyDataSource</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="budget_id">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>budget_id</DataField>
+        </Field>
+        <Field Name="budget_name">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>budget_name</DataField>
+        </Field>
+        <Field Name="channel_id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channel_id</DataField>
+        </Field>
+        <Field Name="channeladdr">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channeladdr</DataField>
+        </Field>
+        <Field Name="channelext">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channelext</DataField>
+        </Field>
+        <Field Name="channelfax">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channelfax</DataField>
+        </Field>
+        <Field Name="channelform_no1">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channelform_no1</DataField>
+        </Field>
+        <Field Name="channelform_no2">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channelform_no2</DataField>
+        </Field>
+        <Field Name="channelname">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channelname</DataField>
+        </Field>
+        <Field Name="channeltelp">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channeltelp</DataField>
+        </Field>
+        <Field Name="DaftarRekananContact">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>DaftarRekananContact</DataField>
+        </Field>
+        <Field Name="FirsRekananContactPhone">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>FirsRekananContactPhone</DataField>
+        </Field>
+        <Field Name="FirstRekananContact">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>FirstRekananContact</DataField>
+        </Field>
+        <Field Name="old_apref">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>old_apref</DataField>
+        </Field>
+        <Field Name="old_category_id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>old_category_id</DataField>
+        </Field>
+        <Field Name="old_program_id">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>old_program_id</DataField>
+        </Field>
+        <Field Name="order_authname">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_authname</DataField>
+        </Field>
+        <Field Name="order_authposition">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_authposition</DataField>
+        </Field>
+        <Field Name="order_canceled">
+          <rd:TypeName>System.Boolean</rd:TypeName>
+          <DataField>order_canceled</DataField>
+        </Field>
+        <Field Name="order_createby">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_createby</DataField>
+        </Field>
+        <Field Name="order_createdate">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_createdate</DataField>
+        </Field>
+        <Field Name="order_date">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_date</DataField>
+        </Field>
+        <Field Name="order_descr">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_descr</DataField>
+        </Field>
+        <Field Name="order_discount">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_discount</DataField>
+        </Field>
+        <Field Name="order_eps">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_eps</DataField>
+        </Field>
+        <Field Name="order_id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_id</DataField>
+        </Field>
+        <Field Name="order_insurancecost">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_insurancecost</DataField>
+        </Field>
+        <Field Name="order_modifyby">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_modifyby</DataField>
+        </Field>
+        <Field Name="order_modifydate">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_modifydate</DataField>
+        </Field>
+        <Field Name="order_operatorcost">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_operatorcost</DataField>
+        </Field>
+        <Field Name="order_othercost">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_othercost</DataField>
+        </Field>
+        <Field Name="order_PPH">
+          <rd:TypeName>System.Object</rd:TypeName>
+          <DataField>order_PPH</DataField>
+        </Field>
+        <Field Name="order_pph_percent">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_pph_percent</DataField>
+        </Field>
+        <Field Name="order_PPN">
+          <rd:TypeName>System.Object</rd:TypeName>
+          <DataField>order_PPN</DataField>
+        </Field>
+        <Field Name="order_ppn_percent">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_ppn_percent</DataField>
+        </Field>
+        <Field Name="order_prognm">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_prognm</DataField>
+        </Field>
+        <Field Name="order_progsch">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_progsch</DataField>
+        </Field>
+        <Field Name="order_rekanan_contact">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_rekanan_contact</DataField>
+        </Field>
+        <Field Name="order_revdate">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_revdate</DataField>
+        </Field>
+        <Field Name="order_revdesc">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_revdesc</DataField>
+        </Field>
+        <Field Name="order_revno">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_revno</DataField>
+        </Field>
+        <Field Name="order_setdate">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_setdate</DataField>
+        </Field>
+        <Field Name="order_setlocation">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_setlocation</DataField>
+        </Field>
+        <Field Name="order_settime">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_settime</DataField>
+        </Field>
+        <Field Name="order_source">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_source</DataField>
+        </Field>
+        <Field Name="order_spkdesc">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_spkdesc</DataField>
+        </Field>
+        <Field Name="order_spkrequired">
+          <rd:TypeName>System.Boolean</rd:TypeName>
+          <DataField>order_spkrequired</DataField>
+        </Field>
+        <Field Name="order_spkworktype">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_spkworktype</DataField>
+        </Field>
+        <Field Name="order_subtotalDetil">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>order_subtotalDetil</DataField>
+        </Field>
+        <Field Name="order_Terbilang">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_Terbilang</DataField>
+        </Field>
+        <Field Name="order_Total">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>order_Total</DataField>
+        </Field>
+        <Field Name="order_TotalperOrder">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>order_TotalperOrder</DataField>
+        </Field>
+        <Field Name="order_transportationcost">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_transportationcost</DataField>
+        </Field>
+        <Field Name="order_utilizeddateend">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_utilizeddateend</DataField>
+        </Field>
+        <Field Name="order_utilizeddatestart">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_utilizeddatestart</DataField>
+        </Field>
+        <Field Name="order_utilizedlocation">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_utilizedlocation</DataField>
+        </Field>
+        <Field Name="order_utilizedtimeend">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_utilizedtimeend</DataField>
+        </Field>
+        <Field Name="order_utilizedtimestart">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_utilizedtimestart</DataField>
+        </Field>
+        <Field Name="periode_id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>periode_id</DataField>
+        </Field>
+        <Field Name="periode_name">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>periode_name</DataField>
+        </Field>
+        <Field Name="rekanan_alamat">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekanan_alamat</DataField>
+        </Field>
+        <Field Name="rekanan_fax">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekanan_fax</DataField>
+        </Field>
+        <Field Name="rekanan_id">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>rekanan_id</DataField>
+        </Field>
+        <Field Name="rekanan_name">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekanan_name</DataField>
+        </Field>
+        <Field Name="rekanan_telpon">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekanan_telpon</DataField>
+        </Field>
+        <Field Name="request_id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>request_id</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>7.8in</Width>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <Language>en-US</Language>
+  <TopMargin>3mm</TopMargin>
+  <PageHeight>11.69in</PageHeight>
+</Report>

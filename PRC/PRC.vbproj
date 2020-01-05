@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F51B39C6-F803-483B-A30D-F15A9B743C24}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PRC</RootNamespace>
+    <AssemblyName>PRC</AssemblyName>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PRC.xml</DocumentationFile>
+    <DefineConstants>_MYFORMS=True</DefineConstants>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PRC.xml</DocumentationFile>
+    <DefineConstants>_MYFORMS=True</DefineConstants>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Win.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Persistent.Base.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v12.1.Core, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v12.1.Core, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="FlatTabControl, Version=1.0.2469.22824, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\FlatTabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Core, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.Microsoft.Office.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Interop.Excel, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.VBIDE, Version=5.3.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.VBIDE.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\clsAddressConfig.vb" />
+    <Compile Include="Classes\clsApplicationRole.vb" />
+    <Compile Include="Classes\clsDatabaseConfig.vb" />
+    <Compile Include="Classes\clsDataFiller.vb" />
+    <Compile Include="Classes\clsDataset.vb">
+    </Compile>
+    <Compile Include="Classes\clsDataset2.vb" />
+    <Compile Include="Classes\clsKirimEmail.vb" />
+    <Compile Include="Classes\clsMstRekanan.vb" />
+    <Compile Include="Classes\clsPopUpFind.vb" />
+    <Compile Include="Classes\clsPrintPO.vb" />
+    <Compile Include="Classes\clsPrintPO_2.vb" />
+    <Compile Include="Classes\clsPrintPO_3.vb" />
+    <Compile Include="Classes\clsPrintRO.vb" />
+    <Compile Include="Classes\clsPrintROSPK.vb" />
+    <Compile Include="Classes\clsPrintRO_2.vb" />
+    <Compile Include="Classes\clsPrintRO_3.vb" />
+    <Compile Include="Classes\clsQuickPrint.vb" />
+    <Compile Include="Classes\clsTrnOrderDetilReport.vb" />
+    <Compile Include="Classes\clsUtil.vb" />
+    <Compile Include="Classes\clsConfig.vb" />
+    <Compile Include="Classes\unused_clsPrintMO.vb" />
+    <Compile Include="Dialogs\dlgAttachmentDescr.Designer.vb">
+      <DependentUpon>dlgAttachmentDescr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgAttachmentDescr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uiTrnAcquisitionOrder.designer.vb">
+      <DependentUpon>uiTrnAcquisitionOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiTrnAcquisitionOrder.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Datasources\clsMstRekananH.vb" />
+    <Compile Include="Datasources\ClsRptBudgetOutstanding.vb" />
+    <Compile Include="Datasources\clsRptOrderDetil_2.vb" />
+    <Compile Include="Datasources\clsRptOrderDetil_3.vb" />
+    <Compile Include="Datasources\clsRptOrderSummary.vb" />
+    <Compile Include="Datasources\clsRptOrderTOPDetil.vb" />
+    <Compile Include="Datasources\clsRptOrder_2.vb" />
+    <Compile Include="Datasources\clsRptOrder_3.vb" />
+    <Compile Include="Datasources\clsRptOrder_PA_AP.vb" />
+    <Compile Include="Datasources\clsRptOrder.vb" />
+    <Compile Include="Datasources\clsRptOrderDetil.vb" />
+    <Compile Include="Datasources\clsTrnOrderDetilReport.vb" />
+    <Compile Include="Dialogs\dlgChooseUserEmail.designer.vb">
+      <DependentUpon>dlgChooseUserEmail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgChooseUserEmail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgItemChildRequest.Designer.vb">
+      <DependentUpon>dlgItemChildRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgItemChildRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgOrderPackageItemDetil.Designer.vb">
+      <DependentUpon>dlgOrderPackageItemDetil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgOrderPackageItemDetil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgQueryBuilderNew.Designer.vb">
+      <DependentUpon>dlgQueryBuilderNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgQueryBuilderNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DlgSelectRekanan.Designer.vb">
+      <DependentUpon>DlgSelectRekanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DlgSelectRekanan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgGetOrder.designer.vb">
+      <DependentUpon>dlgGetOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgGetOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgGetRequest.designer.vb">
+      <DependentUpon>dlgGetRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgGetRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgNewItemGroup.Designer.vb">
+      <DependentUpon>dlgNewItemGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgNewItemGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgOrderSource.Designer.vb">
+      <DependentUpon>dlgOrderSource.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgOrderSource.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgProgressOrder.Designer.vb">
+      <DependentUpon>dlgProgressOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgProgressOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgSelectDaysProc.Designer.vb">
+      <DependentUpon>dlgSelectDaysProc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgSelectDaysProc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgSelectItem.designer.vb">
+      <DependentUpon>dlgSelectItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgSelectItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgSelectItem2.designer.vb">
+      <DependentUpon>dlgSelectItem2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgSelectItem2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DlgSelectStrukturunit.Designer.vb">
+      <DependentUpon>DlgSelectStrukturunit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DlgSelectStrukturunit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgSelectTrnBudget.designer.vb">
+      <DependentUpon>dlgSelectTrnBudget.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgSelectTrnBudget.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgSelectVendor.Designer.vb">
+      <DependentUpon>dlgSelectVendor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgSelectVendor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgTOPPercentTools.Designer.vb">
+      <DependentUpon>dlgTOPPercentTools.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgTOPPercentTools.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgTrnRentalOrder_SelectDays_2.designer.vb">
+      <DependentUpon>dlgTrnRentalOrder_SelectDays_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgTrnRentalOrder_SelectDays_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptPO.Designer.vb">
+      <DependentUpon>dlgViewRptPO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptPO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptPO_2.designer.vb">
+      <DependentUpon>dlgViewRptPO_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptPO_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptPO_3.designer.vb">
+      <DependentUpon>dlgViewRptPO_3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptPO_3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptRO.Designer.vb">
+      <DependentUpon>dlgViewRptRO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptRO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptROSPK.Designer.vb">
+      <DependentUpon>dlgViewRptROSPK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptROSPK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptRO_2.designer.vb">
+      <DependentUpon>dlgViewRptRO_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptRO_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptRO_3.Designer.vb">
+      <DependentUpon>dlgViewRptRO_3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\dlgViewRptRO_3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\frmPopUpFind.designer.vb">
+      <DependentUpon>frmPopUpFind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\frmPopUpFind.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\xdlgSelectOrder.Designer.vb">
+      <DependentUpon>xdlgSelectOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\xdlgSelectOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entity\clsMstStrukturunit.vb" />
+    <Compile Include="Entity\clsMstUser.vb" />
+    <Compile Include="Entity\clsMstUserEmail.vb" />
+    <Compile Include="Entity\clsTrnLogEmail.vb" />
+    <Compile Include="hapus_uiTrnRentalOrder2.designer.vb">
+      <DependentUpon>hapus_uiTrnRentalOrder2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hapus_uiTrnRentalOrder2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MigrationTools\uiUpdateAfterDataMigration.Designer.vb">
+      <DependentUpon>uiUpdateAfterDataMigration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MigrationTools\uiUpdateAfterDataMigration.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="uiAdvanceRequestExpView.designer.vb">
+      <DependentUpon>uiAdvanceRequestExpView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiAdvanceRequestExpView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uiBase.designer.vb">
+      <DependentUpon>uiBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiBase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uiBase2.designer.vb">
+      <DependentUpon>uiBase2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiBase2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uiOrderExpView.designer.vb">
+      <DependentUpon>uiOrderExpView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiOrderExpView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uiOrderHistory.designer.vb">
+      <DependentUpon>uiOrderHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiOrderHistory.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uiOrderVoid.Designer.vb">
+      <DependentUpon>uiOrderVoid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiOrderVoid.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uiRequestExpView.designer.vb">
+      <DependentUpon>uiRequestExpView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiRequestExpView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uiTrnOrderDetilReport.Designer.vb">
+      <DependentUpon>uiTrnOrderDetilReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiTrnOrderDetilReport.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uiTrnPurchaseOrder3.designer.vb">
+      <DependentUpon>uiTrnPurchaseOrder3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiTrnPurchaseOrder3.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uiTrnRentalOrder3.designer.vb">
+      <DependentUpon>uiTrnRentalOrder3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiTrnRentalOrder3.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uiMstItem.Designer.vb">
+      <DependentUpon>uiMstItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiMstItem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uiROReportViewer.Designer.vb">
+      <DependentUpon>uiROReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="uiROReportViewer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dialogs\dlgAttachmentDescr.resx">
+      <DependentUpon>dlgAttachmentDescr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uiTrnAcquisitionOrder.resx">
+      <DependentUpon>uiTrnAcquisitionOrder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgChooseUserEmail.resx">
+      <DependentUpon>dlgChooseUserEmail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgItemChildRequest.resx">
+      <DependentUpon>dlgItemChildRequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgOrderPackageItemDetil.resx">
+      <DependentUpon>dlgOrderPackageItemDetil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgQueryBuilderNew.resx">
+      <DependentUpon>dlgQueryBuilderNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DlgSelectRekanan.resx">
+      <DependentUpon>DlgSelectRekanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgGetOrder.resx">
+      <DependentUpon>dlgGetOrder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgGetRequest.resx">
+      <DependentUpon>dlgGetRequest.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgNewItemGroup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgNewItemGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgOrderSource.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgOrderSource.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgProgressOrder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgProgressOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgSelectDaysProc.resx">
+      <DependentUpon>dlgSelectDaysProc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgSelectItem.resx">
+      <DependentUpon>dlgSelectItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgSelectItem2.resx">
+      <DependentUpon>dlgSelectItem2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DlgSelectStrukturunit.resx">
+      <DependentUpon>DlgSelectStrukturunit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgSelectTrnBudget.resx">
+      <DependentUpon>dlgSelectTrnBudget.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgSelectVendor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgSelectVendor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgTOPPercentTools.resx">
+      <DependentUpon>dlgTOPPercentTools.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgTrnRentalOrder_SelectDays_2.resx">
+      <DependentUpon>dlgTrnRentalOrder_SelectDays_2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgViewRptPO.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgViewRptPO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgViewRptPO_2.resx">
+      <DependentUpon>dlgViewRptPO_2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgViewRptPO_3.resx">
+      <DependentUpon>dlgViewRptPO_3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgViewRptRO.resx">
+      <DependentUpon>dlgViewRptRO.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgViewRptROSPK.resx">
+      <DependentUpon>dlgViewRptROSPK.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgViewRptRO_2.resx">
+      <DependentUpon>dlgViewRptRO_2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\dlgViewRptRO_3.resx">
+      <DependentUpon>dlgViewRptRO_3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\frmPopUpFind.resx">
+      <DependentUpon>frmPopUpFind.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\xdlgSelectOrder.resx">
+      <DependentUpon>xdlgSelectOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hapus_uiTrnRentalOrder2.resx">
+      <DependentUpon>hapus_uiTrnRentalOrder2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MigrationTools\uiUpdateAfterDataMigration.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uiUpdateAfterDataMigration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PO\rptTrnPO_05.rdlc" />
+    <EmbeddedResource Include="Reports\PO\rptTrnPODetil_04.rdlc" />
+    <EmbeddedResource Include="Reports\PO\rptTrnPO_04.rdlc" />
+    <EmbeddedResource Include="Reports\PO\rptPODetil.rdlc" />
+    <EmbeddedResource Include="Reports\PO\rptPODetilList.rdlc" />
+    <EmbeddedResource Include="Reports\PO\rptTrnPO.rdlc" />
+    <EmbeddedResource Include="Reports\PO\rptTrnPODetil.rdlc" />
+    <EmbeddedResource Include="Reports\PO\rptTrnPODetil_02.rdlc" />
+    <EmbeddedResource Include="Reports\PO\rptTrnPODetil_03.rdlc" />
+    <EmbeddedResource Include="Reports\PO\rptTrnPO_01.rdlc" />
+    <EmbeddedResource Include="Reports\PO\rptTrnPO_02.rdlc" />
+    <EmbeddedResource Include="Reports\PO\rptTrnPO_03.rdlc" />
+    <EmbeddedResource Include="Reports\PO\rtpTrnPOTOPDetil.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptTrnRO_05.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptTrnROdetil_04.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptTrnRO_04.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROItemSummary_byCategory.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROItemSummary_byCategory_perBudget.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROItemSummary_byCategory_perVendor.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROListHD.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROList_byBudget_perVendor.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROList_byBudget_perVendor_Yearly.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROList_byVendor_perBudget.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROList_byVendor_perBudget_Yearly.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROList_vsAP_ByVendor_perBudget.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROSummary_byBudget_perVendor.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROSummary_byBudget_perVendor_Yearly.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROSummary_byCategory.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROSummary_byCategory_perBudget.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROSummary_byCategory_perBudget_Yearly.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROSummary_byCategory_perVendor.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROSummary_byCategory_perVendor_Yearly.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROSummary_byCategory_Yearly.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROSummary_byVendor_perBudget.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROSummary_byVendor_perBudget_Yearly.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptROSummary_vsAP_ByVendor_perBudget.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptTrnRO.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptTrnRODetil.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptTrnRODetil_02.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptTrnROdetil_03.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptTrnROSPK.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptTrnRO_01.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptTrnRO_02.rdlc" />
+    <EmbeddedResource Include="Reports\RO\rptTrnRO_03.rdlc" />
+    <EmbeddedResource Include="Reports\RptBudgetOutstanding.rdlc" />
+    <EmbeddedResource Include="Reports\RptTrnOrderDetilReport.rdlc" />
+    <EmbeddedResource Include="uiAdvanceRequestExpView.resx">
+      <DependentUpon>uiAdvanceRequestExpView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uiBase.resx">
+      <DependentUpon>uiBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uiBase2.resx">
+      <DependentUpon>uiBase2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uiOrderExpView.resx">
+      <DependentUpon>uiOrderExpView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uiOrderHistory.resx">
+      <DependentUpon>uiOrderHistory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uiOrderVoid.resx">
+      <DependentUpon>uiOrderVoid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uiRequestExpView.resx">
+      <DependentUpon>uiRequestExpView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uiTrnOrderDetilReport.resx">
+      <DependentUpon>uiTrnOrderDetilReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uiTrnPurchaseOrder3.resx">
+      <DependentUpon>uiTrnPurchaseOrder3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uiTrnRentalOrder3.resx">
+      <DependentUpon>uiTrnRentalOrder3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uiMstItem.resx">
+      <DependentUpon>uiMstItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uiROReportViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>uiROReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\PRC.DataSource.clsRptBudgetOutstanding.datasource" />
+    <None Include="My Project\DataSources\PRC.DataSource.clsRptOrder.datasource" />
+    <None Include="My Project\DataSources\PRC.DataSource.clsRptOrderDetil.datasource" />
+    <None Include="My Project\DataSources\PRC.DataSource.clsRptOrderSummary.datasource" />
+    <None Include="My Project\DataSources\PRC.DataSource.clsRptOrder_PA_AP.datasource" />
+    <None Include="My Project\DataSources\PRC.DataSource.clsTrnOrderDetilReport.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PRINT_RO.vbproj" />
+    <None Include="Resources\lock_open.png" />
+    <None Include="Resources\lock_closed.png" />
+    <None Include="My Project\DataSources\PRC.DataSource.clsRptOrderDetil2.datasource" />
+    <None Include="My Project\DataSources\PRC.DataSource.clsRptOrderDetil3.datasource" />
+    <None Include="My Project\DataSources\PRC.DataSource.clsRptOrder_2.datasource" />
+    <None Include="My Project\DataSources\PRC.DataSource.clsRptOrder_3.datasource" />
+    <None Include="Resources\Winter.jpg" />
+    <None Include="Resources\Blue hills.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,119 @@
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE             VIEW dbo.view_transaksi_orderdetil_jurnal
+AS
+/*
+select f.jurnal_id, e.terimabarang_id, c.order_id, a.* 
+from transaksi_requestdetil a
+left join transaksi_request b on b.request_id = a.request_id
+left outer join transaksi_orderdetil c on c.order_id = a.requestdetil_refreference and c.item_id = a.item_id
+left outer join transaksi_order d on d.order_id = c.order_id
+left outer join asset.e_asset.dbo.transaksi_terimabarangdetil e on e.order_id = c.order_id
+left outer join transaksi_jurnalreference f on f.jurnal_id_ref = c.order_id
+where --left(a.request_id,2) = 'TQ' and requestdetil_ordered = 1 and requestdetil_refreference <> ''
+requestdetil_ordered = 1 and requestdetil_refreference <> ''
+and request_canceled = 0 and requestdetil_canceled = 0 and d.order_canceled = 0
+*/
+
+/*
+select DISTINCT e.terimabarang_id, c.* 
+FROM transaksi_orderdetil c 
+left outer join transaksi_order d on d.order_id = c.order_id
+left outer join asset.e_asset.dbo.transaksi_terimabarangdetil e on e.order_id = c.order_id
+where --left(a.request_id,2) = 'TQ' and requestdetil_ordered = 1 and requestdetil_refreference <> ''
+d.order_canceled = 0 --AND LEFT(c.order_id, 2) = 'TO'
+*/
+
+/*
+select DISTINCT e.terimajasa_id as terimabarang_id, c.* 
+FROM transaksi_orderdetil c 
+left outer join transaksi_order d on d.order_id = c.order_id
+left outer join asset.e_asset.dbo.transaksi_terimajasadetil e on e.order_id = c.order_id AND e.orderdetil_line = c.orderdetil_line
+LEFT OUTER JOIN asset.e_asset.dbo.transaksi_terimajasa f ON f.terimajasa_id = e.terimajasa_id
+where --left(a.request_id,2) = 'TQ' and requestdetil_ordered = 1 and requestdetil_refreference <> ''
+d.order_canceled = 0 --AND LEFT(c.order_id, 2) = 'TO'
+--and c.order_id  = 'RO0110040404'
+and terimajasa_isdisabled = 0
+*/
+
+select DISTINCT e.terimajasa_id as terimabarang_id, c.* 
+/*
+c.order_id, c.orderdetil_type, c.orderdetil_line, c.item_id, c.unit_id, c.orderdetil_descr,
+c.orderdetil_qty, c.orderdetil_days, c.orderdetil_idr, c.orderdetil_foreign, c.orderdetil_foreignrate,
+c.orderdetil_discount, c.orderdetil_actual, c.orderdetil_actualnote, c.currency_id, c.budget_id,
+c.budgetdetil_id, c.budgetaccount_id, c.old_orderdetil_id, c.channel_id, c.orderdetil_pphpercent,
+c.orderdetil_ppnpercent, c.orderdetil_requestid_ref, c.orderdetil_qtyarrived, c.orderdetil_bpbj,
+c.requestdetil_line, c.isadvance, c.advance_id, c.advancedetil_line, c.budgetdetil_line,
+null as editing_date,
+0 as shift1,
+0 as shift2,
+0 as shift3,
+0 as orderdetil_eps,
+0 as boot1,
+0 as boot2,
+0 as boot3,
+'' as editor1,
+'' as editor2,
+'' as editor3
+*/
+
+FROM transaksi_orderdetil c 
+left outer join transaksi_order d on d.order_id = c.order_id
+left outer join asset.e_asset.dbo.transaksi_terimajasadetil e on e.order_id = c.order_id AND e.orderdetil_line = c.orderdetil_line
+LEFT OUTER JOIN asset.e_asset.dbo.transaksi_terimajasa f ON f.terimajasa_id = e.terimajasa_id
+where --left(a.request_id,2) = 'TQ' and requestdetil_ordered = 1 and requestdetil_refreference <> ''
+d.order_canceled = 0 --AND LEFT(c.order_id, 2) = 'TO'
+--and c.order_id  = 'RO0110040404'
+and terimajasa_isdisabled = 0 AND LEN(c.order_id) = 12
+
+/*
+UNION
+
+SELECT DISTINCT e.terimajasa_id as terimabarang_id, --c*
+c.order_id, c.orderdetil_type, c.orderdetil_line, c.item_id, c.unit_id, c.orderdetil_descr,
+c.orderdetil_qty, c.orderdetil_days, c.orderdetil_idr, c.orderdetil_foreign, c.orderdetil_foreignrate,
+c.orderdetil_discount, c.orderdetil_actual, c.orderdetil_actualnote, c.currency_id, c.budget_id,
+c.budgetdetil_id, c.budgetaccount_id, c.old_orderdetil_id, c.channel_id, c.orderdetil_pphpercent,
+c.orderdetil_ppnpercent, c.orderdetil_requestid_ref, c.orderdetil_qtyarrived, c.orderdetil_bpbj,
+c.requestdetil_line, 0 as isadvance, '' as advance_id, 0 as advancedetil_line, 0 as budgetdetil_line,
+c.editing_date,
+c.shift1,
+c.shift2,
+c.shift3,
+c.orderdetil_eps,
+c.boot1,
+c.boot2,
+c.boot3,
+c.editor1,
+c.editor2,c.editor3
+FROM transaksi_editing_orderdetil c 
+left outer join transaksi_editing_order d on d.order_id = c.order_id
+left outer join asset.e_asset.dbo.transaksi_terimajasadetil e on e.order_id = c.order_id AND e.orderdetil_line = c.orderdetil_line
+LEFT OUTER JOIN asset.e_asset.dbo.transaksi_terimajasa f ON f.terimajasa_id = e.terimajasa_id
+where --left(a.request_id,2) = 'TQ' and requestdetil_ordered = 1 and requestdetil_refreference <> ''
+d.order_canceled = 0 --AND LEFT(c.order_id, 2) = 'TO'
+--and c.order_id  = 'RO0110040404'
+and terimajasa_isdisabled = 0
+*/
+
+
+
+
+
+
+
+
+
+
+
+

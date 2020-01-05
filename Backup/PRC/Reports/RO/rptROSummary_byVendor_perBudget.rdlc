@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <ConnectionProperties>
+        <ConnectString />
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>e72430f6-107f-4be9-925f-3dce2a8f6732</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>0.5in</BottomMargin>
+  <RightMargin>0.1in</RightMargin>
+  <PageWidth>8.27in</PageWidth>
+  <ReportParameters>
+    <ReportParameter Name="ReportTitle">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_0</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ReportSubTitle">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ReportSubTitle2">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Report_Parameter_2</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.27in</InteractiveWidth>
+  <rd:GridSpacing>0.05in</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ReportItems>
+      <Table Name="table1">
+        <Footer>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>3</ColSpan>
+                  <ReportItems>
+                    <Rectangle Name="rectangle7">
+                      <ReportItems>
+                        <Textbox Name="textbox7">
+                          <Left>5.7in</Left>
+                          <ZIndex>1</ZIndex>
+                          <Width>1.37499in</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>8pt</FontSize>
+                            <Format>#,##0.00</Format>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.2in</Height>
+                          <Value>=Sum(Fields!order_TotalIDR.Value)</Value>
+                        </Textbox>
+                        <Textbox Name="textbox18">
+                          <Left>0.125in</Left>
+                          <Width>5.625in</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>8pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.2in</Height>
+                          <Value>Grand Total</Value>
+                        </Textbox>
+                      </ReportItems>
+                      <ZIndex>4</ZIndex>
+                    </Rectangle>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.25in</Height>
+            </TableRow>
+          </TableRows>
+        </Footer>
+        <Left>0.625in</Left>
+        <DataSetName>PRC_DataSource_clsRptOrder</DataSetName>
+        <TableGroups>
+          <TableGroup>
+            <Footer>
+              <TableRows>
+                <TableRow>
+                  <TableCells>
+                    <TableCell>
+                      <ColSpan>3</ColSpan>
+                      <ReportItems>
+                        <Rectangle Name="rectangle8">
+                          <ReportItems>
+                            <Textbox Name="textbox15">
+                              <Left>4.1in</Left>
+                              <ZIndex>1</ZIndex>
+                              <Width>1.85in</Width>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontWeight>700</FontWeight>
+                                <FontSize>7pt</FontSize>
+                                <Color>Gray</Color>
+                                <PaddingRight>2pt</PaddingRight>
+                                <FontStyle>Italic</FontStyle>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.17in</Height>
+                              <Value>=iif(Fields!order_programtype.Value="PG", "PROGRAM", "NON-PROGRAM")</Value>
+                            </Textbox>
+                            <Textbox Name="textbox14">
+                              <Left>6.05in</Left>
+                              <Width>1.025in</Width>
+                              <Style>
+                                <BorderStyle>
+                                  <Top>Solid</Top>
+                                </BorderStyle>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontWeight>700</FontWeight>
+                                <FontSize>7pt</FontSize>
+                                <Format>#,##0.00</Format>
+                                <PaddingRight>2pt</PaddingRight>
+                                <FontStyle>Italic</FontStyle>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.16666in</Height>
+                              <Value>=Sum(Fields!order_TotalIDR.Value)</Value>
+                            </Textbox>
+                          </ReportItems>
+                          <ZIndex>3</ZIndex>
+                        </Rectangle>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Height>0.25in</Height>
+                </TableRow>
+              </TableRows>
+            </Footer>
+            <Header>
+              <TableRows>
+                <TableRow>
+                  <TableCells>
+                    <TableCell>
+                      <ColSpan>3</ColSpan>
+                      <ReportItems>
+                        <Rectangle Name="rectangle14">
+                          <ReportItems>
+                            <Textbox Name="order_programtype_1">
+                              <Left>0.2in</Left>
+                              <rd:DefaultName>order_programtype_1</rd:DefaultName>
+                              <Width>6.9in</Width>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontWeight>700</FontWeight>
+                                <FontSize>8pt</FontSize>
+                                <BackgroundColor>LightGrey</BackgroundColor>
+                                <PaddingRight>2pt</PaddingRight>
+                                <FontStyle>Italic</FontStyle>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Value>=iif(Fields!order_programtype.Value="PG", "PROGRAM", "NON-PROGRAM")</Value>
+                            </Textbox>
+                          </ReportItems>
+                          <ZIndex>7</ZIndex>
+                        </Rectangle>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Height>0.19583in</Height>
+                </TableRow>
+              </TableRows>
+            </Header>
+            <Grouping Name="table1_Group3">
+              <GroupExpressions>
+                <GroupExpression>=Fields!order_programtype.Value</GroupExpression>
+              </GroupExpressions>
+            </Grouping>
+          </TableGroup>
+          <TableGroup>
+            <Footer>
+              <TableRows>
+                <TableRow>
+                  <TableCells>
+                    <TableCell>
+                      <ColSpan>3</ColSpan>
+                      <ReportItems>
+                        <Rectangle Name="rectangle6">
+                          <ReportItems>
+                            <Textbox Name="textbox5">
+                              <Left>6.05in</Left>
+                              <Width>1.025in</Width>
+                              <Style>
+                                <BorderStyle>
+                                  <Top>Solid</Top>
+                                </BorderStyle>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontWeight>700</FontWeight>
+                                <FontSize>7pt</FontSize>
+                                <Format>#,##0.00</Format>
+                                <PaddingRight>2pt</PaddingRight>
+                                <FontStyle>Italic</FontStyle>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.16666in</Height>
+                              <Value>=Sum(Fields!order_TotalIDR.Value)</Value>
+                            </Textbox>
+                          </ReportItems>
+                          <ZIndex>2</ZIndex>
+                        </Rectangle>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Height>0.175in</Height>
+                </TableRow>
+              </TableRows>
+            </Footer>
+            <Header>
+              <TableRows>
+                <TableRow>
+                  <TableCells>
+                    <TableCell>
+                      <ColSpan>3</ColSpan>
+                      <ReportItems>
+                        <Rectangle Name="rectangle3">
+                          <ReportItems>
+                            <Textbox Name="rekanan_name">
+                              <Left>0.3in</Left>
+                              <rd:DefaultName>rekanan_name</rd:DefaultName>
+                              <Width>4.7in</Width>
+                              <Style>
+                                <BorderStyle>
+                                  <Bottom>Solid</Bottom>
+                                </BorderStyle>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontWeight>700</FontWeight>
+                                <FontSize>8pt</FontSize>
+                                <PaddingRight>2pt</PaddingRight>
+                                <FontStyle>Italic</FontStyle>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Value>=Fields!rekananro_name.Value</Value>
+                            </Textbox>
+                          </ReportItems>
+                          <ZIndex>6</ZIndex>
+                        </Rectangle>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Height>0.19583in</Height>
+                </TableRow>
+              </TableRows>
+            </Header>
+            <Grouping Name="table1_Group1">
+              <GroupExpressions>
+                <GroupExpression>=Fields!rekananro_name.Value</GroupExpression>
+              </GroupExpressions>
+            </Grouping>
+          </TableGroup>
+          <TableGroup>
+            <Footer>
+              <TableRows>
+                <TableRow>
+                  <TableCells>
+                    <TableCell>
+                      <ColSpan>3</ColSpan>
+                      <ReportItems>
+                        <Rectangle Name="rectangle5">
+                          <ReportItems>
+                            <Textbox Name="textbox4">
+                              <Left>6.05in</Left>
+                              <rd:DefaultName>textbox4</rd:DefaultName>
+                              <Width>1.025in</Width>
+                              <Style>
+                                <BorderStyle>
+                                  <Top>Solid</Top>
+                                </BorderStyle>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontWeight>700</FontWeight>
+                                <FontSize>7pt</FontSize>
+                                <Format>#,##0.00</Format>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Value>=Sum(Fields!order_TotalIDR.Value)</Value>
+                            </Textbox>
+                          </ReportItems>
+                          <ZIndex>1</ZIndex>
+                        </Rectangle>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Height>0.16458in</Height>
+                  <Visibility>
+                    <Hidden>true</Hidden>
+                  </Visibility>
+                </TableRow>
+              </TableRows>
+            </Footer>
+            <Header>
+              <TableRows>
+                <TableRow>
+                  <TableCells>
+                    <TableCell>
+                      <ColSpan>3</ColSpan>
+                      <ReportItems>
+                        <Rectangle Name="rectangle4">
+                          <ReportItems>
+                            <Textbox Name="textbox13">
+                              <Left>5.15in</Left>
+                              <Top>0.00416in</Top>
+                              <ZIndex>4</ZIndex>
+                              <Width>0.85in</Width>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontSize>7pt</FontSize>
+                                <Format>#,##0.00</Format>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.18in</Height>
+                              <Value>=iif(Fields!currency_id.Value = 1 or Fields!currency_id.Value = 0, "", Sum(Fields!order_Total.Value))</Value>
+                            </Textbox>
+                            <Textbox Name="textbox19">
+                              <Left>6.075in</Left>
+                              <Top>0.00416in</Top>
+                              <ZIndex>3</ZIndex>
+                              <Width>1in</Width>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontSize>7pt</FontSize>
+                                <Format>#,##0.00</Format>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.18in</Height>
+                              <Value>=Sum(Fields!order_TotalIDR.Value)</Value>
+                            </Textbox>
+                            <Textbox Name="currency_name">
+                              <Left>4.7in</Left>
+                              <rd:DefaultName>currency_name</rd:DefaultName>
+                              <ZIndex>2</ZIndex>
+                              <Width>0.35in</Width>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontSize>7pt</FontSize>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.18in</Height>
+                              <Value>=First(Fields!currency_name.Value)</Value>
+                            </Textbox>
+                            <Textbox Name="budget_name">
+                              <Left>1in</Left>
+                              <rd:DefaultName>budget_name</rd:DefaultName>
+                              <ZIndex>1</ZIndex>
+                              <Width>3.625in</Width>
+                              <Style>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontSize>7pt</FontSize>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.18in</Height>
+                              <Value>=First(Fields!budget_name.Value)</Value>
+                            </Textbox>
+                            <Textbox Name="budget_id">
+                              <Left>0.35in</Left>
+                              <rd:DefaultName>budget_id</rd:DefaultName>
+                              <Width>0.625in</Width>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <FontSize>7pt</FontSize>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                              </Style>
+                              <CanGrow>true</CanGrow>
+                              <Height>0.18in</Height>
+                              <Value>=Fields!budget_id.Value</Value>
+                            </Textbox>
+                          </ReportItems>
+                          <ZIndex>5</ZIndex>
+                        </Rectangle>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Height>0.19583in</Height>
+                </TableRow>
+              </TableRows>
+            </Header>
+            <Grouping Name="table1_Group2">
+              <GroupExpressions>
+                <GroupExpression>=Fields!budget_id.Value</GroupExpression>
+              </GroupExpressions>
+            </Grouping>
+          </TableGroup>
+        </TableGroups>
+        <Width>7.25001in</Width>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>3</ColSpan>
+                  <ReportItems>
+                    <Rectangle Name="rectangle2">
+                      <ReportItems>
+                        <Textbox Name="order_Total">
+                          <Left>6.05in</Left>
+                          <rd:DefaultName>order_Total</rd:DefaultName>
+                          <Width>1.025in</Width>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontSize>7pt</FontSize>
+                            <Format>#,##0.00</Format>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.17083in</Height>
+                          <Value>=Fields!order_TotalIDR.Value</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </Rectangle>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.175in</Height>
+              <Visibility>
+                <Hidden>true</Hidden>
+              </Visibility>
+            </TableRow>
+          </TableRows>
+          <Sorting>
+            <SortBy>
+              <SortExpression>=Fields!rekananro_name.Value</SortExpression>
+              <Direction>Ascending</Direction>
+            </SortBy>
+            <SortBy>
+              <SortExpression>=Fields!budget_id.Value</SortExpression>
+              <Direction>Ascending</Direction>
+            </SortBy>
+            <SortBy>
+              <SortExpression>=Fields!order_id.Value</SortExpression>
+              <Direction>Ascending</Direction>
+            </SortBy>
+          </Sorting>
+        </Details>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>3</ColSpan>
+                  <ReportItems>
+                    <Rectangle Name="rectangle1">
+                      <ReportItems>
+                        <Textbox Name="textbox12">
+                          <Left>4.65in</Left>
+                          <Top>1.05in</Top>
+                          <ZIndex>9</ZIndex>
+                          <Width>0.3625in</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                              <Left>Solid</Left>
+                              <Right>Solid</Right>
+                            </BorderStyle>
+                            <TextAlign>Center</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>7pt</FontSize>
+                            <BorderColor>
+                              <Default>White</Default>
+                            </BorderColor>
+                            <BackgroundColor>Black</BackgroundColor>
+                            <Color>White</Color>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.18in</Height>
+                          <Value>Curr.</Value>
+                        </Textbox>
+                        <Textbox Name="textbox6">
+                          <Left>5in</Left>
+                          <Top>1.05in</Top>
+                          <ZIndex>8</ZIndex>
+                          <Width>1.075in</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                              <Left>Solid</Left>
+                              <Right>Solid</Right>
+                            </BorderStyle>
+                            <TextAlign>Center</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>7pt</FontSize>
+                            <BorderColor>
+                              <Default>White</Default>
+                            </BorderColor>
+                            <BackgroundColor>Black</BackgroundColor>
+                            <Color>White</Color>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.18in</Height>
+                          <Value>Amount</Value>
+                        </Textbox>
+                        <Textbox Name="textbox10">
+                          <Left>5.5in</Left>
+                          <Top>0.125in</Top>
+                          <ZIndex>7</ZIndex>
+                          <Width>1.625in</Width>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontSize>8pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontStyle>Italic</FontStyle>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.17708in</Height>
+                          <Value>="Print date " &amp; format(Now,"dd/MM/yyyy")</Value>
+                        </Textbox>
+                        <Textbox Name="textbox3">
+                          <Left>0.125in</Left>
+                          <Top>0.7in</Top>
+                          <ZIndex>6</ZIndex>
+                          <Width>7in</Width>
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontSize>8pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.34375in</Height>
+                          <Value>=Parameters!ReportSubTitle2.Value</Value>
+                        </Textbox>
+                        <Textbox Name="textbox2">
+                          <Left>0.875in</Left>
+                          <Top>1.05in</Top>
+                          <ZIndex>5</ZIndex>
+                          <Width>3.76in</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                              <Left>Solid</Left>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>7pt</FontSize>
+                            <BorderColor>
+                              <Default>White</Default>
+                            </BorderColor>
+                            <BackgroundColor>Black</BackgroundColor>
+                            <Color>White</Color>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.18in</Height>
+                          <Value>Budget Name</Value>
+                        </Textbox>
+                        <Textbox Name="textbox9">
+                          <Left>6.05in</Left>
+                          <Top>1.05in</Top>
+                          <ZIndex>4</ZIndex>
+                          <Width>1.075in</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                              <Left>Solid</Left>
+                              <Right>Solid</Right>
+                            </BorderStyle>
+                            <TextAlign>Center</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>7pt</FontSize>
+                            <BorderColor>
+                              <Default>White</Default>
+                            </BorderColor>
+                            <BackgroundColor>Black</BackgroundColor>
+                            <Color>White</Color>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.18in</Height>
+                          <Value>Amount</Value>
+                        </Textbox>
+                        <Textbox Name="textbox1">
+                          <Left>0.125in</Left>
+                          <Top>1.05in</Top>
+                          <rd:DefaultName>textbox1</rd:DefaultName>
+                          <ZIndex>3</ZIndex>
+                          <Width>0.75in</Width>
+                          <Style>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                              <Left>Solid</Left>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>7pt</FontSize>
+                            <BorderColor>
+                              <Default>White</Default>
+                            </BorderColor>
+                            <BackgroundColor>Black</BackgroundColor>
+                            <Color>White</Color>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.18in</Height>
+                          <Value>Budget ID</Value>
+                        </Textbox>
+                        <Textbox Name="textbox11">
+                          <Left>0.125in</Left>
+                          <Top>0.47917in</Top>
+                          <ZIndex>2</ZIndex>
+                          <Width>5in</Width>
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>8pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.1875in</Height>
+                          <Value>=Parameters!ReportSubTitle.Value</Value>
+                        </Textbox>
+                        <Textbox Name="textbox8">
+                          <Left>0.12501in</Left>
+                          <Top>0.29687in</Top>
+                          <rd:DefaultName>textbox8</rd:DefaultName>
+                          <ZIndex>1</ZIndex>
+                          <Width>5in</Width>
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>9pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.1875in</Height>
+                          <Value>=Parameters!ReportTitle.Value</Value>
+                        </Textbox>
+                        <Textbox Name="channelname">
+                          <Left>0.12501in</Left>
+                          <Top>0.09896in</Top>
+                          <rd:DefaultName>channelname</rd:DefaultName>
+                          <Width>5in</Width>
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <FontWeight>700</FontWeight>
+                            <FontSize>12pt</FontSize>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.2in</Height>
+                          <Value>=Fields!channelname.Value</Value>
+                        </Textbox>
+                      </ReportItems>
+                      <ZIndex>8</ZIndex>
+                    </Rectangle>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>1.25in</Height>
+            </TableRow>
+          </TableRows>
+          <RepeatOnNewPage>true</RepeatOnNewPage>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>2.31476in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.31476in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.62049in</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>2.85208in</Height>
+      </Table>
+    </ReportItems>
+    <Height>2.97916in</Height>
+  </Body>
+  <rd:ReportID>291df273-734a-4875-9a95-17e2cb722a90</rd:ReportID>
+  <DataSets>
+    <DataSet Name="PRC_DataSource_clsRptOrder">
+      <rd:DataSetInfo>
+        <rd:DataSetName>PRC.DataSource</rd:DataSetName>
+        <rd:ObjectDataSourceType>PRC.DataSource.clsRptOrder, PRC, Version=1.0.3350.17220, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+        <rd:TableName>clsRptOrder</rd:TableName>
+      </rd:DataSetInfo>
+      <Query>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+        <CommandText />
+        <DataSourceName>DummyDataSource</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="budget_id">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>budget_id</DataField>
+        </Field>
+        <Field Name="budget_name">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>budget_name</DataField>
+        </Field>
+        <Field Name="channel_id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channel_id</DataField>
+        </Field>
+        <Field Name="channeladdr">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channeladdr</DataField>
+        </Field>
+        <Field Name="channelext">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channelext</DataField>
+        </Field>
+        <Field Name="channelfax">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channelfax</DataField>
+        </Field>
+        <Field Name="channelform_no1">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channelform_no1</DataField>
+        </Field>
+        <Field Name="channelform_no2">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channelform_no2</DataField>
+        </Field>
+        <Field Name="channelname">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channelname</DataField>
+        </Field>
+        <Field Name="channeltelp">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>channeltelp</DataField>
+        </Field>
+        <Field Name="currency_id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>currency_id</DataField>
+        </Field>
+        <Field Name="currency_name">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>currency_name</DataField>
+        </Field>
+        <Field Name="currency_shortname">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>currency_shortname</DataField>
+        </Field>
+        <Field Name="DaftarRekananContact">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>DaftarRekananContact</DataField>
+        </Field>
+        <Field Name="firstrekananro_contact">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>firstrekananro_contact</DataField>
+        </Field>
+        <Field Name="firstrekananro_contactphone">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>firstrekananro_contactphone</DataField>
+        </Field>
+        <Field Name="old_apref">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>old_apref</DataField>
+        </Field>
+        <Field Name="old_category_id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>old_category_id</DataField>
+        </Field>
+        <Field Name="old_program_id">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>old_program_id</DataField>
+        </Field>
+        <Field Name="order_authname">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_authname</DataField>
+        </Field>
+        <Field Name="order_authname2">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_authname2</DataField>
+        </Field>
+        <Field Name="order_authposition">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_authposition</DataField>
+        </Field>
+        <Field Name="order_authposition2">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_authposition2</DataField>
+        </Field>
+        <Field Name="order_canceled">
+          <rd:TypeName>System.Boolean</rd:TypeName>
+          <DataField>order_canceled</DataField>
+        </Field>
+        <Field Name="order_createby">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_createby</DataField>
+        </Field>
+        <Field Name="order_createdate">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_createdate</DataField>
+        </Field>
+        <Field Name="order_date">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_date</DataField>
+        </Field>
+        <Field Name="order_descr">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_descr</DataField>
+        </Field>
+        <Field Name="order_discount">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_discount</DataField>
+        </Field>
+        <Field Name="order_dlvraddr1">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_dlvraddr1</DataField>
+        </Field>
+        <Field Name="order_dlvraddr2">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_dlvraddr2</DataField>
+        </Field>
+        <Field Name="order_dlvraddr3">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_dlvraddr3</DataField>
+        </Field>
+        <Field Name="order_dlvrfax">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_dlvrfax</DataField>
+        </Field>
+        <Field Name="order_dlvrhp">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_dlvrhp</DataField>
+        </Field>
+        <Field Name="order_dlvrname">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_dlvrname</DataField>
+        </Field>
+        <Field Name="order_dlvrtelp">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_dlvrtelp</DataField>
+        </Field>
+        <Field Name="order_eps">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_eps</DataField>
+        </Field>
+        <Field Name="order_id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_id</DataField>
+        </Field>
+        <Field Name="order_insurancecost">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_insurancecost</DataField>
+        </Field>
+        <Field Name="order_modifyby">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_modifyby</DataField>
+        </Field>
+        <Field Name="order_modifydate">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_modifydate</DataField>
+        </Field>
+        <Field Name="order_note">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_note</DataField>
+        </Field>
+        <Field Name="order_operatorcost">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_operatorcost</DataField>
+        </Field>
+        <Field Name="order_othercost">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_othercost</DataField>
+        </Field>
+        <Field Name="order_pph_percent">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_pph_percent</DataField>
+        </Field>
+        <Field Name="order_ppn_percent">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_ppn_percent</DataField>
+        </Field>
+        <Field Name="order_prognm">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_prognm</DataField>
+        </Field>
+        <Field Name="order_programtype">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_programtype</DataField>
+        </Field>
+        <Field Name="order_progsch">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_progsch</DataField>
+        </Field>
+        <Field Name="order_revdate">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_revdate</DataField>
+        </Field>
+        <Field Name="order_revdesc">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_revdesc</DataField>
+        </Field>
+        <Field Name="order_revno">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_revno</DataField>
+        </Field>
+        <Field Name="order_setdate">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_setdate</DataField>
+        </Field>
+        <Field Name="order_setlocation">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_setlocation</DataField>
+        </Field>
+        <Field Name="order_settime">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_settime</DataField>
+        </Field>
+        <Field Name="order_source">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_source</DataField>
+        </Field>
+        <Field Name="order_spkdesc">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_spkdesc</DataField>
+        </Field>
+        <Field Name="order_spkrequired">
+          <rd:TypeName>System.Boolean</rd:TypeName>
+          <DataField>order_spkrequired</DataField>
+        </Field>
+        <Field Name="order_spkworktype">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_spkworktype</DataField>
+        </Field>
+        <Field Name="order_Subtotal">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>order_Subtotal</DataField>
+        </Field>
+        <Field Name="order_SubtotalIDR">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>order_SubtotalIDR</DataField>
+        </Field>
+        <Field Name="order_SubtotalPPH">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>order_SubtotalPPH</DataField>
+        </Field>
+        <Field Name="order_SubtotalPPN">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>order_SubtotalPPN</DataField>
+        </Field>
+        <Field Name="order_Terbilang">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_Terbilang</DataField>
+        </Field>
+        <Field Name="order_Total">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>order_Total</DataField>
+        </Field>
+        <Field Name="order_TotalIDR">
+          <rd:TypeName>System.Double</rd:TypeName>
+          <DataField>order_TotalIDR</DataField>
+        </Field>
+        <Field Name="order_transportationcost">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>order_transportationcost</DataField>
+        </Field>
+        <Field Name="order_utilizeddateend">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_utilizeddateend</DataField>
+        </Field>
+        <Field Name="order_utilizeddatestart">
+          <rd:TypeName>System.DateTime</rd:TypeName>
+          <DataField>order_utilizeddatestart</DataField>
+        </Field>
+        <Field Name="order_utilizedlocation">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_utilizedlocation</DataField>
+        </Field>
+        <Field Name="order_utilizedtimeend">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_utilizedtimeend</DataField>
+        </Field>
+        <Field Name="order_utilizedtimestart">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>order_utilizedtimestart</DataField>
+        </Field>
+        <Field Name="ordertype_id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>ordertype_id</DataField>
+        </Field>
+        <Field Name="periode_id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>periode_id</DataField>
+        </Field>
+        <Field Name="periode_name">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>periode_name</DataField>
+        </Field>
+        <Field Name="po_PPH">
+          <rd:TypeName>System.Object</rd:TypeName>
+          <DataField>po_PPH</DataField>
+        </Field>
+        <Field Name="po_PPN">
+          <rd:TypeName>System.Object</rd:TypeName>
+          <DataField>po_PPN</DataField>
+        </Field>
+        <Field Name="rekanan_id">
+          <rd:TypeName>System.Decimal</rd:TypeName>
+          <DataField>rekanan_id</DataField>
+        </Field>
+        <Field Name="rekananpo_alamat1">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekananpo_alamat1</DataField>
+        </Field>
+        <Field Name="rekananpo_alamat2">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekananpo_alamat2</DataField>
+        </Field>
+        <Field Name="rekananpo_alamat3">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekananpo_alamat3</DataField>
+        </Field>
+        <Field Name="rekananpo_name">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekananpo_name</DataField>
+        </Field>
+        <Field Name="rekananpo_up">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekananpo_up</DataField>
+        </Field>
+        <Field Name="rekananpo_up_position">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekananpo_up_position</DataField>
+        </Field>
+        <Field Name="rekananro_alamat">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekananro_alamat</DataField>
+        </Field>
+        <Field Name="rekananro_fax">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekananro_fax</DataField>
+        </Field>
+        <Field Name="rekananro_name">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekananro_name</DataField>
+        </Field>
+        <Field Name="rekananro_telpon">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>rekananro_telpon</DataField>
+        </Field>
+        <Field Name="request_id">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>request_id</DataField>
+        </Field>
+        <Field Name="ro_PPH">
+          <rd:TypeName>System.Object</rd:TypeName>
+          <DataField>ro_PPH</DataField>
+        </Field>
+        <Field Name="ro_PPN">
+          <rd:TypeName>System.Object</rd:TypeName>
+          <DataField>ro_PPN</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>8in</Width>
+  <InteractiveHeight>11.69in</InteractiveHeight>
+  <Language>en-US</Language>
+  <PageFooter>
+    <ReportItems>
+      <Textbox Name="textbox17">
+        <Left>5.5in</Left>
+        <rd:DefaultName>textbox17</rd:DefaultName>
+        <Width>2.375in</Width>
+        <Style>
+          <TextAlign>Right</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontSize>9pt</FontSize>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Value>=Globals!PageNumber &amp; " / " &amp; Globals!TotalPages</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>0.25in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+  </PageFooter>
+  <TopMargin>0.2in</TopMargin>
+  <PageHeight>11.69in</PageHeight>
+</Report>

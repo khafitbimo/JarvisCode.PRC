@@ -1,0 +1,52 @@
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+
+
+CREATE   PROCEDURE [to_TrnOrderdetil_SelectJurnal]
+	@Criteria as nvarchar(1020) =''
+AS 
+BEGIN 
+
+	SET NOCOUNT ON	
+	DECLARE @SQL as nvarchar(1020);
+--	SET @SQL = 'SELECT * FROM transaksi_orderdetil ';
+--	SET @SQL = 'SELECT * FROM view_transaksi_orderdetil ';
+	SET @SQL = 'SELECT * FROM view_transaksi_orderdetil_jurnal ';
+
+	IF @Criteria <> '' or @Criteria is NULL
+	BEGIN
+		SET @SQL = @SQL + ' WHERE ' + @Criteria; 
+		--SET @SQL = @SQL + ' ORDER BY orderdetil_line '
+	END
+
+	EXEC (@SQL)
+
+END
+
+
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+
+
+E_START
+
+
+
+CREATE  PROCEDURE [to_TrnOrderdetil_SelectJurnal]
+	@Criteria as nvarchar(1020) = ''
+AS 
+BEGIN 
+
+	EXEC [PRC].E_FRM.dbo.to_TrnOrderdetil_SelectJurnal @Criteria
+
+END
+
+GO
+

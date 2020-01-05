@@ -1,0 +1,913 @@
+J:\PTS_Data\WORK\PRC\PRC\bin\Release\PRC.dll
+J:\PTS_Data\WORK\PRC\PRC\bin\Release\PRC.pdb
+J:\PTS_Data\WORK\PRC\PRC\bin\Release\PRC.xml
+J:\PTS_Data\WORK\PRC\PRC\bin\Release\FlatTabControl.dll
+J:\PTS_Data\WORK\PRC\PRC\bin\Release\Interop.VBIDE.dll
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\Interop.VBIDE.dll
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgGetOrder.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgGetRequest.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgOrderSource.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgProgressOrder.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgSelectItem.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgSelectItem2.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgSelectVendor.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptPO.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptRO.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.frmPopUpFind.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.Resources.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiBase.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiMstItemCluster.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiOrderExpView.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiOrderHistory.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiRequestExpView.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiRptBudgetOutstanding.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder2.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder2.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiMstItem.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiROReportViewer.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\RdlCompile.cache
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\RdlCompile.compiled
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dll
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.xml
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.pdb
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiOrderComplete.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\Interop.Microsoft.Office.Core.dll
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\Interop.VBIDE.dll
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.Dialog1.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgGetOrder.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgGetRequest.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgOrderSource.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgProgressOrder.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgSelectItem.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgSelectItem2.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgSelectVendor.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgViewRptPO.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgViewRptRO.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.frmPopUpFind.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.Resources.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiBase.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiMstItemCluster.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiOrderComplete.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiOrderExpView.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiOrderHistory.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiRequestExpView.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiRptBudgetOutstanding.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder2.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder2.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiMstItem.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.uiROReportViewer.resources
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\RdlCompile.cache
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\RdlCompile.compiled
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.dll
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.xml
+C:\Users\mdp\Desktop\PRC\PRC\obj\Release\PRC.pdb
+C:\Users\mdp\Desktop\PRC\PRC\bin\Release\PRC.dll
+C:\Users\mdp\Desktop\PRC\PRC\bin\Release\PRC.pdb
+C:\Users\mdp\Desktop\PRC\PRC\bin\Release\PRC.xml
+C:\Users\mdp\Desktop\PRC\PRC\bin\Release\FlatTabControl.dll
+C:\Users\mdp\Desktop\PRC\PRC\bin\Release\Interop.VBIDE.dll
+C:\Users\mdp\Desktop\PRC\PRC\bin\Release\Interop.Microsoft.Office.Core.dll
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\bin\Release\PRC.dll
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\bin\Release\PRC.pdb
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\bin\Release\PRC.xml
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\bin\Release\FlatTabControl.dll
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\bin\Release\Interop.VBIDE.dll
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\bin\Release\Interop.Microsoft.Office.Core.dll
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\Interop.Microsoft.Office.Interop.Excel.dll
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\Interop.Microsoft.Office.Core.dll
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\Interop.VBIDE.dll
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.Dialog1.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgGetOrder.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgGetRequest.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgOrderSource.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgProgressOrder.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgSelectItem.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgSelectItem2.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgSelectVendor.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgViewRptPO.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgViewRptRO.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.frmPopUpFind.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.Resources.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiBase.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiMstItemCluster.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiOrderComplete.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiOrderExpView.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiOrderHistory.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiRequestExpView.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiRptBudgetOutstanding.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder2.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder2.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiMstItem.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.uiROReportViewer.resources
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\RdlCompile.cache
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\RdlCompile.compiled
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.dll
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.xml
+J:\PTS_Data\SOURCE CEK\_Source to Gamba\PRC\PRC\obj\Release\PRC.pdb
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+J:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+J:\PTS_Data\SOURCE CEK\PRC\PRC\bin\Release\PRC.dll
+J:\PTS_Data\SOURCE CEK\PRC\PRC\bin\Release\PRC.pdb
+J:\PTS_Data\SOURCE CEK\PRC\PRC\bin\Release\PRC.xml
+J:\PTS_Data\SOURCE CEK\PRC\PRC\bin\Release\FlatTabControl.dll
+J:\PTS_Data\SOURCE CEK\PRC\PRC\bin\Release\Interop.VBIDE.dll
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\Interop.VBIDE.dll
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgGetOrder.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgGetRequest.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgOrderSource.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgProgressOrder.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgSelectItem.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgSelectItem2.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgSelectVendor.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgViewRptPO.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgViewRptRO.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.frmPopUpFind.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.Resources.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiBase.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiMstItemCluster.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiOrderComplete.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiOrderExpView.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiOrderHistory.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiRequestExpView.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiRptBudgetOutstanding.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder2.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder2.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiMstItem.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.uiROReportViewer.resources
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\RdlCompile.cache
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\RdlCompile.compiled
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.dll
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.xml
+J:\PTS_Data\SOURCE CEK\PRC\PRC\obj\Release\PRC.pdb
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\bin\Release\PRC.dll
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\bin\Release\PRC.pdb
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\bin\Release\PRC.xml
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\bin\Release\FlatTabControl.dll
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\bin\Release\Interop.VBIDE.dll
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\Interop.VBIDE.dll
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgGetOrder.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgGetRequest.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgOrderSource.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgProgressOrder.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgSelectItem.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgSelectItem2.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgSelectVendor.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgViewRptPO.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgViewRptRO.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.frmPopUpFind.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.Resources.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiBase.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiMstItemCluster.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiOrderComplete.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiOrderExpView.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiOrderHistory.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiRequestExpView.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiRptBudgetOutstanding.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiTrnPurchaseOrder2.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiTrnRentalOrder2.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiMstItem.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.uiROReportViewer.resources
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\RdlCompile.cache
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\RdlCompile.compiled
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.dll
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.xml
+J:\PTS_Data\WORK\PRC_PerubahanReport\PRC\obj\Release\PRC.pdb
+G:\Work\PRC\PRC\bin\Release\PRC.dll
+G:\Work\PRC\PRC\bin\Release\PRC.pdb
+G:\Work\PRC\PRC\bin\Release\PRC.xml
+G:\Work\PRC\PRC\bin\Release\FlatTabControl.dll
+G:\Work\PRC\PRC\bin\Release\Interop.VBIDE.dll
+G:\Work\PRC\PRC\obj\Release\Interop.VBIDE.dll
+G:\Work\PRC\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+G:\Work\PRC\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgGetOrder.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgGetRequest.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgOrderSource.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgProgressOrder.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgSelectItem.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgSelectItem2.resources
+G:\Work\PRC\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgSelectVendor.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptPO.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptRO.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+G:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+G:\Work\PRC\PRC\obj\Release\PRC.frmPopUpFind.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+G:\Work\PRC\PRC\obj\Release\PRC.Resources.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiBase.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiMstItemCluster.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiOrderComplete.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiOrderExpView.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiOrderHistory.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiRequestExpView.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiRptBudgetOutstanding.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder2.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder2.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiMstItem.resources
+G:\Work\PRC\PRC\obj\Release\PRC.uiROReportViewer.resources
+G:\Work\PRC\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+G:\Work\PRC\PRC\obj\Release\RdlCompile.cache
+G:\Work\PRC\PRC\obj\Release\RdlCompile.compiled
+G:\Work\PRC\PRC\obj\Release\PRC.dll
+G:\Work\PRC\PRC\obj\Release\PRC.xml
+G:\Work\PRC\PRC\obj\Release\PRC.pdb
+G:\Work\PRC\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\bin\Release\PRC.dll
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\bin\Release\PRC.pdb
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\bin\Release\PRC.xml
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\bin\Release\FlatTabControl.dll
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\bin\Release\Interop.VBIDE.dll
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\Interop.VBIDE.dll
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgGetOrder.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgGetRequest.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgOrderSource.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgProgressOrder.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgSelectItem.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgSelectItem2.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgSelectVendor.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgViewRptPO.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgViewRptRO.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.frmPopUpFind.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.Resources.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiBase.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiMstItemCluster.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiOrderComplete.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiOrderExpView.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiOrderHistory.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiRequestExpView.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiRptBudgetOutstanding.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder2.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder2.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiMstItem.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.uiROReportViewer.resources
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\RdlCompile.cache
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\RdlCompile.compiled
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.dll
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.xml
+D:\AJI MDP2 IT SOFTWARE\File Kerjaan\Download\PRC\PRC\obj\Release\PRC.pdb
+D:\Work\PRC\PRC\bin\Release\PRC.dll
+D:\Work\PRC\PRC\bin\Release\PRC.pdb
+D:\Work\PRC\PRC\bin\Release\PRC.xml
+D:\Work\PRC\PRC\bin\Release\FlatTabControl.dll
+D:\Work\PRC\PRC\bin\Release\Interop.VBIDE.dll
+D:\Work\PRC\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+D:\Work\PRC\PRC\obj\Release\Interop.VBIDE.dll
+D:\Work\PRC\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+D:\Work\PRC\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgGetOrder.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgGetRequest.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgOrderSource.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgProgressOrder.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgSelectItem.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgSelectItem2.resources
+D:\Work\PRC\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgSelectVendor.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptPO.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptRO.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+D:\Work\PRC\PRC\obj\Release\PRC.frmPopUpFind.resources
+D:\Work\PRC\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+D:\Work\PRC\PRC\obj\Release\PRC.Resources.resources
+D:\Work\PRC\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+D:\Work\PRC\PRC\obj\Release\PRC.uiBase.resources
+D:\Work\PRC\PRC\obj\Release\PRC.uiOrderExpView.resources
+D:\Work\PRC\PRC\obj\Release\PRC.uiOrderHistory.resources
+D:\Work\PRC\PRC\obj\Release\PRC.uiRequestExpView.resources
+D:\Work\PRC\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+D:\Work\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+D:\Work\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+D:\Work\PRC\PRC\obj\Release\PRC.uiMstItem.resources
+D:\Work\PRC\PRC\obj\Release\PRC.uiROReportViewer.resources
+D:\Work\PRC\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+D:\Work\PRC\PRC\obj\Release\RdlCompile.cache
+D:\Work\PRC\PRC\obj\Release\RdlCompile.compiled
+D:\Work\PRC\PRC\obj\Release\PRC.dll
+D:\Work\PRC\PRC\obj\Release\PRC.xml
+D:\Work\PRC\PRC\obj\Release\PRC.pdb
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\bin\Release\PRC.dll
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\bin\Release\PRC.pdb
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\bin\Release\PRC.xml
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\bin\Release\FlatTabControl.dll
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\bin\Release\Interop.VBIDE.dll
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\Interop.VBIDE.dll
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgGetOrder.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgGetRequest.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgOrderSource.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgProgressOrder.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgSelectItem.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgSelectItem2.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgSelectVendor.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgViewRptPO.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgViewRptRO.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.frmPopUpFind.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.Resources.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiBase.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiBase2.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiMstItemCluster.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiOrderComplete.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiOrderExpView.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiOrderHistory.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiRequestExpView.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiRptBudgetOutstanding.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder2.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder2.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiMstItem.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiROReportViewer.resources
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dll.licenses
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\RdlCompile.cache
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\RdlCompile.compiled
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.dll
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.xml
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.pdb
+J:\ARI MDP2NET\ARI WORK\PRC\PRC\obj\Release\PRC.uiTransaksiComparativeSheet.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\bin\Release\PRC.dll
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\bin\Release\PRC.pdb
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\bin\Release\PRC.xml
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\bin\Release\FlatTabControl.dll
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\bin\Release\Interop.VBIDE.dll
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\Interop.VBIDE.dll
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgGetOrder.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgGetRequest.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgOrderSource.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgProgressOrder.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgSelectItem.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgSelectItem2.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgSelectVendor.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgViewRptPO.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgViewRptRO.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.frmPopUpFind.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.Resources.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.uiBase.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.uiBase2.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.hapus_uiMstItemCluster.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.hapus_uiOrderComplete.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.uiOrderExpView.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.uiOrderHistory.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.uiRequestExpView.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.hapus_uiRptBudgetOutstanding.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.hapus_uiTrnPurchaseOrder2.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.hapus_uiTrnRentalOrder2.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.uiMstItem.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.uiROReportViewer.resources
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dll.licenses
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\RdlCompile.cache
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\RdlCompile.compiled
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.dll
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.xml
+J:\ARI MDP2NET\ARI WORK\MERGER_DATABASE\PRC\PRC\obj\Release\PRC.pdb
+D:\Work\PRC\PRC\obj\Release\PRC.hapus_uiTrnRentalOrder2.resources
+D:\Work\PRC\PRC\obj\Release\PRC.uiBase2.resources
+D:\Work\PRC\PRC\obj\Release\PRC.dll.licenses
+D:\PTS_Data\WORK\PRC\PRC\bin\Release\PRC.dll
+D:\PTS_Data\WORK\PRC\PRC\bin\Release\PRC.pdb
+D:\PTS_Data\WORK\PRC\PRC\bin\Release\PRC.xml
+D:\PTS_Data\WORK\PRC\PRC\bin\Release\FlatTabControl.dll
+D:\PTS_Data\WORK\PRC\PRC\bin\Release\Interop.VBIDE.dll
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\Interop.VBIDE.dll
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgGetOrder.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgGetRequest.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgOrderSource.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgProgressOrder.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgSelectItem.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgSelectItem2.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgSelectVendor.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptPO.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptRO.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.frmPopUpFind.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.hapus_uiTrnRentalOrder2.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.Resources.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiBase.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiBase2.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiOrderExpView.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiOrderHistory.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiRequestExpView.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiMstItem.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.uiROReportViewer.resources
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dll.licenses
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\RdlCompile.cache
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\RdlCompile.compiled
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dll
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.xml
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.pdb
+D:\PTS_Data\WORK\PRC\PRC\obj\Release\PRC.dlgOrderPackageItemDetil.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\Interop.VBIDE.dll
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgOrderPackageItemDetil.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgGetOrder.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgGetRequest.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgOrderSource.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgProgressOrder.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgSelectItem.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgSelectItem2.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgSelectVendor.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgTOPPercentTools.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptPO.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptRO.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.frmPopUpFind.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.hapus_uiTrnRentalOrder2.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.Resources.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.uiBase.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.uiBase2.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.uiOrderExpView.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.uiOrderHistory.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.uiRequestExpView.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.uiMstItem.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.uiROReportViewer.resources
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dll.licenses
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\RdlCompile.cache
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\RdlCompile.compiled
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\bin\Release\PRC.dll
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\bin\Release\PRC.pdb
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\bin\Release\PRC.xml
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\bin\Release\FlatTabControl.dll
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\bin\Release\Interop.VBIDE.dll
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.dll
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.xml
+D:\PTS_Data\WORK\PRC_WithTOP_New\PRC\obj\Release\PRC.pdb
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\bin\Release\PRC.dll
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\bin\Release\PRC.pdb
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\bin\Release\PRC.xml
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\bin\Release\FlatTabControl.dll
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\bin\Release\Interop.VBIDE.dll
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\Interop.VBIDE.dll
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgOrderPackageItemDetil.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgGetOrder.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgGetRequest.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgOrderSource.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgProgressOrder.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgSelectItem.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgSelectItem2.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgSelectVendor.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgTOPPercentTools.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptPO.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptRO.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.frmPopUpFind.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.hapus_uiTrnRentalOrder2.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.Resources.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.uiBase.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.uiBase2.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.uiOrderExpView.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.uiOrderHistory.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.uiRequestExpView.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.uiMstItem.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.uiROReportViewer.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dll.licenses
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\RdlCompile.cache
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\RdlCompile.compiled
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dll
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.xml
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.pdb
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New\PRC\obj\Release\PRC.dlgItemChildRequest.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\PRC.dll
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\PRC.pdb
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\PRC.xml
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\FlatTabControl.dll
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\Interop.VBIDE.dll
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\Interop.VBIDE.dll
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgItemChildRequest.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgOrderPackageItemDetil.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgGetOrder.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgGetRequest.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgOrderSource.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgProgressOrder.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectItem.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectItem2.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectVendor.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgTOPPercentTools.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptPO.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptRO.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.frmPopUpFind.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.hapus_uiTrnRentalOrder2.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.Resources.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiBase.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiBase2.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiOrderExpView.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiOrderHistory.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiRequestExpView.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiMstItem.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiROReportViewer.resources
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dll.licenses
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\RdlCompile.cache
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\RdlCompile.compiled
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dll
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.xml
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.pdb
+D:\PTS_Data\WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgQueryBuilderNew.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\PRC.dll
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\PRC.pdb
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\PRC.xml
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\FlatTabControl.dll
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\Interop.VBIDE.dll
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\Interop.VBIDE.dll
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgChooseUserEmail.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgItemChildRequest.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgOrderPackageItemDetil.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgQueryBuilderNew.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgGetOrder.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgGetRequest.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgOrderSource.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgProgressOrder.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectItem.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectItem2.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectVendor.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgTOPPercentTools.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptPO.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptRO.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.frmPopUpFind.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.xdlgSelectOrder.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.hapus_uiTrnRentalOrder2.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.Resources.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiBase.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiBase2.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiOrderExpView.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiOrderHistory.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiOrderVoid.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiRequestExpView.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiMstItem.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiROReportViewer.resources
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dll.licenses
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\RdlCompile.cache
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\RdlCompile.compiled
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dll
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.xml
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.pdb
+E:\ARI MDP2NET\ARI WORK\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnAcquisitionOrder.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\PRC.dll
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\PRC.pdb
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\PRC.xml
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\FlatTabControl.dll
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\Interop.VBIDE.dll
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\Interop.VBIDE.dll
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgAttachmentDescr.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnAcquisitionOrder.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgChooseUserEmail.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgItemChildRequest.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgOrderPackageItemDetil.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgQueryBuilderNew.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgGetOrder.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgGetRequest.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgOrderSource.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgProgressOrder.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectItem.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectItem2.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectVendor.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgTOPPercentTools.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptPO.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptRO.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.frmPopUpFind.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.xdlgSelectOrder.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.hapus_uiTrnRentalOrder2.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.Resources.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiBase.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiBase2.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiOrderExpView.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiOrderHistory.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiOrderVoid.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiRequestExpView.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiMstItem.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiROReportViewer.resources
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dll.licenses
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\RdlCompile.cache
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\RdlCompile.compiled
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dll
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.xml
+D:\PTS_Data\WORK\PRC\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.pdb
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\PRC.dll
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\PRC.pdb
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\PRC.xml
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\FlatTabControl.dll
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\bin\Release\Interop.VBIDE.dll
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\Interop.VBIDE.dll
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.vbproj.ResolveComReference.cache
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgAttachmentDescr.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnAcquisitionOrder.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgChooseUserEmail.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgItemChildRequest.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgOrderPackageItemDetil.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgQueryBuilderNew.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.DlgSelectRekanan.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgGetOrder.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgGetRequest.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgNewItemGroup.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgOrderSource.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgProgressOrder.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectDaysProc.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectItem.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectItem2.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.DlgSelectStrukturunit.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectTrnBudget.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgSelectVendor.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgTOPPercentTools.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgTrnRentalOrder_SelectDays_2.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptPO.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptPO_2.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptPO_3.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptRO.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptROSPK.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptRO_2.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dlgViewRptRO_3.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.frmPopUpFind.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.xdlgSelectOrder.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.hapus_uiTrnRentalOrder2.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiUpdateAfterDataMigration.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.Resources.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiAdvanceRequestExpView.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiBase.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiBase2.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiOrderExpView.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiOrderHistory.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiOrderVoid.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiRequestExpView.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnOrderDetilReport.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnPurchaseOrder3.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiTrnRentalOrder3.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiMstItem.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.uiROReportViewer.resources
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.vbproj.GenerateResource.Cache
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dll.licenses
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\RdlCompile.cache
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\RdlCompile.compiled
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.dll
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.xml
+E:\ApitNumpang\Jarvis\PRC_CurrentRunning_WithTOP_New - CurrentRunning\PRC\obj\Release\PRC.pdb

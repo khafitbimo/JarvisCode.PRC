@@ -1,0 +1,97 @@
+CREATE TABLE [transaksi_terimajasa] (
+	[terimajasa_id] [nvarchar] (12) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[terimajasa_date] [smalldatetime] NULL ,
+	[terimajasa_type] [nvarchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[order_id] [nvarchar] (12) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[budget_id] [decimal](8, 0) NULL ,
+	[rekanan_id] [decimal](5, 0) NULL ,
+	[employee_id_owner] [nvarchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[strukturunit_id] [decimal](5, 0) NULL ,
+	[terimajasa_qtyitem] [int] NULL ,
+	[terimajasa_qtyrealization] [int] NULL ,
+	[order_qty] [int] NULL ,
+	[terimajasa_status] [nvarchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasa_statusrealization] [nvarchar] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasa_location] [nvarchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasa_notes] [nvarchar] (500) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasa_nosuratjalan] [nvarchar] (35) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[channel_id] [nvarchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasa_isdisabled] [tinyint] NULL ,
+	[terimajasa_createby] [nvarchar] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasa_createdt] [smalldatetime] NULL ,
+	[terimajasa_modifiedby] [nvarchar] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasa_modifieddt] [smalldatetime] NULL ,
+	[terimajasa_appuser] [tinyint] NULL ,
+	[terimajasa_appuser_by] [nvarchar] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasa_appuser_dt] [smalldatetime] NULL ,
+	[terimajasa_appspv] [tinyint] NULL ,
+	[terimajasa_appspv_by] [nvarchar] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasa_appspv_dt] [smalldatetime] NULL ,
+	[terimajasa_appbma] [tinyint] NULL ,
+	[terimajasa_appbma_by] [nvarchar] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasa_appbma_dt] [smalldatetime] NULL ,
+	[terimajasa_foreign] [decimal](18, 2) NULL ,
+	[currency_id] [decimal](3, 0) NULL ,
+	[terimajasa_foreignrate] [decimal](18, 2) NULL ,
+	[terimajasa_idrreal] [decimal](18, 2) NULL ,
+	[terimajasa_pph] [decimal](18, 2) NULL ,
+	[terimajasa_ppn] [decimal](18, 2) NULL ,
+	[terimajasa_disc] [decimal](18, 2) NULL ,
+	[terimajasa_cetakbpj] [int] NULL ,
+	CONSTRAINT [PK_transaksi_terimajasa] PRIMARY KEY  CLUSTERED 
+	(
+		[terimajasa_id]
+	)  ON [PRIMARY] 
+) ON [PRIMARY]
+GO
+
+
+
+
+
+CREATE TABLE [transaksi_terimajasadetil] (
+	[terimajasa_id] [nvarchar] (12) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[terimajasadetil_line] [int] NOT NULL ,
+	[terimajasadetil_desc] [nvarchar] (300) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasadetil_date] [smalldatetime] NULL ,
+	[terimajasadetil_qty] [int] NULL ,
+	[terimajasadetil_qty_day_eps] [int] NULL ,
+	[terimajasadetil_qty_usage] [int] NULL ,
+	[terimajasadetil_type] [nvarchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[order_id] [nvarchar] (12) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[orderdetil_line] [int] NULL ,
+	[item_id] [nvarchar] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[kategoriitem_id] [nvarchar] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[brand_id] [decimal](5, 0) NULL ,
+	[budget_id] [decimal](8, 0) NULL ,
+	[budgetdetil_id] [decimal](10, 0) NULL ,
+	[acc_id] [nvarchar] (7) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[channel_id] [nvarchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasadetil_createby] [nvarchar] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasadetil_createdt] [smalldatetime] NULL ,
+	[terimajasadetil_modifiedby] [nvarchar] (16) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[terimajasadetil_modifieddt] [smalldatetime] NULL ,
+	[type_pajak] [numeric](8, 0) NULL ,
+	[kategori_pajak] [numeric](8, 0) NULL ,
+	[terimajasadetil_foreign] [decimal](18, 2) NULL ,
+	[currency_id] [decimal](3, 0) NULL ,
+	[terimajasadetil_foreignrate] [decimal](18, 2) NULL ,
+	[terimajasadetil_idrreal] [decimal](18, 2) NULL ,
+	[terimajasadetil_pphpersen] [decimal](5, 2) NULL ,
+	[terimajasadetil_ppnpersen] [decimal](5, 2) NULL ,
+	[terimajasadetil_disc] [decimal](18, 2) NULL ,
+	[terimajasadetil_pphforeign] [decimal](18, 2) NULL ,
+	[terimajasadetil_pphidrreal] [decimal](18, 2) NULL ,
+	[terimajasadetil_ppnforeign] [decimal](18, 2) NULL ,
+	[terimajasadetil_ppnidrreal] [decimal](18, 2) NULL ,
+	[terimajasadetil_totalforeign] [decimal](18, 2) NULL ,
+	[terimajasadetil_totalidrreal] [decimal](18, 2) NULL ,
+	CONSTRAINT [PK_transaksi_terimajasadetil] PRIMARY KEY  CLUSTERED 
+	(
+		[terimajasa_id],
+		[terimajasadetil_line]
+	)  ON [PRIMARY] 
+) ON [PRIMARY]
+GO
+
+

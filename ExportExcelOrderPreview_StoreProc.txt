@@ -1,0 +1,23 @@
+1. LIST
+   - By Order Date		: pr_RptOrder_Summary2_ByOrderDate_Select
+   - By Utilizing/Shooting Date : pr_RptOrder_Summary2_ByShootingDate_Select
+
+2. DETIL LIST
+   - By Order Date		: pr_RptOrderDetil_Summary2_ByOrderDate_Select_Update20130403
+				  NEWSTORE : pr_RptOrderDetil_Summary2_ByOrderDate_Select_Update20181004
+   - By Utilizing/Shooting Date : pr_RptOrderDetil_Summary2_ByShootingDate_Select_Update20130403
+				  NEWSTORE : pr_RptOrderDetil_Summary2_ByShootingDate_Select_Update20181004
+
+3. vs PaymReq
+   - By Order Date		: pr_RptOrder_vsPA2_ByOrderDate_Select
+   - By Utilizing/Shooting Date : pr_RptOrder_vsPA2_pr_ByShootingDate_Select
+
+4. vs PaymReq vs AP (Accrual)
+   - By Order Date		: pr_RptOrder_vsPA_vsAP_Accrued2_ByOrderDate_Select
+   - By Utilizing/Shooting Date : pr_RptEditingOrder_vsPA_vsAP_Accrued2_ByShootingDate_Select
+
+5. vs PaymReq vs AP (Accrual) / Category
+   - By Order Date		: pr_RptOrder_vsPA_vsAP_Accrued2_Category_ByOrderDate_Select
+   - By Utilizing/Shooting Date : pr_RptOrder_vsPA_vsAP_Accrued2_Category_ByShootingDate_Select
+
+
