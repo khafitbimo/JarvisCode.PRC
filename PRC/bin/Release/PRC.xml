@@ -6,12 +6,7 @@ PRC
 </name>
 </assembly>
 <members>
-<member name="T:PRC.uiTrnRentalOrder3">
-	<summary>
- '
- </summary>
-	<remarks></remarks>
-</member><member name="P:PRC.My.Resources.Resources.ResourceManager">
+<member name="P:PRC.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -28,6 +23,50 @@ PRC
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:PRC.My.Resources.Resources.newtbtnApprove">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PRC.My.Resources.Resources.newtbtnDelete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PRC.My.Resources.Resources.newtbtnEdit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PRC.My.Resources.Resources.newtbtnNewFile">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PRC.My.Resources.Resources.newtbtnPreview">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PRC.My.Resources.Resources.newtbtnPrint">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PRC.My.Resources.Resources.newtbtnQuery">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PRC.My.Resources.Resources.newtbtnRefresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PRC.My.Resources.Resources.newtbtnRetrieve">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PRC.My.Resources.Resources.newtbtnSave">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PRC.My.Resources.Resources.newtbtnUnapproved">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:PRC.My.Resources.Resources.Winter">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -36,6 +75,11 @@ PRC
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
+</member><member name="T:PRC.uiTrnRentalOrder3">
+	<summary>
+ '
+ </summary>
+	<remarks></remarks>
 </member>
 </members>
 </doc>

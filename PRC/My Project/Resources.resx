@@ -118,13 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="newtbtnQuery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtbtnQuery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newtbtnDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtbtnDelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newtbtnPreview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtbtnPreview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newtbtnEdit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtbtnEdit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newtbtnNewFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtbtnNewFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lock_closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lock_closed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newtbtnRetrieve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtbtnRetrieve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lock_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lock_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="newtbtnUnapproved" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtbtnUnapproved.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newtbtnSave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtbtnSave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Winter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Winter.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newtbtnApprove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtbtnApprove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newtbtnPrint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtbtnPrint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newtbtnRefresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtbtnRefresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

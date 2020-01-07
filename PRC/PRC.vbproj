@@ -665,6 +665,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PRINT_RO.vbproj" />
+    <None Include="Resources\newtbtnRefresh.png" />
+    <None Include="Resources\newtbtnEdit.png" />
+    <None Include="Resources\newtbtnUnapproved.png" />
+    <None Include="Resources\newtbtnSave.png" />
+    <None Include="Resources\newtbtnRetrieve.png" />
+    <None Include="Resources\newtbtnQuery.png" />
+    <None Include="Resources\newtbtnPrint.png" />
+    <None Include="Resources\newtbtnPreview.png" />
+    <None Include="Resources\newtbtnNewFile.png" />
+    <None Include="Resources\newtbtnDelete.png" />
+    <None Include="Resources\newtbtnApprove.png" />
     <None Include="Resources\lock_open.png" />
     <None Include="Resources\lock_closed.png" />
     <None Include="My Project\DataSources\PRC.DataSource.clsRptOrderDetil2.datasource" />

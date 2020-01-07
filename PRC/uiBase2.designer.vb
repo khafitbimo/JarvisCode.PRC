@@ -53,6 +53,15 @@ Partial Class uiBase2
         Me.ImageList2.Images.SetKeyName(4, "tbtnDel.png")
         Me.ImageList2.Images.SetKeyName(5, "tbtnLoad.png")
         Me.ImageList2.Images.SetKeyName(6, "tbtnQuery.png")
+        Me.ImageList2.Images.SetKeyName(7, "newtbtnDelete.png")
+        Me.ImageList2.Images.SetKeyName(8, "newtbtnNewFile.png")
+        Me.ImageList2.Images.SetKeyName(9, "newtbtnPreview.png")
+        Me.ImageList2.Images.SetKeyName(10, "newtbtnPrint.png")
+        Me.ImageList2.Images.SetKeyName(11, "newtbtnSave.png")
+        Me.ImageList2.Images.SetKeyName(12, "newtbtnApprove.png")
+        Me.ImageList2.Images.SetKeyName(13, "newtbtnUnapproved.png")
+        Me.ImageList2.Images.SetKeyName(14, "newtbtnQuery.png")
+        Me.ImageList2.Images.SetKeyName(15, "newtbtnRetrieve.png")
         '
         'XafBarManager1
         '
@@ -85,50 +94,50 @@ Partial Class uiBase2
         'tbtnNew
         '
         Me.tbtnNew.Id = 1
-        Me.tbtnNew.ImageIndex = 0
+        Me.tbtnNew.ImageIndex = 8
         Me.tbtnNew.Name = "tbtnNew"
         '
         'tbtnSave
         '
         Me.tbtnSave.Id = 2
-        Me.tbtnSave.ImageIndex = 1
+        Me.tbtnSave.ImageIndex = 11
         Me.tbtnSave.Name = "tbtnSave"
         '
         'tbtnPrint
         '
         Me.tbtnPrint.Id = 3
-        Me.tbtnPrint.ImageIndex = 2
+        Me.tbtnPrint.ImageIndex = 10
         Me.tbtnPrint.Name = "tbtnPrint"
         '
         'tbtnPrintPreview
         '
         Me.tbtnPrintPreview.Id = 4
-        Me.tbtnPrintPreview.ImageIndex = 3
+        Me.tbtnPrintPreview.ImageIndex = 9
         Me.tbtnPrintPreview.Name = "tbtnPrintPreview"
         '
         'tbtnDel
         '
         Me.tbtnDel.Id = 5
-        Me.tbtnDel.ImageIndex = 4
+        Me.tbtnDel.ImageIndex = 7
         Me.tbtnDel.Name = "tbtnDel"
         '
         'tbtnLoad
         '
         Me.tbtnLoad.Id = 6
-        Me.tbtnLoad.ImageIndex = 5
+        Me.tbtnLoad.ImageIndex = 15
         Me.tbtnLoad.Name = "tbtnLoad"
         '
         'tbtnQuery
         '
         Me.tbtnQuery.Id = 9
-        Me.tbtnQuery.ImageIndex = 6
+        Me.tbtnQuery.ImageIndex = 14
         Me.tbtnQuery.Name = "tbtnQuery"
         '
         'tBtn_approve
         '
         Me.tBtn_approve.Caption = "Approve"
-        Me.tBtn_approve.Glyph = Global.PRC.My.Resources.Resources.lock_open
         Me.tBtn_approve.Id = 12
+        Me.tBtn_approve.ImageIndex = 12
         Me.tBtn_approve.Name = "tBtn_approve"
         Me.tBtn_approve.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph
         Me.tBtn_approve.Visibility = DevExpress.XtraBars.BarItemVisibility.OnlyInCustomizing
@@ -136,8 +145,8 @@ Partial Class uiBase2
         'tBtn_Disapprove
         '
         Me.tBtn_Disapprove.Caption = "Disapprove"
-        Me.tBtn_Disapprove.Glyph = Global.PRC.My.Resources.Resources.lock_closed
         Me.tBtn_Disapprove.Id = 13
+        Me.tBtn_Disapprove.ImageIndex = 13
         Me.tBtn_Disapprove.Name = "tBtn_Disapprove"
         Me.tBtn_Disapprove.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph
         Me.tBtn_Disapprove.Visibility = DevExpress.XtraBars.BarItemVisibility.OnlyInCustomizing
@@ -147,7 +156,7 @@ Partial Class uiBase2
         Me.BarDockControl1.CausesValidation = False
         Me.BarDockControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.BarDockControl1.Location = New System.Drawing.Point(0, 0)
-        Me.BarDockControl1.Size = New System.Drawing.Size(800, 26)
+        Me.BarDockControl1.Size = New System.Drawing.Size(800, 24)
         '
         'BarDockControl2
         '
@@ -160,15 +169,15 @@ Partial Class uiBase2
         '
         Me.BarDockControl3.CausesValidation = False
         Me.BarDockControl3.Dock = System.Windows.Forms.DockStyle.Left
-        Me.BarDockControl3.Location = New System.Drawing.Point(0, 26)
-        Me.BarDockControl3.Size = New System.Drawing.Size(0, 522)
+        Me.BarDockControl3.Location = New System.Drawing.Point(0, 24)
+        Me.BarDockControl3.Size = New System.Drawing.Size(0, 524)
         '
         'BarDockControl4
         '
         Me.BarDockControl4.CausesValidation = False
         Me.BarDockControl4.Dock = System.Windows.Forms.DockStyle.Right
-        Me.BarDockControl4.Location = New System.Drawing.Point(800, 26)
-        Me.BarDockControl4.Size = New System.Drawing.Size(0, 522)
+        Me.BarDockControl4.Location = New System.Drawing.Point(800, 24)
+        Me.BarDockControl4.Size = New System.Drawing.Size(0, 524)
         '
         'tbtnRefresh
         '
