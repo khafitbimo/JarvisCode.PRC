@@ -966,7 +966,6 @@ E:\Jarvis\JarvisCode.PRC\PRC\bin\Release\PRC.pdb
 E:\Jarvis\JarvisCode.PRC\PRC\bin\Release\PRC.xml
 E:\Jarvis\JarvisCode.PRC\PRC\bin\Release\FlatTabControl.dll
 E:\Jarvis\JarvisCode.PRC\PRC\bin\Release\Interop.VBIDE.dll
-E:\Jarvis\JarvisCode.PRC\PRC\obj\Release\PRC.vbprojResolveAssemblyReference.cache
 E:\Jarvis\JarvisCode.PRC\PRC\obj\Release\PRC.dll
 E:\Jarvis\JarvisCode.PRC\PRC\obj\Release\PRC.xml
 E:\Jarvis\JarvisCode.PRC\PRC\obj\Release\PRC.pdb

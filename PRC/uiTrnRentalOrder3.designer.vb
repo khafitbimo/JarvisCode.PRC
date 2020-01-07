@@ -58,6 +58,25 @@ Partial Class uiTrnRentalOrder3
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(uiTrnRentalOrder3))
         Me.FlatTabMain = New FlatTabControl.FlatTabControl()
         Me.ftabMain_List = New System.Windows.Forms.TabPage()
+        Me.PnlDfSearch = New DevExpress.XtraEditors.PanelControl()
+        Me.rekananidtxt = New System.Windows.Forms.TextBox()
+        Me.txtSearchPeriode = New System.Windows.Forms.TextBox()
+        Me.chkSearchBudgetCode = New System.Windows.Forms.CheckBox()
+        Me.btnVendor = New System.Windows.Forms.Button()
+        Me.txtSearchBudgetCode = New System.Windows.Forms.TextBox()
+        Me.nudSearchRowLimit = New System.Windows.Forms.NumericUpDown()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.chkSearchRekanan = New System.Windows.Forms.CheckBox()
+        Me.txtSearchOrderID = New System.Windows.Forms.TextBox()
+        Me.chkSearchChannel = New System.Windows.Forms.CheckBox()
+        Me.cboSearchStatus = New System.Windows.Forms.ComboBox()
+        Me.cboSearchApproved = New System.Windows.Forms.ComboBox()
+        Me.chkSearchOrderID = New System.Windows.Forms.CheckBox()
+        Me.cboSearchChannel = New System.Windows.Forms.ComboBox()
+        Me.chkSrchStatus = New System.Windows.Forms.CheckBox()
+        Me.chkSearchApproved = New System.Windows.Forms.CheckBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.chkSearchPeriode = New System.Windows.Forms.CheckBox()
         Me.PnlDfMain = New System.Windows.Forms.Panel()
         Me.DgvTrnOrder = New System.Windows.Forms.DataGridView()
         Me.PnlDfFooter = New System.Windows.Forms.Panel()
@@ -71,25 +90,6 @@ Partial Class uiTrnRentalOrder3
         Me.lbl_appKadiv = New System.Windows.Forms.Label()
         Me.lblTotalRows = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.PnlDfSearch = New System.Windows.Forms.Panel()
-        Me.rekananidtxt = New System.Windows.Forms.TextBox()
-        Me.btnVendor = New System.Windows.Forms.Button()
-        Me.chkSearchRekanan = New System.Windows.Forms.CheckBox()
-        Me.cboSearchApproved = New System.Windows.Forms.ComboBox()
-        Me.chkSearchApproved = New System.Windows.Forms.CheckBox()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.chkSrchStatus = New System.Windows.Forms.CheckBox()
-        Me.cboSearchStatus = New System.Windows.Forms.ComboBox()
-        Me.nudSearchRowLimit = New System.Windows.Forms.NumericUpDown()
-        Me.txtSearchBudgetCode = New System.Windows.Forms.TextBox()
-        Me.chkSearchBudgetCode = New System.Windows.Forms.CheckBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.txtSearchOrderID = New System.Windows.Forms.TextBox()
-        Me.chkSearchOrderID = New System.Windows.Forms.CheckBox()
-        Me.txtSearchPeriode = New System.Windows.Forms.TextBox()
-        Me.chkSearchPeriode = New System.Windows.Forms.CheckBox()
-        Me.cboSearchChannel = New System.Windows.Forms.ComboBox()
-        Me.chkSearchChannel = New System.Windows.Forms.CheckBox()
         Me.ftabMain_Data = New System.Windows.Forms.TabPage()
         Me.ftabDataDetil = New FlatTabControl.FlatTabControl()
         Me.ftabDataDetil_Detil = New System.Windows.Forms.TabPage()
@@ -195,59 +195,7 @@ Partial Class uiTrnRentalOrder3
         Me.dgvAdvance = New System.Windows.Forms.DataGridView()
         Me.ftabDataDetil_Eps = New System.Windows.Forms.TabPage()
         Me.DgvEpisode = New System.Windows.Forms.DataGridView()
-        Me.PnlDataMaster = New System.Windows.Forms.Panel()
-        Me.PnlDataMaster3 = New System.Windows.Forms.Panel()
-        Me.obj_Order_setlocation = New System.Windows.Forms.TextBox()
-        Me.obj_Order_utilizedlocation = New System.Windows.Forms.TextBox()
-        Me.mtb_Order_utilizedtimeend = New System.Windows.Forms.MaskedTextBox()
-        Me.mtb_Order_utilizedtimestart = New System.Windows.Forms.MaskedTextBox()
-        Me.mtb_Order_settime = New System.Windows.Forms.MaskedTextBox()
-        Me.dtp_Order_utilizeddateend = New System.Windows.Forms.DateTimePicker()
-        Me.dtp_Order_utilizeddatestart = New System.Windows.Forms.DateTimePicker()
-        Me.dtp_Order_setdate = New System.Windows.Forms.DateTimePicker()
-        Me.lbl_Order_setdate = New System.Windows.Forms.Label()
-        Me.lbl_Order_setlocation = New System.Windows.Forms.Label()
-        Me.lbl_Order_utilizeddatestart = New System.Windows.Forms.Label()
-        Me.lbl_Order_utilizeddateend = New System.Windows.Forms.Label()
-        Me.lbl_Order_utilizedlocation = New System.Windows.Forms.Label()
-        Me.PnlDataMaster2 = New System.Windows.Forms.Panel()
-        Me.cbo_Currency = New System.Windows.Forms.ComboBox()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.obj_Order_epsend = New System.Windows.Forms.TextBox()
-        Me.obj_Order_epsstart = New System.Windows.Forms.TextBox()
-        Me.btn_FindBudget = New System.Windows.Forms.Button()
-        Me.cbo_Budget_name = New System.Windows.Forms.ComboBox()
-        Me.cbo_Rekanan_contact = New System.Windows.Forms.ComboBox()
-        Me.lbl_Sch = New System.Windows.Forms.Label()
-        Me.cbo_Order_progsch = New System.Windows.Forms.ComboBox()
-        Me.obj_Order_prognm = New System.Windows.Forms.TextBox()
-        Me.cbo_Rekanan_name = New System.Windows.Forms.ComboBox()
-        Me.lbl_Project_id = New System.Windows.Forms.Label()
-        Me.lbl_cp = New System.Windows.Forms.Label()
-        Me.obj_Rekanan_id = New System.Windows.Forms.TextBox()
-        Me.lbl_rekanan_id = New System.Windows.Forms.Label()
-        Me.obj_Budget_id = New System.Windows.Forms.TextBox()
-        Me.lbl_Budget_id = New System.Windows.Forms.Label()
-        Me.lbl_Order_eps = New System.Windows.Forms.Label()
-        Me.PnlDataMaster1 = New System.Windows.Forms.Panel()
-        Me.cbo_Deptname = New System.Windows.Forms.ComboBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.gboRevision = New System.Windows.Forms.GroupBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.dtp_order_revdate = New System.Windows.Forms.DateTimePicker()
-        Me.lbl_Order_revdesc = New System.Windows.Forms.Label()
-        Me.obj_Order_revno = New System.Windows.Forms.TextBox()
-        Me.lbl_Order_revno = New System.Windows.Forms.Label()
-        Me.dtp_order_date = New System.Windows.Forms.DateTimePicker()
-        Me.cbo_Periode_id = New System.Windows.Forms.ComboBox()
-        Me.lbl_Periode_id = New System.Windows.Forms.Label()
-        Me.obj_Order_id = New System.Windows.Forms.TextBox()
-        Me.lbl_order_date = New System.Windows.Forms.Label()
-        Me.lbl_Order_id = New System.Windows.Forms.Label()
-        Me.obj_Request_id = New System.Windows.Forms.TextBox()
-        Me.lbl_Request_id = New System.Windows.Forms.Label()
-        Me.PnlDataFooter = New System.Windows.Forms.Panel()
+        Me.PnlDataFooter = New DevExpress.XtraEditors.PanelControl()
         Me.fTabTOP = New FlatTabControl.FlatTabControl()
         Me.fTabTOPDetil = New System.Windows.Forms.TabPage()
         Me.DgvTrnOrderTOPdetil = New System.Windows.Forms.DataGridView()
@@ -259,33 +207,86 @@ Partial Class uiTrnRentalOrder3
         Me.obj_order_revdesc = New System.Windows.Forms.TextBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.obj_Order_descr = New System.Windows.Forms.TextBox()
-        Me.PnlDataFooter_Cost = New System.Windows.Forms.Panel()
+        Me.PnlDataFooter_Cost = New DevExpress.XtraEditors.PanelControl()
         Me.calc_Order_discount = New System.Windows.Forms.TextBox()
-        Me.lbl_Order_ppn_percent = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.obj_Order_ppn_percent = New System.Windows.Forms.TextBox()
-        Me.obj_Order_pph_percent = New System.Windows.Forms.TextBox()
+        Me.lbl_Order_ppn_percent = New System.Windows.Forms.Label()
         Me.obj_Order_discount = New System.Windows.Forms.TextBox()
-        Me.PnlDataFooter_Total = New System.Windows.Forms.Panel()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.obj_Order_pph_percent = New System.Windows.Forms.TextBox()
+        Me.obj_Order_ppn_percent = New System.Windows.Forms.TextBox()
+        Me.PnlDataFooter_Total = New DevExpress.XtraEditors.PanelControl()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.calc_Order_GTotal = New System.Windows.Forms.TextBox()
-        Me.calc_Order_subPPN = New System.Windows.Forms.TextBox()
-        Me.calc_Order_subPPH = New System.Windows.Forms.TextBox()
-        Me.calc_Order_subtotal = New System.Windows.Forms.TextBox()
-        Me.lbl_Order_pph_percent = New System.Windows.Forms.Label()
         Me.calc_Order_subdiscount = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.lbl_order_discount = New System.Windows.Forms.Label()
+        Me.calc_Order_GTotal = New System.Windows.Forms.TextBox()
+        Me.lbl_Order_pph_percent = New System.Windows.Forms.Label()
+        Me.calc_Order_subPPN = New System.Windows.Forms.TextBox()
+        Me.calc_Order_subtotal = New System.Windows.Forms.TextBox()
+        Me.calc_Order_subPPH = New System.Windows.Forms.TextBox()
+        Me.PnlDataMaster = New DevExpress.XtraEditors.PanelControl()
+        Me.PnlDataMaster3 = New DevExpress.XtraEditors.PanelControl()
+        Me.obj_Order_setlocation = New System.Windows.Forms.TextBox()
+        Me.obj_Order_utilizedlocation = New System.Windows.Forms.TextBox()
+        Me.lbl_Order_utilizedlocation = New System.Windows.Forms.Label()
+        Me.mtb_Order_utilizedtimeend = New System.Windows.Forms.MaskedTextBox()
+        Me.lbl_Order_utilizeddateend = New System.Windows.Forms.Label()
+        Me.mtb_Order_utilizedtimestart = New System.Windows.Forms.MaskedTextBox()
+        Me.lbl_Order_utilizeddatestart = New System.Windows.Forms.Label()
+        Me.mtb_Order_settime = New System.Windows.Forms.MaskedTextBox()
+        Me.lbl_Order_setlocation = New System.Windows.Forms.Label()
+        Me.dtp_Order_utilizeddateend = New System.Windows.Forms.DateTimePicker()
+        Me.lbl_Order_setdate = New System.Windows.Forms.Label()
+        Me.dtp_Order_utilizeddatestart = New System.Windows.Forms.DateTimePicker()
+        Me.dtp_Order_setdate = New System.Windows.Forms.DateTimePicker()
+        Me.PnlDataMaster2 = New DevExpress.XtraEditors.PanelControl()
+        Me.cbo_Currency = New System.Windows.Forms.ComboBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.lbl_Order_eps = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.lbl_Budget_id = New System.Windows.Forms.Label()
+        Me.obj_Order_epsend = New System.Windows.Forms.TextBox()
+        Me.obj_Budget_id = New System.Windows.Forms.TextBox()
+        Me.obj_Order_epsstart = New System.Windows.Forms.TextBox()
+        Me.lbl_rekanan_id = New System.Windows.Forms.Label()
+        Me.btn_FindBudget = New System.Windows.Forms.Button()
+        Me.obj_Rekanan_id = New System.Windows.Forms.TextBox()
+        Me.cbo_Budget_name = New System.Windows.Forms.ComboBox()
+        Me.lbl_cp = New System.Windows.Forms.Label()
+        Me.cbo_Rekanan_contact = New System.Windows.Forms.ComboBox()
+        Me.lbl_Project_id = New System.Windows.Forms.Label()
+        Me.lbl_Sch = New System.Windows.Forms.Label()
+        Me.cbo_Rekanan_name = New System.Windows.Forms.ComboBox()
+        Me.cbo_Order_progsch = New System.Windows.Forms.ComboBox()
+        Me.obj_Order_prognm = New System.Windows.Forms.TextBox()
+        Me.PnlDataMaster1 = New DevExpress.XtraEditors.PanelControl()
+        Me.cbo_Deptname = New System.Windows.Forms.ComboBox()
+        Me.cbo_Periode_id = New System.Windows.Forms.ComboBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.lbl_Request_id = New System.Windows.Forms.Label()
+        Me.gboRevision = New System.Windows.Forms.GroupBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.dtp_order_revdate = New System.Windows.Forms.DateTimePicker()
+        Me.lbl_Order_revdesc = New System.Windows.Forms.Label()
+        Me.obj_Order_revno = New System.Windows.Forms.TextBox()
+        Me.lbl_Order_revno = New System.Windows.Forms.Label()
+        Me.obj_Request_id = New System.Windows.Forms.TextBox()
+        Me.dtp_order_date = New System.Windows.Forms.DateTimePicker()
+        Me.lbl_Order_id = New System.Windows.Forms.Label()
+        Me.lbl_order_date = New System.Windows.Forms.Label()
+        Me.lbl_Periode_id = New System.Windows.Forms.Label()
+        Me.obj_Order_id = New System.Windows.Forms.TextBox()
         Me.object_attach_dlg = New System.Windows.Forms.OpenFileDialog()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.FlatTabMain.SuspendLayout()
         Me.ftabMain_List.SuspendLayout()
+        CType(Me.PnlDfSearch, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PnlDfSearch.SuspendLayout()
+        CType(Me.nudSearchRowLimit, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PnlDfMain.SuspendLayout()
         CType(Me.DgvTrnOrder, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PnlDfFooter.SuspendLayout()
-        Me.PnlDfSearch.SuspendLayout()
-        CType(Me.nudSearchRowLimit, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ftabMain_Data.SuspendLayout()
         Me.ftabDataDetil.SuspendLayout()
         Me.ftabDataDetil_Detil.SuspendLayout()
@@ -331,11 +332,7 @@ Partial Class uiTrnRentalOrder3
         CType(Me.dgvAdvance, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ftabDataDetil_Eps.SuspendLayout()
         CType(Me.DgvEpisode, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.PnlDataMaster.SuspendLayout()
-        Me.PnlDataMaster3.SuspendLayout()
-        Me.PnlDataMaster2.SuspendLayout()
-        Me.PnlDataMaster1.SuspendLayout()
-        Me.gboRevision.SuspendLayout()
+        CType(Me.PnlDataFooter, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PnlDataFooter.SuspendLayout()
         Me.fTabTOP.SuspendLayout()
         Me.fTabTOPDetil.SuspendLayout()
@@ -344,8 +341,19 @@ Partial Class uiTrnRentalOrder3
         Me.Panel3.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
+        CType(Me.PnlDataFooter_Cost, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PnlDataFooter_Cost.SuspendLayout()
+        CType(Me.PnlDataFooter_Total, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PnlDataFooter_Total.SuspendLayout()
+        CType(Me.PnlDataMaster, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PnlDataMaster.SuspendLayout()
+        CType(Me.PnlDataMaster3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PnlDataMaster3.SuspendLayout()
+        CType(Me.PnlDataMaster2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PnlDataMaster2.SuspendLayout()
+        CType(Me.PnlDataMaster1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PnlDataMaster1.SuspendLayout()
+        Me.gboRevision.SuspendLayout()
         Me.SuspendLayout()
         '
         'FlatTabMain
@@ -362,15 +370,212 @@ Partial Class uiTrnRentalOrder3
         'ftabMain_List
         '
         Me.ftabMain_List.BackColor = System.Drawing.Color.White
+        Me.ftabMain_List.Controls.Add(Me.PnlDfSearch)
         Me.ftabMain_List.Controls.Add(Me.PnlDfMain)
         Me.ftabMain_List.Controls.Add(Me.PnlDfFooter)
-        Me.ftabMain_List.Controls.Add(Me.PnlDfSearch)
         Me.ftabMain_List.Location = New System.Drawing.Point(4, 25)
         Me.ftabMain_List.Name = "ftabMain_List"
         Me.ftabMain_List.Padding = New System.Windows.Forms.Padding(3)
         Me.ftabMain_List.Size = New System.Drawing.Size(747, 488)
         Me.ftabMain_List.TabIndex = 0
         Me.ftabMain_List.Text = "List"
+        '
+        'PnlDfSearch
+        '
+        Me.PnlDfSearch.Controls.Add(Me.rekananidtxt)
+        Me.PnlDfSearch.Controls.Add(Me.txtSearchPeriode)
+        Me.PnlDfSearch.Controls.Add(Me.chkSearchBudgetCode)
+        Me.PnlDfSearch.Controls.Add(Me.btnVendor)
+        Me.PnlDfSearch.Controls.Add(Me.txtSearchBudgetCode)
+        Me.PnlDfSearch.Controls.Add(Me.nudSearchRowLimit)
+        Me.PnlDfSearch.Controls.Add(Me.Label5)
+        Me.PnlDfSearch.Controls.Add(Me.chkSearchRekanan)
+        Me.PnlDfSearch.Controls.Add(Me.txtSearchOrderID)
+        Me.PnlDfSearch.Controls.Add(Me.chkSearchChannel)
+        Me.PnlDfSearch.Controls.Add(Me.cboSearchStatus)
+        Me.PnlDfSearch.Controls.Add(Me.cboSearchApproved)
+        Me.PnlDfSearch.Controls.Add(Me.chkSearchOrderID)
+        Me.PnlDfSearch.Controls.Add(Me.cboSearchChannel)
+        Me.PnlDfSearch.Controls.Add(Me.chkSrchStatus)
+        Me.PnlDfSearch.Controls.Add(Me.chkSearchApproved)
+        Me.PnlDfSearch.Controls.Add(Me.Label11)
+        Me.PnlDfSearch.Controls.Add(Me.chkSearchPeriode)
+        Me.PnlDfSearch.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PnlDfSearch.Location = New System.Drawing.Point(3, 3)
+        Me.PnlDfSearch.Name = "PnlDfSearch"
+        Me.PnlDfSearch.Size = New System.Drawing.Size(741, 122)
+        Me.PnlDfSearch.TabIndex = 3
+        '
+        'rekananidtxt
+        '
+        Me.rekananidtxt.Location = New System.Drawing.Point(506, 73)
+        Me.rekananidtxt.MaxLength = 8
+        Me.rekananidtxt.Name = "rekananidtxt"
+        Me.rekananidtxt.ReadOnly = True
+        Me.rekananidtxt.Size = New System.Drawing.Size(85, 20)
+        Me.rekananidtxt.TabIndex = 91
+        '
+        'txtSearchPeriode
+        '
+        Me.txtSearchPeriode.Location = New System.Drawing.Point(506, 25)
+        Me.txtSearchPeriode.MaxLength = 6
+        Me.txtSearchPeriode.Name = "txtSearchPeriode"
+        Me.txtSearchPeriode.Size = New System.Drawing.Size(85, 20)
+        Me.txtSearchPeriode.TabIndex = 25
+        '
+        'chkSearchBudgetCode
+        '
+        Me.chkSearchBudgetCode.AutoSize = True
+        Me.chkSearchBudgetCode.Location = New System.Drawing.Point(397, 51)
+        Me.chkSearchBudgetCode.Name = "chkSearchBudgetCode"
+        Me.chkSearchBudgetCode.Size = New System.Drawing.Size(88, 17)
+        Me.chkSearchBudgetCode.TabIndex = 32
+        Me.chkSearchBudgetCode.Text = "Budget Code"
+        Me.chkSearchBudgetCode.UseVisualStyleBackColor = True
+        '
+        'btnVendor
+        '
+        Me.btnVendor.Location = New System.Drawing.Point(597, 72)
+        Me.btnVendor.Name = "btnVendor"
+        Me.btnVendor.Size = New System.Drawing.Size(30, 23)
+        Me.btnVendor.TabIndex = 90
+        Me.btnVendor.Text = "..."
+        Me.btnVendor.UseVisualStyleBackColor = True
+        '
+        'txtSearchBudgetCode
+        '
+        Me.txtSearchBudgetCode.Location = New System.Drawing.Point(506, 49)
+        Me.txtSearchBudgetCode.MaxLength = 8
+        Me.txtSearchBudgetCode.Name = "txtSearchBudgetCode"
+        Me.txtSearchBudgetCode.Size = New System.Drawing.Size(85, 20)
+        Me.txtSearchBudgetCode.TabIndex = 33
+        '
+        'nudSearchRowLimit
+        '
+        Me.nudSearchRowLimit.Location = New System.Drawing.Point(326, 7)
+        Me.nudSearchRowLimit.Maximum = New Decimal(New Integer() {50000, 0, 0, 0})
+        Me.nudSearchRowLimit.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
+        Me.nudSearchRowLimit.Name = "nudSearchRowLimit"
+        Me.nudSearchRowLimit.Size = New System.Drawing.Size(61, 20)
+        Me.nudSearchRowLimit.TabIndex = 35
+        Me.nudSearchRowLimit.Value = New Decimal(New Integer() {50, 0, 0, 0})
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(83, 107)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(263, 12)
+        Me.Label5.TabIndex = 28
+        Me.Label5.Text = "Use semicolone (;) to enter more than one references in textbox"
+        '
+        'chkSearchRekanan
+        '
+        Me.chkSearchRekanan.AutoSize = True
+        Me.chkSearchRekanan.Location = New System.Drawing.Point(396, 75)
+        Me.chkSearchRekanan.Name = "chkSearchRekanan"
+        Me.chkSearchRekanan.Size = New System.Drawing.Size(74, 17)
+        Me.chkSearchRekanan.TabIndex = 89
+        Me.chkSearchRekanan.Text = "Vendor ID"
+        Me.chkSearchRekanan.UseVisualStyleBackColor = True
+        '
+        'txtSearchOrderID
+        '
+        Me.txtSearchOrderID.Location = New System.Drawing.Point(88, 33)
+        Me.txtSearchOrderID.Multiline = True
+        Me.txtSearchOrderID.Name = "txtSearchOrderID"
+        Me.txtSearchOrderID.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.txtSearchOrderID.Size = New System.Drawing.Size(299, 71)
+        Me.txtSearchOrderID.TabIndex = 27
+        '
+        'chkSearchChannel
+        '
+        Me.chkSearchChannel.AutoSize = True
+        Me.chkSearchChannel.Enabled = False
+        Me.chkSearchChannel.Location = New System.Drawing.Point(12, 6)
+        Me.chkSearchChannel.Name = "chkSearchChannel"
+        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
+        Me.chkSearchChannel.TabIndex = 0
+        Me.chkSearchChannel.Text = "Company"
+        Me.chkSearchChannel.UseVisualStyleBackColor = True
+        '
+        'cboSearchStatus
+        '
+        Me.cboSearchStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboSearchStatus.FormattingEnabled = True
+        Me.cboSearchStatus.Location = New System.Drawing.Point(506, 98)
+        Me.cboSearchStatus.Name = "cboSearchStatus"
+        Me.cboSearchStatus.Size = New System.Drawing.Size(121, 21)
+        Me.cboSearchStatus.TabIndex = 41
+        '
+        'cboSearchApproved
+        '
+        Me.cboSearchApproved.FormattingEnabled = True
+        Me.cboSearchApproved.Items.AddRange(New Object() {"Approved", "Not Approved, Yet"})
+        Me.cboSearchApproved.Location = New System.Drawing.Point(506, 1)
+        Me.cboSearchApproved.Name = "cboSearchApproved"
+        Me.cboSearchApproved.Size = New System.Drawing.Size(196, 21)
+        Me.cboSearchApproved.TabIndex = 86
+        '
+        'chkSearchOrderID
+        '
+        Me.chkSearchOrderID.AutoSize = True
+        Me.chkSearchOrderID.Location = New System.Drawing.Point(12, 35)
+        Me.chkSearchOrderID.Name = "chkSearchOrderID"
+        Me.chkSearchOrderID.Size = New System.Drawing.Size(48, 17)
+        Me.chkSearchOrderID.TabIndex = 26
+        Me.chkSearchOrderID.Text = "ID(s)"
+        Me.chkSearchOrderID.UseVisualStyleBackColor = True
+        '
+        'cboSearchChannel
+        '
+        Me.cboSearchChannel.Enabled = False
+        Me.cboSearchChannel.FormattingEnabled = True
+        Me.cboSearchChannel.Location = New System.Drawing.Point(88, 6)
+        Me.cboSearchChannel.Name = "cboSearchChannel"
+        Me.cboSearchChannel.Size = New System.Drawing.Size(173, 21)
+        Me.cboSearchChannel.TabIndex = 1
+        '
+        'chkSrchStatus
+        '
+        Me.chkSrchStatus.AutoSize = True
+        Me.chkSrchStatus.Location = New System.Drawing.Point(397, 100)
+        Me.chkSrchStatus.Name = "chkSrchStatus"
+        Me.chkSrchStatus.Size = New System.Drawing.Size(56, 17)
+        Me.chkSrchStatus.TabIndex = 43
+        Me.chkSrchStatus.Text = "Status"
+        Me.chkSrchStatus.UseVisualStyleBackColor = True
+        '
+        'chkSearchApproved
+        '
+        Me.chkSearchApproved.AutoSize = True
+        Me.chkSearchApproved.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkSearchApproved.Location = New System.Drawing.Point(397, 3)
+        Me.chkSearchApproved.Name = "chkSearchApproved"
+        Me.chkSearchApproved.Size = New System.Drawing.Size(104, 18)
+        Me.chkSearchApproved.TabIndex = 85
+        Me.chkSearchApproved.Text = "Approval Status"
+        Me.chkSearchApproved.UseVisualStyleBackColor = True
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(267, 10)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(53, 13)
+        Me.Label11.TabIndex = 44
+        Me.Label11.Text = "Row Limit"
+        '
+        'chkSearchPeriode
+        '
+        Me.chkSearchPeriode.AutoSize = True
+        Me.chkSearchPeriode.Location = New System.Drawing.Point(397, 25)
+        Me.chkSearchPeriode.Name = "chkSearchPeriode"
+        Me.chkSearchPeriode.Size = New System.Drawing.Size(103, 17)
+        Me.chkSearchPeriode.TabIndex = 24
+        Me.chkSearchPeriode.Text = "Periode [YYMM]"
+        Me.chkSearchPeriode.UseVisualStyleBackColor = True
         '
         'PnlDfMain
         '
@@ -523,209 +728,12 @@ Partial Class uiTrnRentalOrder3
         Me.Label13.TabIndex = 0
         Me.Label13.Text = "Total Data = "
         '
-        'PnlDfSearch
-        '
-        Me.PnlDfSearch.Controls.Add(Me.rekananidtxt)
-        Me.PnlDfSearch.Controls.Add(Me.btnVendor)
-        Me.PnlDfSearch.Controls.Add(Me.chkSearchRekanan)
-        Me.PnlDfSearch.Controls.Add(Me.cboSearchApproved)
-        Me.PnlDfSearch.Controls.Add(Me.chkSearchApproved)
-        Me.PnlDfSearch.Controls.Add(Me.Label11)
-        Me.PnlDfSearch.Controls.Add(Me.chkSrchStatus)
-        Me.PnlDfSearch.Controls.Add(Me.cboSearchStatus)
-        Me.PnlDfSearch.Controls.Add(Me.nudSearchRowLimit)
-        Me.PnlDfSearch.Controls.Add(Me.txtSearchBudgetCode)
-        Me.PnlDfSearch.Controls.Add(Me.chkSearchBudgetCode)
-        Me.PnlDfSearch.Controls.Add(Me.Label5)
-        Me.PnlDfSearch.Controls.Add(Me.txtSearchOrderID)
-        Me.PnlDfSearch.Controls.Add(Me.chkSearchOrderID)
-        Me.PnlDfSearch.Controls.Add(Me.txtSearchPeriode)
-        Me.PnlDfSearch.Controls.Add(Me.chkSearchPeriode)
-        Me.PnlDfSearch.Controls.Add(Me.cboSearchChannel)
-        Me.PnlDfSearch.Controls.Add(Me.chkSearchChannel)
-        Me.PnlDfSearch.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PnlDfSearch.Location = New System.Drawing.Point(3, 3)
-        Me.PnlDfSearch.Name = "PnlDfSearch"
-        Me.PnlDfSearch.Size = New System.Drawing.Size(741, 122)
-        Me.PnlDfSearch.TabIndex = 0
-        '
-        'rekananidtxt
-        '
-        Me.rekananidtxt.Location = New System.Drawing.Point(511, 74)
-        Me.rekananidtxt.MaxLength = 8
-        Me.rekananidtxt.Name = "rekananidtxt"
-        Me.rekananidtxt.ReadOnly = True
-        Me.rekananidtxt.Size = New System.Drawing.Size(85, 20)
-        Me.rekananidtxt.TabIndex = 91
-        '
-        'btnVendor
-        '
-        Me.btnVendor.Location = New System.Drawing.Point(602, 73)
-        Me.btnVendor.Name = "btnVendor"
-        Me.btnVendor.Size = New System.Drawing.Size(30, 23)
-        Me.btnVendor.TabIndex = 90
-        Me.btnVendor.Text = "..."
-        Me.btnVendor.UseVisualStyleBackColor = True
-        '
-        'chkSearchRekanan
-        '
-        Me.chkSearchRekanan.AutoSize = True
-        Me.chkSearchRekanan.Location = New System.Drawing.Point(401, 76)
-        Me.chkSearchRekanan.Name = "chkSearchRekanan"
-        Me.chkSearchRekanan.Size = New System.Drawing.Size(74, 17)
-        Me.chkSearchRekanan.TabIndex = 89
-        Me.chkSearchRekanan.Text = "Vendor ID"
-        Me.chkSearchRekanan.UseVisualStyleBackColor = True
-        '
-        'cboSearchApproved
-        '
-        Me.cboSearchApproved.FormattingEnabled = True
-        Me.cboSearchApproved.Items.AddRange(New Object() {"Approved", "Not Approved, Yet"})
-        Me.cboSearchApproved.Location = New System.Drawing.Point(511, 2)
-        Me.cboSearchApproved.Name = "cboSearchApproved"
-        Me.cboSearchApproved.Size = New System.Drawing.Size(196, 21)
-        Me.cboSearchApproved.TabIndex = 86
-        '
-        'chkSearchApproved
-        '
-        Me.chkSearchApproved.AutoSize = True
-        Me.chkSearchApproved.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkSearchApproved.Location = New System.Drawing.Point(402, 4)
-        Me.chkSearchApproved.Name = "chkSearchApproved"
-        Me.chkSearchApproved.Size = New System.Drawing.Size(104, 18)
-        Me.chkSearchApproved.TabIndex = 85
-        Me.chkSearchApproved.Text = "Approval Status"
-        Me.chkSearchApproved.UseVisualStyleBackColor = True
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(272, 11)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(53, 13)
-        Me.Label11.TabIndex = 44
-        Me.Label11.Text = "Row Limit"
-        '
-        'chkSrchStatus
-        '
-        Me.chkSrchStatus.AutoSize = True
-        Me.chkSrchStatus.Location = New System.Drawing.Point(402, 101)
-        Me.chkSrchStatus.Name = "chkSrchStatus"
-        Me.chkSrchStatus.Size = New System.Drawing.Size(56, 17)
-        Me.chkSrchStatus.TabIndex = 43
-        Me.chkSrchStatus.Text = "Status"
-        Me.chkSrchStatus.UseVisualStyleBackColor = True
-        '
-        'cboSearchStatus
-        '
-        Me.cboSearchStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cboSearchStatus.FormattingEnabled = True
-        Me.cboSearchStatus.Location = New System.Drawing.Point(511, 99)
-        Me.cboSearchStatus.Name = "cboSearchStatus"
-        Me.cboSearchStatus.Size = New System.Drawing.Size(121, 21)
-        Me.cboSearchStatus.TabIndex = 41
-        '
-        'nudSearchRowLimit
-        '
-        Me.nudSearchRowLimit.Location = New System.Drawing.Point(331, 8)
-        Me.nudSearchRowLimit.Maximum = New Decimal(New Integer() {50000, 0, 0, 0})
-        Me.nudSearchRowLimit.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
-        Me.nudSearchRowLimit.Name = "nudSearchRowLimit"
-        Me.nudSearchRowLimit.Size = New System.Drawing.Size(61, 20)
-        Me.nudSearchRowLimit.TabIndex = 35
-        Me.nudSearchRowLimit.Value = New Decimal(New Integer() {50, 0, 0, 0})
-        '
-        'txtSearchBudgetCode
-        '
-        Me.txtSearchBudgetCode.Location = New System.Drawing.Point(511, 50)
-        Me.txtSearchBudgetCode.MaxLength = 8
-        Me.txtSearchBudgetCode.Name = "txtSearchBudgetCode"
-        Me.txtSearchBudgetCode.Size = New System.Drawing.Size(85, 20)
-        Me.txtSearchBudgetCode.TabIndex = 33
-        '
-        'chkSearchBudgetCode
-        '
-        Me.chkSearchBudgetCode.AutoSize = True
-        Me.chkSearchBudgetCode.Location = New System.Drawing.Point(402, 52)
-        Me.chkSearchBudgetCode.Name = "chkSearchBudgetCode"
-        Me.chkSearchBudgetCode.Size = New System.Drawing.Size(88, 17)
-        Me.chkSearchBudgetCode.TabIndex = 32
-        Me.chkSearchBudgetCode.Text = "Budget Code"
-        Me.chkSearchBudgetCode.UseVisualStyleBackColor = True
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(79, 108)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(263, 12)
-        Me.Label5.TabIndex = 28
-        Me.Label5.Text = "Use semicolone (;) to enter more than one references in textbox"
-        '
-        'txtSearchOrderID
-        '
-        Me.txtSearchOrderID.Location = New System.Drawing.Point(81, 34)
-        Me.txtSearchOrderID.Multiline = True
-        Me.txtSearchOrderID.Name = "txtSearchOrderID"
-        Me.txtSearchOrderID.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtSearchOrderID.Size = New System.Drawing.Size(311, 71)
-        Me.txtSearchOrderID.TabIndex = 27
-        '
-        'chkSearchOrderID
-        '
-        Me.chkSearchOrderID.AutoSize = True
-        Me.chkSearchOrderID.Location = New System.Drawing.Point(17, 36)
-        Me.chkSearchOrderID.Name = "chkSearchOrderID"
-        Me.chkSearchOrderID.Size = New System.Drawing.Size(48, 17)
-        Me.chkSearchOrderID.TabIndex = 26
-        Me.chkSearchOrderID.Text = "ID(s)"
-        Me.chkSearchOrderID.UseVisualStyleBackColor = True
-        '
-        'txtSearchPeriode
-        '
-        Me.txtSearchPeriode.Location = New System.Drawing.Point(511, 26)
-        Me.txtSearchPeriode.MaxLength = 6
-        Me.txtSearchPeriode.Name = "txtSearchPeriode"
-        Me.txtSearchPeriode.Size = New System.Drawing.Size(85, 20)
-        Me.txtSearchPeriode.TabIndex = 25
-        '
-        'chkSearchPeriode
-        '
-        Me.chkSearchPeriode.AutoSize = True
-        Me.chkSearchPeriode.Location = New System.Drawing.Point(402, 26)
-        Me.chkSearchPeriode.Name = "chkSearchPeriode"
-        Me.chkSearchPeriode.Size = New System.Drawing.Size(103, 17)
-        Me.chkSearchPeriode.TabIndex = 24
-        Me.chkSearchPeriode.Text = "Periode [YYMM]"
-        Me.chkSearchPeriode.UseVisualStyleBackColor = True
-        '
-        'cboSearchChannel
-        '
-        Me.cboSearchChannel.Enabled = False
-        Me.cboSearchChannel.FormattingEnabled = True
-        Me.cboSearchChannel.Location = New System.Drawing.Point(81, 7)
-        Me.cboSearchChannel.Name = "cboSearchChannel"
-        Me.cboSearchChannel.Size = New System.Drawing.Size(185, 21)
-        Me.cboSearchChannel.TabIndex = 1
-        '
-        'chkSearchChannel
-        '
-        Me.chkSearchChannel.AutoSize = True
-        Me.chkSearchChannel.Enabled = False
-        Me.chkSearchChannel.Location = New System.Drawing.Point(17, 7)
-        Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(65, 17)
-        Me.chkSearchChannel.TabIndex = 0
-        Me.chkSearchChannel.Text = "Channel"
-        Me.chkSearchChannel.UseVisualStyleBackColor = True
-        '
         'ftabMain_Data
         '
         Me.ftabMain_Data.BackColor = System.Drawing.Color.White
         Me.ftabMain_Data.Controls.Add(Me.ftabDataDetil)
-        Me.ftabMain_Data.Controls.Add(Me.PnlDataMaster)
         Me.ftabMain_Data.Controls.Add(Me.PnlDataFooter)
+        Me.ftabMain_Data.Controls.Add(Me.PnlDataMaster)
         Me.ftabMain_Data.Location = New System.Drawing.Point(4, 25)
         Me.ftabMain_Data.Name = "ftabMain_Data"
         Me.ftabMain_Data.Padding = New System.Windows.Forms.Padding(3)
@@ -749,11 +757,11 @@ Partial Class uiTrnRentalOrder3
         Me.ftabDataDetil.Controls.Add(Me.ftabDataDetil_Advance)
         Me.ftabDataDetil.Controls.Add(Me.ftabDataDetil_Eps)
         Me.ftabDataDetil.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ftabDataDetil.Location = New System.Drawing.Point(3, 208)
+        Me.ftabDataDetil.Location = New System.Drawing.Point(3, 222)
         Me.ftabDataDetil.myBackColor = System.Drawing.Color.White
         Me.ftabDataDetil.Name = "ftabDataDetil"
         Me.ftabDataDetil.SelectedIndex = 0
-        Me.ftabDataDetil.Size = New System.Drawing.Size(741, 160)
+        Me.ftabDataDetil.Size = New System.Drawing.Size(741, 146)
         Me.ftabDataDetil.TabIndex = 3
         '
         'ftabDataDetil_Detil
@@ -763,7 +771,7 @@ Partial Class uiTrnRentalOrder3
         Me.ftabDataDetil_Detil.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Detil.Name = "ftabDataDetil_Detil"
         Me.ftabDataDetil_Detil.Padding = New System.Windows.Forms.Padding(3)
-        Me.ftabDataDetil_Detil.Size = New System.Drawing.Size(733, 131)
+        Me.ftabDataDetil_Detil.Size = New System.Drawing.Size(733, 117)
         Me.ftabDataDetil_Detil.TabIndex = 0
         Me.ftabDataDetil_Detil.Text = "Detil"
         '
@@ -774,7 +782,7 @@ Partial Class uiTrnRentalOrder3
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(3, 3)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(727, 125)
+        Me.Panel1.Size = New System.Drawing.Size(727, 111)
         Me.Panel1.TabIndex = 11
         '
         'DgvTrnOrderdetil
@@ -809,7 +817,7 @@ Partial Class uiTrnRentalOrder3
         DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.DgvTrnOrderdetil.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
-        Me.DgvTrnOrderdetil.Size = New System.Drawing.Size(727, 94)
+        Me.DgvTrnOrderdetil.Size = New System.Drawing.Size(727, 80)
         Me.DgvTrnOrderdetil.TabIndex = 12
         '
         'ContextMenuStrip1
@@ -835,7 +843,7 @@ Partial Class uiTrnRentalOrder3
         Me.pnlButton.Controls.Add(Me.btnAddDesc)
         Me.pnlButton.Controls.Add(Me.btnAddItem)
         Me.pnlButton.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.pnlButton.Location = New System.Drawing.Point(0, 94)
+        Me.pnlButton.Location = New System.Drawing.Point(0, 80)
         Me.pnlButton.Name = "pnlButton"
         Me.pnlButton.Size = New System.Drawing.Size(727, 31)
         Me.pnlButton.TabIndex = 13
@@ -998,7 +1006,7 @@ Partial Class uiTrnRentalOrder3
         Me.GroupControl2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupControl2.Location = New System.Drawing.Point(0, 0)
         Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(173, 0)
+        Me.GroupControl2.Size = New System.Drawing.Size(174, 0)
         Me.GroupControl2.TabIndex = 0
         Me.GroupControl2.Text = "Reference Attachment"
         '
@@ -1009,7 +1017,7 @@ Partial Class uiTrnRentalOrder3
         Me.GC_RequestAttachment.MainView = Me.GV_Requestattachment
         Me.GC_RequestAttachment.Name = "GC_RequestAttachment"
         Me.GC_RequestAttachment.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepAttachBtnOpen, Me.RepAttachBtnDownload})
-        Me.GC_RequestAttachment.Size = New System.Drawing.Size(169, 0)
+        Me.GC_RequestAttachment.Size = New System.Drawing.Size(170, 0)
         Me.GC_RequestAttachment.TabIndex = 1
         Me.GC_RequestAttachment.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GV_Requestattachment})
         '
@@ -1958,44 +1966,395 @@ Partial Class uiTrnRentalOrder3
         Me.DgvEpisode.Size = New System.Drawing.Size(178, 0)
         Me.DgvEpisode.TabIndex = 13
         '
+        'PnlDataFooter
+        '
+        Me.PnlDataFooter.Controls.Add(Me.fTabTOP)
+        Me.PnlDataFooter.Controls.Add(Me.PnlDataFooter_Cost)
+        Me.PnlDataFooter.Controls.Add(Me.PnlDataFooter_Total)
+        Me.PnlDataFooter.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.PnlDataFooter.Location = New System.Drawing.Point(3, 368)
+        Me.PnlDataFooter.Name = "PnlDataFooter"
+        Me.PnlDataFooter.Size = New System.Drawing.Size(741, 117)
+        Me.PnlDataFooter.TabIndex = 113
+        '
+        'fTabTOP
+        '
+        Me.fTabTOP.Controls.Add(Me.fTabTOPDetil)
+        Me.fTabTOP.Controls.Add(Me.TabPage1)
+        Me.fTabTOP.Controls.Add(Me.TabPage2)
+        Me.fTabTOP.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.fTabTOP.Location = New System.Drawing.Point(2, 2)
+        Me.fTabTOP.myBackColor = System.Drawing.Color.Transparent
+        Me.fTabTOP.Name = "fTabTOP"
+        Me.fTabTOP.SelectedIndex = 0
+        Me.fTabTOP.Size = New System.Drawing.Size(413, 113)
+        Me.fTabTOP.TabIndex = 112
+        '
+        'fTabTOPDetil
+        '
+        Me.fTabTOPDetil.Controls.Add(Me.DgvTrnOrderTOPdetil)
+        Me.fTabTOPDetil.Controls.Add(Me.Panel3)
+        Me.fTabTOPDetil.Location = New System.Drawing.Point(4, 25)
+        Me.fTabTOPDetil.Name = "fTabTOPDetil"
+        Me.fTabTOPDetil.Size = New System.Drawing.Size(405, 84)
+        Me.fTabTOPDetil.TabIndex = 2
+        Me.fTabTOPDetil.Text = "Term Of Payment"
+        '
+        'DgvTrnOrderTOPdetil
+        '
+        Me.DgvTrnOrderTOPdetil.AllowUserToAddRows = False
+        Me.DgvTrnOrderTOPdetil.AllowUserToDeleteRows = False
+        DataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle31.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle31.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle31.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle31.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle31.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DgvTrnOrderTOPdetil.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle31
+        Me.DgvTrnOrderTOPdetil.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DgvTrnOrderTOPdetil.ContextMenuStrip = Me.ContextMenuTOP
+        DataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle32.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle32.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle32.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DgvTrnOrderTOPdetil.DefaultCellStyle = DataGridViewCellStyle32
+        Me.DgvTrnOrderTOPdetil.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DgvTrnOrderTOPdetil.Location = New System.Drawing.Point(0, 0)
+        Me.DgvTrnOrderTOPdetil.Name = "DgvTrnOrderTOPdetil"
+        DataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle33.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle33.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle33.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle33.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle33.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DgvTrnOrderTOPdetil.RowHeadersDefaultCellStyle = DataGridViewCellStyle33
+        Me.DgvTrnOrderTOPdetil.Size = New System.Drawing.Size(377, 84)
+        Me.DgvTrnOrderTOPdetil.TabIndex = 7
+        '
+        'ContextMenuTOP
+        '
+        Me.ContextMenuTOP.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SetPersenToolStripMenuItem})
+        Me.ContextMenuTOP.Name = "ContextMenuTOP"
+        Me.ContextMenuTOP.Size = New System.Drawing.Size(147, 26)
+        Me.ContextMenuTOP.Text = "TOP Tools"
+        '
+        'SetPersenToolStripMenuItem
+        '
+        Me.SetPersenToolStripMenuItem.Name = "SetPersenToolStripMenuItem"
+        Me.SetPersenToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
+        Me.SetPersenToolStripMenuItem.Text = "Set Persen(%)"
+        '
+        'Panel3
+        '
+        Me.Panel3.Controls.Add(Me.btn_addTOP)
+        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Panel3.Location = New System.Drawing.Point(377, 0)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(28, 84)
+        Me.Panel3.TabIndex = 113
+        '
+        'btn_addTOP
+        '
+        Me.btn_addTOP.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btn_addTOP.Location = New System.Drawing.Point(0, 0)
+        Me.btn_addTOP.Name = "btn_addTOP"
+        Me.btn_addTOP.Size = New System.Drawing.Size(28, 23)
+        Me.btn_addTOP.TabIndex = 3
+        Me.btn_addTOP.Text = "[+]"
+        Me.btn_addTOP.UseVisualStyleBackColor = True
+        '
+        'TabPage1
+        '
+        Me.TabPage1.BackColor = System.Drawing.Color.Lavender
+        Me.TabPage1.Controls.Add(Me.obj_order_revdesc)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(0, 84)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "Payment"
+        '
+        'obj_order_revdesc
+        '
+        Me.obj_order_revdesc.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.obj_order_revdesc.Enabled = False
+        Me.obj_order_revdesc.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.obj_order_revdesc.Location = New System.Drawing.Point(3, 3)
+        Me.obj_order_revdesc.MaxLength = 200
+        Me.obj_order_revdesc.Multiline = True
+        Me.obj_order_revdesc.Name = "obj_order_revdesc"
+        Me.obj_order_revdesc.ReadOnly = True
+        Me.obj_order_revdesc.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.obj_order_revdesc.Size = New System.Drawing.Size(0, 78)
+        Me.obj_order_revdesc.TabIndex = 7
+        '
+        'TabPage2
+        '
+        Me.TabPage2.BackColor = System.Drawing.Color.PapayaWhip
+        Me.TabPage2.Controls.Add(Me.obj_Order_descr)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(0, 84)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Description"
+        '
+        'obj_Order_descr
+        '
+        Me.obj_Order_descr.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.obj_Order_descr.Location = New System.Drawing.Point(3, 3)
+        Me.obj_Order_descr.MaxLength = 2000
+        Me.obj_Order_descr.Multiline = True
+        Me.obj_Order_descr.Name = "obj_Order_descr"
+        Me.obj_Order_descr.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.obj_Order_descr.Size = New System.Drawing.Size(0, 78)
+        Me.obj_Order_descr.TabIndex = 23
+        '
+        'PnlDataFooter_Cost
+        '
+        Me.PnlDataFooter_Cost.Controls.Add(Me.calc_Order_discount)
+        Me.PnlDataFooter_Cost.Controls.Add(Me.Label7)
+        Me.PnlDataFooter_Cost.Controls.Add(Me.lbl_Order_ppn_percent)
+        Me.PnlDataFooter_Cost.Controls.Add(Me.obj_Order_discount)
+        Me.PnlDataFooter_Cost.Controls.Add(Me.Label12)
+        Me.PnlDataFooter_Cost.Controls.Add(Me.obj_Order_pph_percent)
+        Me.PnlDataFooter_Cost.Controls.Add(Me.obj_Order_ppn_percent)
+        Me.PnlDataFooter_Cost.Dock = System.Windows.Forms.DockStyle.Right
+        Me.PnlDataFooter_Cost.Location = New System.Drawing.Point(415, 2)
+        Me.PnlDataFooter_Cost.Name = "PnlDataFooter_Cost"
+        Me.PnlDataFooter_Cost.Size = New System.Drawing.Size(124, 113)
+        Me.PnlDataFooter_Cost.TabIndex = 1
+        '
+        'calc_Order_discount
+        '
+        Me.calc_Order_discount.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.calc_Order_discount.ForeColor = System.Drawing.Color.DarkBlue
+        Me.calc_Order_discount.Location = New System.Drawing.Point(10, 88)
+        Me.calc_Order_discount.Name = "calc_Order_discount"
+        Me.calc_Order_discount.ReadOnly = True
+        Me.calc_Order_discount.Size = New System.Drawing.Size(109, 20)
+        Me.calc_Order_discount.TabIndex = 42
+        Me.calc_Order_discount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label7
+        '
+        Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(10, 7)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(57, 13)
+        Me.Label7.TabIndex = 39
+        Me.Label7.Text = "Order Disc"
+        '
+        'lbl_Order_ppn_percent
+        '
+        Me.lbl_Order_ppn_percent.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl_Order_ppn_percent.AutoSize = True
+        Me.lbl_Order_ppn_percent.Location = New System.Drawing.Point(10, 70)
+        Me.lbl_Order_ppn_percent.Name = "lbl_Order_ppn_percent"
+        Me.lbl_Order_ppn_percent.Size = New System.Drawing.Size(67, 13)
+        Me.lbl_Order_ppn_percent.TabIndex = 41
+        Me.lbl_Order_ppn_percent.Text = "Disc - PPN%"
+        '
+        'obj_Order_discount
+        '
+        Me.obj_Order_discount.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.obj_Order_discount.ForeColor = System.Drawing.Color.DarkBlue
+        Me.obj_Order_discount.Location = New System.Drawing.Point(10, 25)
+        Me.obj_Order_discount.Name = "obj_Order_discount"
+        Me.obj_Order_discount.ReadOnly = True
+        Me.obj_Order_discount.Size = New System.Drawing.Size(109, 20)
+        Me.obj_Order_discount.TabIndex = 38
+        Me.obj_Order_discount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label12
+        '
+        Me.Label12.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(10, 49)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(65, 13)
+        Me.Label12.TabIndex = 40
+        Me.Label12.Text = "Disc - PPh%"
+        '
+        'obj_Order_pph_percent
+        '
+        Me.obj_Order_pph_percent.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.obj_Order_pph_percent.Location = New System.Drawing.Point(80, 46)
+        Me.obj_Order_pph_percent.Name = "obj_Order_pph_percent"
+        Me.obj_Order_pph_percent.ReadOnly = True
+        Me.obj_Order_pph_percent.Size = New System.Drawing.Size(39, 20)
+        Me.obj_Order_pph_percent.TabIndex = 25
+        Me.obj_Order_pph_percent.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'obj_Order_ppn_percent
+        '
+        Me.obj_Order_ppn_percent.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.obj_Order_ppn_percent.Location = New System.Drawing.Point(80, 67)
+        Me.obj_Order_ppn_percent.Name = "obj_Order_ppn_percent"
+        Me.obj_Order_ppn_percent.ReadOnly = True
+        Me.obj_Order_ppn_percent.Size = New System.Drawing.Size(39, 20)
+        Me.obj_Order_ppn_percent.TabIndex = 26
+        Me.obj_Order_ppn_percent.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'PnlDataFooter_Total
+        '
+        Me.PnlDataFooter_Total.Controls.Add(Me.Label8)
+        Me.PnlDataFooter_Total.Controls.Add(Me.calc_Order_subdiscount)
+        Me.PnlDataFooter_Total.Controls.Add(Me.Label1)
+        Me.PnlDataFooter_Total.Controls.Add(Me.lbl_order_discount)
+        Me.PnlDataFooter_Total.Controls.Add(Me.calc_Order_GTotal)
+        Me.PnlDataFooter_Total.Controls.Add(Me.lbl_Order_pph_percent)
+        Me.PnlDataFooter_Total.Controls.Add(Me.calc_Order_subPPN)
+        Me.PnlDataFooter_Total.Controls.Add(Me.calc_Order_subtotal)
+        Me.PnlDataFooter_Total.Controls.Add(Me.calc_Order_subPPH)
+        Me.PnlDataFooter_Total.Dock = System.Windows.Forms.DockStyle.Right
+        Me.PnlDataFooter_Total.Location = New System.Drawing.Point(539, 2)
+        Me.PnlDataFooter_Total.Name = "PnlDataFooter_Total"
+        Me.PnlDataFooter_Total.Size = New System.Drawing.Size(200, 113)
+        Me.PnlDataFooter_Total.TabIndex = 0
+        '
+        'Label8
+        '
+        Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(6, 68)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(51, 13)
+        Me.Label8.TabIndex = 43
+        Me.Label8.Text = "Sub PPN"
+        '
+        'calc_Order_subdiscount
+        '
+        Me.calc_Order_subdiscount.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.calc_Order_subdiscount.ForeColor = System.Drawing.Color.DarkBlue
+        Me.calc_Order_subdiscount.Location = New System.Drawing.Point(75, 23)
+        Me.calc_Order_subdiscount.Name = "calc_Order_subdiscount"
+        Me.calc_Order_subdiscount.ReadOnly = True
+        Me.calc_Order_subdiscount.Size = New System.Drawing.Size(121, 20)
+        Me.calc_Order_subdiscount.TabIndex = 24
+        Me.calc_Order_subdiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label1
+        '
+        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(6, 5)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(65, 13)
+        Me.Label1.TabIndex = 30
+        Me.Label1.Text = "Sub Amount"
+        '
+        'lbl_order_discount
+        '
+        Me.lbl_order_discount.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl_order_discount.AutoSize = True
+        Me.lbl_order_discount.Location = New System.Drawing.Point(6, 26)
+        Me.lbl_order_discount.Name = "lbl_order_discount"
+        Me.lbl_order_discount.Size = New System.Drawing.Size(53, 13)
+        Me.lbl_order_discount.TabIndex = 27
+        Me.lbl_order_discount.Text = "Sub Disc."
+        '
+        'calc_Order_GTotal
+        '
+        Me.calc_Order_GTotal.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.calc_Order_GTotal.BackColor = System.Drawing.Color.PapayaWhip
+        Me.calc_Order_GTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.calc_Order_GTotal.ForeColor = System.Drawing.Color.DarkGreen
+        Me.calc_Order_GTotal.Location = New System.Drawing.Point(9, 86)
+        Me.calc_Order_GTotal.Name = "calc_Order_GTotal"
+        Me.calc_Order_GTotal.ReadOnly = True
+        Me.calc_Order_GTotal.Size = New System.Drawing.Size(187, 24)
+        Me.calc_Order_GTotal.TabIndex = 37
+        Me.calc_Order_GTotal.TabStop = False
+        Me.calc_Order_GTotal.Text = "9,999,999,999.99"
+        Me.calc_Order_GTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'lbl_Order_pph_percent
+        '
+        Me.lbl_Order_pph_percent.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl_Order_pph_percent.AutoSize = True
+        Me.lbl_Order_pph_percent.Location = New System.Drawing.Point(6, 47)
+        Me.lbl_Order_pph_percent.Name = "lbl_Order_pph_percent"
+        Me.lbl_Order_pph_percent.Size = New System.Drawing.Size(49, 13)
+        Me.lbl_Order_pph_percent.TabIndex = 29
+        Me.lbl_Order_pph_percent.Text = "Sub PPh"
+        '
+        'calc_Order_subPPN
+        '
+        Me.calc_Order_subPPN.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.calc_Order_subPPN.Location = New System.Drawing.Point(75, 65)
+        Me.calc_Order_subPPN.Name = "calc_Order_subPPN"
+        Me.calc_Order_subPPN.ReadOnly = True
+        Me.calc_Order_subPPN.Size = New System.Drawing.Size(121, 20)
+        Me.calc_Order_subPPN.TabIndex = 35
+        Me.calc_Order_subPPN.TabStop = False
+        Me.calc_Order_subPPN.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'calc_Order_subtotal
+        '
+        Me.calc_Order_subtotal.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.calc_Order_subtotal.Location = New System.Drawing.Point(75, 2)
+        Me.calc_Order_subtotal.Name = "calc_Order_subtotal"
+        Me.calc_Order_subtotal.ReadOnly = True
+        Me.calc_Order_subtotal.Size = New System.Drawing.Size(121, 20)
+        Me.calc_Order_subtotal.TabIndex = 31
+        Me.calc_Order_subtotal.TabStop = False
+        Me.calc_Order_subtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'calc_Order_subPPH
+        '
+        Me.calc_Order_subPPH.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.calc_Order_subPPH.ForeColor = System.Drawing.Color.DarkBlue
+        Me.calc_Order_subPPH.Location = New System.Drawing.Point(75, 44)
+        Me.calc_Order_subPPH.Name = "calc_Order_subPPH"
+        Me.calc_Order_subPPH.ReadOnly = True
+        Me.calc_Order_subPPH.Size = New System.Drawing.Size(121, 20)
+        Me.calc_Order_subPPH.TabIndex = 34
+        Me.calc_Order_subPPH.TabStop = False
+        Me.calc_Order_subPPH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
         'PnlDataMaster
         '
-        Me.PnlDataMaster.AutoScroll = True
-        Me.PnlDataMaster.BackColor = System.Drawing.Color.Lavender
         Me.PnlDataMaster.Controls.Add(Me.PnlDataMaster3)
         Me.PnlDataMaster.Controls.Add(Me.PnlDataMaster2)
         Me.PnlDataMaster.Controls.Add(Me.PnlDataMaster1)
         Me.PnlDataMaster.Dock = System.Windows.Forms.DockStyle.Top
         Me.PnlDataMaster.Location = New System.Drawing.Point(3, 3)
         Me.PnlDataMaster.Name = "PnlDataMaster"
-        Me.PnlDataMaster.Size = New System.Drawing.Size(741, 205)
-        Me.PnlDataMaster.TabIndex = 3
+        Me.PnlDataMaster.Size = New System.Drawing.Size(741, 219)
+        Me.PnlDataMaster.TabIndex = 5
         '
         'PnlDataMaster3
         '
         Me.PnlDataMaster3.Controls.Add(Me.obj_Order_setlocation)
         Me.PnlDataMaster3.Controls.Add(Me.obj_Order_utilizedlocation)
+        Me.PnlDataMaster3.Controls.Add(Me.lbl_Order_utilizedlocation)
         Me.PnlDataMaster3.Controls.Add(Me.mtb_Order_utilizedtimeend)
+        Me.PnlDataMaster3.Controls.Add(Me.lbl_Order_utilizeddateend)
         Me.PnlDataMaster3.Controls.Add(Me.mtb_Order_utilizedtimestart)
+        Me.PnlDataMaster3.Controls.Add(Me.lbl_Order_utilizeddatestart)
         Me.PnlDataMaster3.Controls.Add(Me.mtb_Order_settime)
+        Me.PnlDataMaster3.Controls.Add(Me.lbl_Order_setlocation)
         Me.PnlDataMaster3.Controls.Add(Me.dtp_Order_utilizeddateend)
+        Me.PnlDataMaster3.Controls.Add(Me.lbl_Order_setdate)
         Me.PnlDataMaster3.Controls.Add(Me.dtp_Order_utilizeddatestart)
         Me.PnlDataMaster3.Controls.Add(Me.dtp_Order_setdate)
-        Me.PnlDataMaster3.Controls.Add(Me.lbl_Order_setdate)
-        Me.PnlDataMaster3.Controls.Add(Me.lbl_Order_setlocation)
-        Me.PnlDataMaster3.Controls.Add(Me.lbl_Order_utilizeddatestart)
-        Me.PnlDataMaster3.Controls.Add(Me.lbl_Order_utilizeddateend)
-        Me.PnlDataMaster3.Controls.Add(Me.lbl_Order_utilizedlocation)
         Me.PnlDataMaster3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PnlDataMaster3.Location = New System.Drawing.Point(0, 152)
+        Me.PnlDataMaster3.Location = New System.Drawing.Point(2, 157)
         Me.PnlDataMaster3.Name = "PnlDataMaster3"
-        Me.PnlDataMaster3.Size = New System.Drawing.Size(741, 53)
-        Me.PnlDataMaster3.TabIndex = 3
+        Me.PnlDataMaster3.Size = New System.Drawing.Size(737, 60)
+        Me.PnlDataMaster3.TabIndex = 2
         '
         'obj_Order_setlocation
         '
         Me.obj_Order_setlocation.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.obj_Order_setlocation.Location = New System.Drawing.Point(511, 5)
+        Me.obj_Order_setlocation.Location = New System.Drawing.Point(505, 5)
         Me.obj_Order_setlocation.Name = "obj_Order_setlocation"
         Me.obj_Order_setlocation.Size = New System.Drawing.Size(210, 20)
         Me.obj_Order_setlocation.TabIndex = 17
@@ -2003,14 +2362,23 @@ Partial Class uiTrnRentalOrder3
         'obj_Order_utilizedlocation
         '
         Me.obj_Order_utilizedlocation.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.obj_Order_utilizedlocation.Location = New System.Drawing.Point(511, 28)
+        Me.obj_Order_utilizedlocation.Location = New System.Drawing.Point(505, 28)
         Me.obj_Order_utilizedlocation.Name = "obj_Order_utilizedlocation"
         Me.obj_Order_utilizedlocation.Size = New System.Drawing.Size(210, 20)
         Me.obj_Order_utilizedlocation.TabIndex = 22
         '
+        'lbl_Order_utilizedlocation
+        '
+        Me.lbl_Order_utilizedlocation.AutoSize = True
+        Me.lbl_Order_utilizedlocation.Location = New System.Drawing.Point(451, 31)
+        Me.lbl_Order_utilizedlocation.Name = "lbl_Order_utilizedlocation"
+        Me.lbl_Order_utilizedlocation.Size = New System.Drawing.Size(48, 13)
+        Me.lbl_Order_utilizedlocation.TabIndex = 126
+        Me.lbl_Order_utilizedlocation.Text = "Location"
+        '
         'mtb_Order_utilizedtimeend
         '
-        Me.mtb_Order_utilizedtimeend.Location = New System.Drawing.Point(398, 27)
+        Me.mtb_Order_utilizedtimeend.Location = New System.Drawing.Point(392, 27)
         Me.mtb_Order_utilizedtimeend.Mask = "00:00"
         Me.mtb_Order_utilizedtimeend.Name = "mtb_Order_utilizedtimeend"
         Me.mtb_Order_utilizedtimeend.Size = New System.Drawing.Size(40, 20)
@@ -2018,9 +2386,18 @@ Partial Class uiTrnRentalOrder3
         Me.mtb_Order_utilizedtimeend.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.mtb_Order_utilizedtimeend.ValidatingType = GetType(Date)
         '
+        'lbl_Order_utilizeddateend
+        '
+        Me.lbl_Order_utilizeddateend.AutoSize = True
+        Me.lbl_Order_utilizeddateend.Location = New System.Drawing.Point(254, 31)
+        Me.lbl_Order_utilizeddateend.Name = "lbl_Order_utilizeddateend"
+        Me.lbl_Order_utilizeddateend.Size = New System.Drawing.Size(28, 13)
+        Me.lbl_Order_utilizeddateend.TabIndex = 125
+        Me.lbl_Order_utilizeddateend.Text = "Until"
+        '
         'mtb_Order_utilizedtimestart
         '
-        Me.mtb_Order_utilizedtimestart.Location = New System.Drawing.Point(211, 27)
+        Me.mtb_Order_utilizedtimestart.Location = New System.Drawing.Point(210, 27)
         Me.mtb_Order_utilizedtimestart.Mask = "00:00"
         Me.mtb_Order_utilizedtimestart.Name = "mtb_Order_utilizedtimestart"
         Me.mtb_Order_utilizedtimestart.Size = New System.Drawing.Size(40, 20)
@@ -2028,9 +2405,18 @@ Partial Class uiTrnRentalOrder3
         Me.mtb_Order_utilizedtimestart.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.mtb_Order_utilizedtimestart.ValidatingType = GetType(Date)
         '
+        'lbl_Order_utilizeddatestart
+        '
+        Me.lbl_Order_utilizeddatestart.AutoSize = True
+        Me.lbl_Order_utilizeddatestart.Location = New System.Drawing.Point(4, 31)
+        Me.lbl_Order_utilizeddatestart.Name = "lbl_Order_utilizeddatestart"
+        Me.lbl_Order_utilizeddatestart.Size = New System.Drawing.Size(101, 13)
+        Me.lbl_Order_utilizeddatestart.TabIndex = 122
+        Me.lbl_Order_utilizeddatestart.Text = "Shooting Date From"
+        '
         'mtb_Order_settime
         '
-        Me.mtb_Order_settime.Location = New System.Drawing.Point(211, 5)
+        Me.mtb_Order_settime.Location = New System.Drawing.Point(210, 5)
         Me.mtb_Order_settime.Mask = "00:00"
         Me.mtb_Order_settime.Name = "mtb_Order_settime"
         Me.mtb_Order_settime.Size = New System.Drawing.Size(40, 20)
@@ -2038,20 +2424,38 @@ Partial Class uiTrnRentalOrder3
         Me.mtb_Order_settime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.mtb_Order_settime.ValidatingType = GetType(Date)
         '
+        'lbl_Order_setlocation
+        '
+        Me.lbl_Order_setlocation.AutoSize = True
+        Me.lbl_Order_setlocation.Location = New System.Drawing.Point(451, 9)
+        Me.lbl_Order_setlocation.Name = "lbl_Order_setlocation"
+        Me.lbl_Order_setlocation.Size = New System.Drawing.Size(48, 13)
+        Me.lbl_Order_setlocation.TabIndex = 123
+        Me.lbl_Order_setlocation.Text = "Location"
+        '
         'dtp_Order_utilizeddateend
         '
         Me.dtp_Order_utilizeddateend.CustomFormat = "dd/MM/yyyy"
         Me.dtp_Order_utilizeddateend.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtp_Order_utilizeddateend.Location = New System.Drawing.Point(296, 27)
+        Me.dtp_Order_utilizeddateend.Location = New System.Drawing.Point(290, 27)
         Me.dtp_Order_utilizeddateend.Name = "dtp_Order_utilizeddateend"
         Me.dtp_Order_utilizeddateend.Size = New System.Drawing.Size(100, 20)
         Me.dtp_Order_utilizeddateend.TabIndex = 19
+        '
+        'lbl_Order_setdate
+        '
+        Me.lbl_Order_setdate.AutoSize = True
+        Me.lbl_Order_setdate.Location = New System.Drawing.Point(4, 9)
+        Me.lbl_Order_setdate.Name = "lbl_Order_setdate"
+        Me.lbl_Order_setdate.Size = New System.Drawing.Size(61, 13)
+        Me.lbl_Order_setdate.TabIndex = 129
+        Me.lbl_Order_setdate.Text = "Setup Date"
         '
         'dtp_Order_utilizeddatestart
         '
         Me.dtp_Order_utilizeddatestart.CustomFormat = "dd/MM/yyyy"
         Me.dtp_Order_utilizeddatestart.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtp_Order_utilizeddatestart.Location = New System.Drawing.Point(110, 27)
+        Me.dtp_Order_utilizeddatestart.Location = New System.Drawing.Point(109, 27)
         Me.dtp_Order_utilizeddatestart.Name = "dtp_Order_utilizeddatestart"
         Me.dtp_Order_utilizeddatestart.Size = New System.Drawing.Size(100, 20)
         Me.dtp_Order_utilizeddatestart.TabIndex = 18
@@ -2060,89 +2464,43 @@ Partial Class uiTrnRentalOrder3
         '
         Me.dtp_Order_setdate.CustomFormat = "dd/MM/yyyy"
         Me.dtp_Order_setdate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtp_Order_setdate.Location = New System.Drawing.Point(110, 5)
+        Me.dtp_Order_setdate.Location = New System.Drawing.Point(109, 5)
         Me.dtp_Order_setdate.Name = "dtp_Order_setdate"
         Me.dtp_Order_setdate.Size = New System.Drawing.Size(100, 20)
         Me.dtp_Order_setdate.TabIndex = 15
         '
-        'lbl_Order_setdate
-        '
-        Me.lbl_Order_setdate.AutoSize = True
-        Me.lbl_Order_setdate.Location = New System.Drawing.Point(10, 9)
-        Me.lbl_Order_setdate.Name = "lbl_Order_setdate"
-        Me.lbl_Order_setdate.Size = New System.Drawing.Size(61, 13)
-        Me.lbl_Order_setdate.TabIndex = 129
-        Me.lbl_Order_setdate.Text = "Setup Date"
-        '
-        'lbl_Order_setlocation
-        '
-        Me.lbl_Order_setlocation.AutoSize = True
-        Me.lbl_Order_setlocation.Location = New System.Drawing.Point(457, 9)
-        Me.lbl_Order_setlocation.Name = "lbl_Order_setlocation"
-        Me.lbl_Order_setlocation.Size = New System.Drawing.Size(48, 13)
-        Me.lbl_Order_setlocation.TabIndex = 123
-        Me.lbl_Order_setlocation.Text = "Location"
-        '
-        'lbl_Order_utilizeddatestart
-        '
-        Me.lbl_Order_utilizeddatestart.AutoSize = True
-        Me.lbl_Order_utilizeddatestart.Location = New System.Drawing.Point(10, 31)
-        Me.lbl_Order_utilizeddatestart.Name = "lbl_Order_utilizeddatestart"
-        Me.lbl_Order_utilizeddatestart.Size = New System.Drawing.Size(101, 13)
-        Me.lbl_Order_utilizeddatestart.TabIndex = 122
-        Me.lbl_Order_utilizeddatestart.Text = "Shooting Date From"
-        '
-        'lbl_Order_utilizeddateend
-        '
-        Me.lbl_Order_utilizeddateend.AutoSize = True
-        Me.lbl_Order_utilizeddateend.Location = New System.Drawing.Point(260, 31)
-        Me.lbl_Order_utilizeddateend.Name = "lbl_Order_utilizeddateend"
-        Me.lbl_Order_utilizeddateend.Size = New System.Drawing.Size(28, 13)
-        Me.lbl_Order_utilizeddateend.TabIndex = 125
-        Me.lbl_Order_utilizeddateend.Text = "Until"
-        '
-        'lbl_Order_utilizedlocation
-        '
-        Me.lbl_Order_utilizedlocation.AutoSize = True
-        Me.lbl_Order_utilizedlocation.Location = New System.Drawing.Point(457, 31)
-        Me.lbl_Order_utilizedlocation.Name = "lbl_Order_utilizedlocation"
-        Me.lbl_Order_utilizedlocation.Size = New System.Drawing.Size(48, 13)
-        Me.lbl_Order_utilizedlocation.TabIndex = 126
-        Me.lbl_Order_utilizedlocation.Text = "Location"
-        '
         'PnlDataMaster2
         '
-        Me.PnlDataMaster2.BackColor = System.Drawing.Color.White
         Me.PnlDataMaster2.Controls.Add(Me.cbo_Currency)
         Me.PnlDataMaster2.Controls.Add(Me.Label10)
+        Me.PnlDataMaster2.Controls.Add(Me.lbl_Order_eps)
         Me.PnlDataMaster2.Controls.Add(Me.Label6)
+        Me.PnlDataMaster2.Controls.Add(Me.lbl_Budget_id)
         Me.PnlDataMaster2.Controls.Add(Me.obj_Order_epsend)
+        Me.PnlDataMaster2.Controls.Add(Me.obj_Budget_id)
         Me.PnlDataMaster2.Controls.Add(Me.obj_Order_epsstart)
+        Me.PnlDataMaster2.Controls.Add(Me.lbl_rekanan_id)
         Me.PnlDataMaster2.Controls.Add(Me.btn_FindBudget)
         Me.PnlDataMaster2.Controls.Add(Me.cbo_Budget_name)
+        Me.PnlDataMaster2.Controls.Add(Me.lbl_cp)
         Me.PnlDataMaster2.Controls.Add(Me.cbo_Rekanan_contact)
+        Me.PnlDataMaster2.Controls.Add(Me.lbl_Project_id)
         Me.PnlDataMaster2.Controls.Add(Me.lbl_Sch)
+        Me.PnlDataMaster2.Controls.Add(Me.cbo_Rekanan_name)
         Me.PnlDataMaster2.Controls.Add(Me.cbo_Order_progsch)
         Me.PnlDataMaster2.Controls.Add(Me.obj_Order_prognm)
-        Me.PnlDataMaster2.Controls.Add(Me.cbo_Rekanan_name)
-        Me.PnlDataMaster2.Controls.Add(Me.lbl_Project_id)
-        Me.PnlDataMaster2.Controls.Add(Me.lbl_cp)
         Me.PnlDataMaster2.Controls.Add(Me.obj_Rekanan_id)
-        Me.PnlDataMaster2.Controls.Add(Me.lbl_rekanan_id)
-        Me.PnlDataMaster2.Controls.Add(Me.obj_Budget_id)
-        Me.PnlDataMaster2.Controls.Add(Me.lbl_Budget_id)
-        Me.PnlDataMaster2.Controls.Add(Me.lbl_Order_eps)
         Me.PnlDataMaster2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PnlDataMaster2.Location = New System.Drawing.Point(0, 78)
+        Me.PnlDataMaster2.Location = New System.Drawing.Point(2, 82)
         Me.PnlDataMaster2.Name = "PnlDataMaster2"
-        Me.PnlDataMaster2.Size = New System.Drawing.Size(741, 74)
-        Me.PnlDataMaster2.TabIndex = 2
+        Me.PnlDataMaster2.Size = New System.Drawing.Size(737, 75)
+        Me.PnlDataMaster2.TabIndex = 1
         '
         'cbo_Currency
         '
         Me.cbo_Currency.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbo_Currency.FormattingEnabled = True
-        Me.cbo_Currency.Location = New System.Drawing.Point(365, 5)
+        Me.cbo_Currency.Location = New System.Drawing.Point(359, 5)
         Me.cbo_Currency.Name = "cbo_Currency"
         Me.cbo_Currency.Size = New System.Drawing.Size(73, 22)
         Me.cbo_Currency.TabIndex = 151
@@ -2150,42 +2508,77 @@ Partial Class uiTrnRentalOrder3
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(606, 31)
+        Me.Label10.Location = New System.Drawing.Point(600, 31)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(16, 13)
         Me.Label10.TabIndex = 126
         Me.Label10.Text = "to"
         '
+        'lbl_Order_eps
+        '
+        Me.lbl_Order_eps.AutoSize = True
+        Me.lbl_Order_eps.Location = New System.Drawing.Point(451, 30)
+        Me.lbl_Order_eps.Name = "lbl_Order_eps"
+        Me.lbl_Order_eps.Size = New System.Drawing.Size(45, 13)
+        Me.lbl_Order_eps.TabIndex = 64
+        Me.lbl_Order_eps.Text = "Episode"
+        Me.lbl_Order_eps.Visible = False
+        '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(328, 9)
+        Me.Label6.Location = New System.Drawing.Point(322, 9)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(30, 14)
         Me.Label6.TabIndex = 150
         Me.Label6.Text = "Curr."
         '
+        'lbl_Budget_id
+        '
+        Me.lbl_Budget_id.AutoSize = True
+        Me.lbl_Budget_id.Location = New System.Drawing.Point(4, 30)
+        Me.lbl_Budget_id.Name = "lbl_Budget_id"
+        Me.lbl_Budget_id.Size = New System.Drawing.Size(41, 13)
+        Me.lbl_Budget_id.TabIndex = 63
+        Me.lbl_Budget_id.Text = "Budget"
+        '
         'obj_Order_epsend
         '
         Me.obj_Order_epsend.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.obj_Order_epsend.Location = New System.Drawing.Point(646, 27)
+        Me.obj_Order_epsend.Location = New System.Drawing.Point(640, 27)
         Me.obj_Order_epsend.Name = "obj_Order_epsend"
         Me.obj_Order_epsend.Size = New System.Drawing.Size(75, 20)
         Me.obj_Order_epsend.TabIndex = 69
         '
+        'obj_Budget_id
+        '
+        Me.obj_Budget_id.Location = New System.Drawing.Point(104, 28)
+        Me.obj_Budget_id.Name = "obj_Budget_id"
+        Me.obj_Budget_id.Size = New System.Drawing.Size(40, 20)
+        Me.obj_Budget_id.TabIndex = 10
+        '
         'obj_Order_epsstart
         '
         Me.obj_Order_epsstart.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.obj_Order_epsstart.Location = New System.Drawing.Point(511, 27)
+        Me.obj_Order_epsstart.Location = New System.Drawing.Point(505, 27)
         Me.obj_Order_epsstart.Name = "obj_Order_epsstart"
         Me.obj_Order_epsstart.Size = New System.Drawing.Size(75, 20)
         Me.obj_Order_epsstart.TabIndex = 68
         '
+        'lbl_rekanan_id
+        '
+        Me.lbl_rekanan_id.AutoSize = True
+        Me.lbl_rekanan_id.Location = New System.Drawing.Point(4, 9)
+        Me.lbl_rekanan_id.Name = "lbl_rekanan_id"
+        Me.lbl_rekanan_id.Size = New System.Drawing.Size(41, 13)
+        Me.lbl_rekanan_id.TabIndex = 62
+        Me.lbl_rekanan_id.Text = "Vendor"
+        '
         'btn_FindBudget
         '
         Me.btn_FindBudget.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.btn_FindBudget.Location = New System.Drawing.Point(81, 26)
+        Me.btn_FindBudget.Location = New System.Drawing.Point(75, 26)
         Me.btn_FindBudget.Name = "btn_FindBudget"
         Me.btn_FindBudget.Size = New System.Drawing.Size(25, 21)
         Me.btn_FindBudget.TabIndex = 60
@@ -2193,155 +2586,137 @@ Partial Class uiTrnRentalOrder3
         Me.btn_FindBudget.UseVisualStyleBackColor = False
         Me.btn_FindBudget.Visible = False
         '
+        'obj_Rekanan_id
+        '
+        Me.obj_Rekanan_id.Location = New System.Drawing.Point(104, 7)
+        Me.obj_Rekanan_id.Name = "obj_Rekanan_id"
+        Me.obj_Rekanan_id.ReadOnly = True
+        Me.obj_Rekanan_id.Size = New System.Drawing.Size(40, 20)
+        Me.obj_Rekanan_id.TabIndex = 65
+        '
         'cbo_Budget_name
         '
         Me.cbo_Budget_name.BackColor = System.Drawing.SystemColors.Window
         Me.cbo_Budget_name.FormattingEnabled = True
         Me.cbo_Budget_name.ItemHeight = 13
-        Me.cbo_Budget_name.Location = New System.Drawing.Point(152, 28)
+        Me.cbo_Budget_name.Location = New System.Drawing.Point(146, 28)
         Me.cbo_Budget_name.Name = "cbo_Budget_name"
         Me.cbo_Budget_name.Size = New System.Drawing.Size(286, 21)
         Me.cbo_Budget_name.TabIndex = 11
+        '
+        'lbl_cp
+        '
+        Me.lbl_cp.AutoSize = True
+        Me.lbl_cp.Location = New System.Drawing.Point(451, 9)
+        Me.lbl_cp.Name = "lbl_cp"
+        Me.lbl_cp.Size = New System.Drawing.Size(21, 13)
+        Me.lbl_cp.TabIndex = 66
+        Me.lbl_cp.Text = "CP"
         '
         'cbo_Rekanan_contact
         '
         Me.cbo_Rekanan_contact.Enabled = False
         Me.cbo_Rekanan_contact.FormattingEnabled = True
-        Me.cbo_Rekanan_contact.Location = New System.Drawing.Point(511, 5)
+        Me.cbo_Rekanan_contact.Location = New System.Drawing.Point(505, 5)
         Me.cbo_Rekanan_contact.Name = "cbo_Rekanan_contact"
         Me.cbo_Rekanan_contact.Size = New System.Drawing.Size(210, 21)
         Me.cbo_Rekanan_contact.TabIndex = 9
         '
+        'lbl_Project_id
+        '
+        Me.lbl_Project_id.AutoSize = True
+        Me.lbl_Project_id.Location = New System.Drawing.Point(4, 53)
+        Me.lbl_Project_id.Name = "lbl_Project_id"
+        Me.lbl_Project_id.Size = New System.Drawing.Size(46, 13)
+        Me.lbl_Project_id.TabIndex = 61
+        Me.lbl_Project_id.Text = "Program"
+        '
         'lbl_Sch
         '
         Me.lbl_Sch.AutoSize = True
-        Me.lbl_Sch.Location = New System.Drawing.Point(457, 52)
+        Me.lbl_Sch.Location = New System.Drawing.Point(451, 52)
         Me.lbl_Sch.Name = "lbl_Sch"
         Me.lbl_Sch.Size = New System.Drawing.Size(52, 13)
         Me.lbl_Sch.TabIndex = 67
         Me.lbl_Sch.Text = "Schedule"
         '
+        'cbo_Rekanan_name
+        '
+        Me.cbo_Rekanan_name.Enabled = False
+        Me.cbo_Rekanan_name.FormattingEnabled = True
+        Me.cbo_Rekanan_name.Location = New System.Drawing.Point(104, 6)
+        Me.cbo_Rekanan_name.Name = "cbo_Rekanan_name"
+        Me.cbo_Rekanan_name.Size = New System.Drawing.Size(212, 21)
+        Me.cbo_Rekanan_name.TabIndex = 8
+        '
         'cbo_Order_progsch
         '
         Me.cbo_Order_progsch.FormattingEnabled = True
         Me.cbo_Order_progsch.Items.AddRange(New Object() {"-- PILIH --", "Regular", "Non-Regular"})
-        Me.cbo_Order_progsch.Location = New System.Drawing.Point(511, 49)
+        Me.cbo_Order_progsch.Location = New System.Drawing.Point(505, 49)
         Me.cbo_Order_progsch.Name = "cbo_Order_progsch"
         Me.cbo_Order_progsch.Size = New System.Drawing.Size(210, 21)
         Me.cbo_Order_progsch.TabIndex = 14
         '
         'obj_Order_prognm
         '
-        Me.obj_Order_prognm.Location = New System.Drawing.Point(110, 50)
+        Me.obj_Order_prognm.Location = New System.Drawing.Point(104, 50)
         Me.obj_Order_prognm.Name = "obj_Order_prognm"
         Me.obj_Order_prognm.Size = New System.Drawing.Size(328, 20)
         Me.obj_Order_prognm.TabIndex = 12
         '
-        'cbo_Rekanan_name
-        '
-        Me.cbo_Rekanan_name.Enabled = False
-        Me.cbo_Rekanan_name.FormattingEnabled = True
-        Me.cbo_Rekanan_name.Location = New System.Drawing.Point(110, 6)
-        Me.cbo_Rekanan_name.Name = "cbo_Rekanan_name"
-        Me.cbo_Rekanan_name.Size = New System.Drawing.Size(212, 21)
-        Me.cbo_Rekanan_name.TabIndex = 8
-        '
-        'lbl_Project_id
-        '
-        Me.lbl_Project_id.AutoSize = True
-        Me.lbl_Project_id.Location = New System.Drawing.Point(10, 53)
-        Me.lbl_Project_id.Name = "lbl_Project_id"
-        Me.lbl_Project_id.Size = New System.Drawing.Size(46, 13)
-        Me.lbl_Project_id.TabIndex = 61
-        Me.lbl_Project_id.Text = "Program"
-        '
-        'lbl_cp
-        '
-        Me.lbl_cp.AutoSize = True
-        Me.lbl_cp.Location = New System.Drawing.Point(457, 9)
-        Me.lbl_cp.Name = "lbl_cp"
-        Me.lbl_cp.Size = New System.Drawing.Size(21, 13)
-        Me.lbl_cp.TabIndex = 66
-        Me.lbl_cp.Text = "CP"
-        '
-        'obj_Rekanan_id
-        '
-        Me.obj_Rekanan_id.Location = New System.Drawing.Point(110, 7)
-        Me.obj_Rekanan_id.Name = "obj_Rekanan_id"
-        Me.obj_Rekanan_id.ReadOnly = True
-        Me.obj_Rekanan_id.Size = New System.Drawing.Size(40, 20)
-        Me.obj_Rekanan_id.TabIndex = 65
-        '
-        'lbl_rekanan_id
-        '
-        Me.lbl_rekanan_id.AutoSize = True
-        Me.lbl_rekanan_id.Location = New System.Drawing.Point(10, 9)
-        Me.lbl_rekanan_id.Name = "lbl_rekanan_id"
-        Me.lbl_rekanan_id.Size = New System.Drawing.Size(41, 13)
-        Me.lbl_rekanan_id.TabIndex = 62
-        Me.lbl_rekanan_id.Text = "Vendor"
-        '
-        'obj_Budget_id
-        '
-        Me.obj_Budget_id.Location = New System.Drawing.Point(110, 28)
-        Me.obj_Budget_id.Name = "obj_Budget_id"
-        Me.obj_Budget_id.Size = New System.Drawing.Size(40, 20)
-        Me.obj_Budget_id.TabIndex = 10
-        '
-        'lbl_Budget_id
-        '
-        Me.lbl_Budget_id.AutoSize = True
-        Me.lbl_Budget_id.Location = New System.Drawing.Point(10, 30)
-        Me.lbl_Budget_id.Name = "lbl_Budget_id"
-        Me.lbl_Budget_id.Size = New System.Drawing.Size(41, 13)
-        Me.lbl_Budget_id.TabIndex = 63
-        Me.lbl_Budget_id.Text = "Budget"
-        '
-        'lbl_Order_eps
-        '
-        Me.lbl_Order_eps.AutoSize = True
-        Me.lbl_Order_eps.Location = New System.Drawing.Point(457, 30)
-        Me.lbl_Order_eps.Name = "lbl_Order_eps"
-        Me.lbl_Order_eps.Size = New System.Drawing.Size(45, 13)
-        Me.lbl_Order_eps.TabIndex = 64
-        Me.lbl_Order_eps.Text = "Episode"
-        '
         'PnlDataMaster1
         '
-        Me.PnlDataMaster1.BackColor = System.Drawing.Color.PapayaWhip
         Me.PnlDataMaster1.Controls.Add(Me.cbo_Deptname)
-        Me.PnlDataMaster1.Controls.Add(Me.Label9)
-        Me.PnlDataMaster1.Controls.Add(Me.gboRevision)
-        Me.PnlDataMaster1.Controls.Add(Me.dtp_order_date)
         Me.PnlDataMaster1.Controls.Add(Me.cbo_Periode_id)
+        Me.PnlDataMaster1.Controls.Add(Me.Label9)
+        Me.PnlDataMaster1.Controls.Add(Me.lbl_Request_id)
+        Me.PnlDataMaster1.Controls.Add(Me.gboRevision)
+        Me.PnlDataMaster1.Controls.Add(Me.obj_Request_id)
+        Me.PnlDataMaster1.Controls.Add(Me.dtp_order_date)
+        Me.PnlDataMaster1.Controls.Add(Me.lbl_Order_id)
+        Me.PnlDataMaster1.Controls.Add(Me.lbl_order_date)
         Me.PnlDataMaster1.Controls.Add(Me.lbl_Periode_id)
         Me.PnlDataMaster1.Controls.Add(Me.obj_Order_id)
-        Me.PnlDataMaster1.Controls.Add(Me.lbl_order_date)
-        Me.PnlDataMaster1.Controls.Add(Me.lbl_Order_id)
-        Me.PnlDataMaster1.Controls.Add(Me.obj_Request_id)
-        Me.PnlDataMaster1.Controls.Add(Me.lbl_Request_id)
         Me.PnlDataMaster1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PnlDataMaster1.Location = New System.Drawing.Point(0, 0)
+        Me.PnlDataMaster1.Location = New System.Drawing.Point(2, 2)
         Me.PnlDataMaster1.Name = "PnlDataMaster1"
-        Me.PnlDataMaster1.Size = New System.Drawing.Size(741, 78)
-        Me.PnlDataMaster1.TabIndex = 1
+        Me.PnlDataMaster1.Size = New System.Drawing.Size(737, 80)
+        Me.PnlDataMaster1.TabIndex = 0
         '
         'cbo_Deptname
         '
         Me.cbo_Deptname.FormattingEnabled = True
-        Me.cbo_Deptname.Location = New System.Drawing.Point(110, 52)
+        Me.cbo_Deptname.Location = New System.Drawing.Point(104, 52)
         Me.cbo_Deptname.Name = "cbo_Deptname"
         Me.cbo_Deptname.Size = New System.Drawing.Size(328, 21)
         Me.cbo_Deptname.TabIndex = 69
         '
+        'cbo_Periode_id
+        '
+        Me.cbo_Periode_id.FormattingEnabled = True
+        Me.cbo_Periode_id.Location = New System.Drawing.Point(297, 8)
+        Me.cbo_Periode_id.Name = "cbo_Periode_id"
+        Me.cbo_Periode_id.Size = New System.Drawing.Size(135, 21)
+        Me.cbo_Periode_id.TabIndex = 2
+        '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(10, 55)
+        Me.Label9.Location = New System.Drawing.Point(4, 55)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(65, 13)
         Me.Label9.TabIndex = 70
         Me.Label9.Text = "Departemen"
+        '
+        'lbl_Request_id
+        '
+        Me.lbl_Request_id.AutoSize = True
+        Me.lbl_Request_id.Location = New System.Drawing.Point(4, 33)
+        Me.lbl_Request_id.Name = "lbl_Request_id"
+        Me.lbl_Request_id.Size = New System.Drawing.Size(61, 13)
+        Me.lbl_Request_id.TabIndex = 25
+        Me.lbl_Request_id.Text = "Request ID"
         '
         'gboRevision
         '
@@ -2352,7 +2727,7 @@ Partial Class uiTrnRentalOrder3
         Me.gboRevision.Controls.Add(Me.obj_Order_revno)
         Me.gboRevision.Controls.Add(Me.lbl_Order_revno)
         Me.gboRevision.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.gboRevision.Location = New System.Drawing.Point(448, 4)
+        Me.gboRevision.Location = New System.Drawing.Point(442, 4)
         Me.gboRevision.Name = "gboRevision"
         Me.gboRevision.Size = New System.Drawing.Size(287, 69)
         Me.gboRevision.TabIndex = 68
@@ -2408,27 +2783,46 @@ Partial Class uiTrnRentalOrder3
         Me.lbl_Order_revno.TabIndex = 40
         Me.lbl_Order_revno.Text = "No"
         '
+        'obj_Request_id
+        '
+        Me.obj_Request_id.Location = New System.Drawing.Point(104, 30)
+        Me.obj_Request_id.Name = "obj_Request_id"
+        Me.obj_Request_id.ReadOnly = True
+        Me.obj_Request_id.Size = New System.Drawing.Size(126, 20)
+        Me.obj_Request_id.TabIndex = 3
+        '
         'dtp_order_date
         '
         Me.dtp_order_date.CustomFormat = "dd/MM/yyyy"
         Me.dtp_order_date.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtp_order_date.Location = New System.Drawing.Point(303, 30)
+        Me.dtp_order_date.Location = New System.Drawing.Point(297, 30)
         Me.dtp_order_date.Name = "dtp_order_date"
         Me.dtp_order_date.Size = New System.Drawing.Size(135, 20)
         Me.dtp_order_date.TabIndex = 4
         '
-        'cbo_Periode_id
+        'lbl_Order_id
         '
-        Me.cbo_Periode_id.FormattingEnabled = True
-        Me.cbo_Periode_id.Location = New System.Drawing.Point(303, 8)
-        Me.cbo_Periode_id.Name = "cbo_Periode_id"
-        Me.cbo_Periode_id.Size = New System.Drawing.Size(135, 21)
-        Me.cbo_Periode_id.TabIndex = 2
+        Me.lbl_Order_id.AutoSize = True
+        Me.lbl_Order_id.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_Order_id.Location = New System.Drawing.Point(4, 12)
+        Me.lbl_Order_id.Name = "lbl_Order_id"
+        Me.lbl_Order_id.Size = New System.Drawing.Size(55, 13)
+        Me.lbl_Order_id.TabIndex = 29
+        Me.lbl_Order_id.Text = "Order ID"
+        '
+        'lbl_order_date
+        '
+        Me.lbl_order_date.AutoSize = True
+        Me.lbl_order_date.Location = New System.Drawing.Point(238, 33)
+        Me.lbl_order_date.Name = "lbl_order_date"
+        Me.lbl_order_date.Size = New System.Drawing.Size(30, 13)
+        Me.lbl_order_date.TabIndex = 28
+        Me.lbl_order_date.Text = "Date"
         '
         'lbl_Periode_id
         '
         Me.lbl_Periode_id.AutoSize = True
-        Me.lbl_Periode_id.Location = New System.Drawing.Point(244, 12)
+        Me.lbl_Periode_id.Location = New System.Drawing.Point(238, 12)
         Me.lbl_Periode_id.Name = "lbl_Periode_id"
         Me.lbl_Periode_id.Size = New System.Drawing.Size(43, 13)
         Me.lbl_Periode_id.TabIndex = 30
@@ -2436,403 +2830,11 @@ Partial Class uiTrnRentalOrder3
         '
         'obj_Order_id
         '
-        Me.obj_Order_id.Location = New System.Drawing.Point(110, 8)
+        Me.obj_Order_id.Location = New System.Drawing.Point(104, 8)
         Me.obj_Order_id.Name = "obj_Order_id"
         Me.obj_Order_id.ReadOnly = True
         Me.obj_Order_id.Size = New System.Drawing.Size(126, 20)
         Me.obj_Order_id.TabIndex = 1
-        '
-        'lbl_order_date
-        '
-        Me.lbl_order_date.AutoSize = True
-        Me.lbl_order_date.Location = New System.Drawing.Point(244, 33)
-        Me.lbl_order_date.Name = "lbl_order_date"
-        Me.lbl_order_date.Size = New System.Drawing.Size(30, 13)
-        Me.lbl_order_date.TabIndex = 28
-        Me.lbl_order_date.Text = "Date"
-        '
-        'lbl_Order_id
-        '
-        Me.lbl_Order_id.AutoSize = True
-        Me.lbl_Order_id.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Order_id.Location = New System.Drawing.Point(10, 12)
-        Me.lbl_Order_id.Name = "lbl_Order_id"
-        Me.lbl_Order_id.Size = New System.Drawing.Size(55, 13)
-        Me.lbl_Order_id.TabIndex = 29
-        Me.lbl_Order_id.Text = "Order ID"
-        '
-        'obj_Request_id
-        '
-        Me.obj_Request_id.Location = New System.Drawing.Point(110, 30)
-        Me.obj_Request_id.Name = "obj_Request_id"
-        Me.obj_Request_id.ReadOnly = True
-        Me.obj_Request_id.Size = New System.Drawing.Size(126, 20)
-        Me.obj_Request_id.TabIndex = 3
-        '
-        'lbl_Request_id
-        '
-        Me.lbl_Request_id.AutoSize = True
-        Me.lbl_Request_id.Location = New System.Drawing.Point(10, 33)
-        Me.lbl_Request_id.Name = "lbl_Request_id"
-        Me.lbl_Request_id.Size = New System.Drawing.Size(61, 13)
-        Me.lbl_Request_id.TabIndex = 25
-        Me.lbl_Request_id.Text = "Request ID"
-        '
-        'PnlDataFooter
-        '
-        Me.PnlDataFooter.Controls.Add(Me.fTabTOP)
-        Me.PnlDataFooter.Controls.Add(Me.PnlDataFooter_Cost)
-        Me.PnlDataFooter.Controls.Add(Me.PnlDataFooter_Total)
-        Me.PnlDataFooter.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.PnlDataFooter.Location = New System.Drawing.Point(3, 368)
-        Me.PnlDataFooter.Name = "PnlDataFooter"
-        Me.PnlDataFooter.Size = New System.Drawing.Size(741, 117)
-        Me.PnlDataFooter.TabIndex = 4
-        '
-        'fTabTOP
-        '
-        Me.fTabTOP.Controls.Add(Me.fTabTOPDetil)
-        Me.fTabTOP.Controls.Add(Me.TabPage1)
-        Me.fTabTOP.Controls.Add(Me.TabPage2)
-        Me.fTabTOP.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.fTabTOP.Location = New System.Drawing.Point(0, 0)
-        Me.fTabTOP.myBackColor = System.Drawing.SystemColors.Control
-        Me.fTabTOP.Name = "fTabTOP"
-        Me.fTabTOP.SelectedIndex = 0
-        Me.fTabTOP.Size = New System.Drawing.Size(417, 117)
-        Me.fTabTOP.TabIndex = 112
-        '
-        'fTabTOPDetil
-        '
-        Me.fTabTOPDetil.Controls.Add(Me.DgvTrnOrderTOPdetil)
-        Me.fTabTOPDetil.Controls.Add(Me.Panel3)
-        Me.fTabTOPDetil.Location = New System.Drawing.Point(4, 25)
-        Me.fTabTOPDetil.Name = "fTabTOPDetil"
-        Me.fTabTOPDetil.Size = New System.Drawing.Size(409, 88)
-        Me.fTabTOPDetil.TabIndex = 2
-        Me.fTabTOPDetil.Text = "Term Of Payment"
-        '
-        'DgvTrnOrderTOPdetil
-        '
-        Me.DgvTrnOrderTOPdetil.AllowUserToAddRows = False
-        Me.DgvTrnOrderTOPdetil.AllowUserToDeleteRows = False
-        DataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle31.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle31.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle31.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle31.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle31.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgvTrnOrderTOPdetil.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle31
-        Me.DgvTrnOrderTOPdetil.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DgvTrnOrderTOPdetil.ContextMenuStrip = Me.ContextMenuTOP
-        DataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle32.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle32.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle32.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DgvTrnOrderTOPdetil.DefaultCellStyle = DataGridViewCellStyle32
-        Me.DgvTrnOrderTOPdetil.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DgvTrnOrderTOPdetil.Location = New System.Drawing.Point(0, 0)
-        Me.DgvTrnOrderTOPdetil.Name = "DgvTrnOrderTOPdetil"
-        DataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle33.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle33.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle33.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle33.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle33.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgvTrnOrderTOPdetil.RowHeadersDefaultCellStyle = DataGridViewCellStyle33
-        Me.DgvTrnOrderTOPdetil.Size = New System.Drawing.Size(381, 88)
-        Me.DgvTrnOrderTOPdetil.TabIndex = 7
-        '
-        'ContextMenuTOP
-        '
-        Me.ContextMenuTOP.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SetPersenToolStripMenuItem})
-        Me.ContextMenuTOP.Name = "ContextMenuTOP"
-        Me.ContextMenuTOP.Size = New System.Drawing.Size(147, 26)
-        Me.ContextMenuTOP.Text = "TOP Tools"
-        '
-        'SetPersenToolStripMenuItem
-        '
-        Me.SetPersenToolStripMenuItem.Name = "SetPersenToolStripMenuItem"
-        Me.SetPersenToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
-        Me.SetPersenToolStripMenuItem.Text = "Set Persen(%)"
-        '
-        'Panel3
-        '
-        Me.Panel3.Controls.Add(Me.btn_addTOP)
-        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel3.Location = New System.Drawing.Point(381, 0)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(28, 88)
-        Me.Panel3.TabIndex = 113
-        '
-        'btn_addTOP
-        '
-        Me.btn_addTOP.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btn_addTOP.Location = New System.Drawing.Point(0, 0)
-        Me.btn_addTOP.Name = "btn_addTOP"
-        Me.btn_addTOP.Size = New System.Drawing.Size(28, 23)
-        Me.btn_addTOP.TabIndex = 3
-        Me.btn_addTOP.Text = "[+]"
-        Me.btn_addTOP.UseVisualStyleBackColor = True
-        '
-        'TabPage1
-        '
-        Me.TabPage1.BackColor = System.Drawing.Color.Lavender
-        Me.TabPage1.Controls.Add(Me.obj_order_revdesc)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(0, 88)
-        Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "Payment"
-        '
-        'obj_order_revdesc
-        '
-        Me.obj_order_revdesc.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.obj_order_revdesc.Enabled = False
-        Me.obj_order_revdesc.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.obj_order_revdesc.Location = New System.Drawing.Point(3, 3)
-        Me.obj_order_revdesc.MaxLength = 200
-        Me.obj_order_revdesc.Multiline = True
-        Me.obj_order_revdesc.Name = "obj_order_revdesc"
-        Me.obj_order_revdesc.ReadOnly = True
-        Me.obj_order_revdesc.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.obj_order_revdesc.Size = New System.Drawing.Size(0, 82)
-        Me.obj_order_revdesc.TabIndex = 7
-        '
-        'TabPage2
-        '
-        Me.TabPage2.BackColor = System.Drawing.Color.PapayaWhip
-        Me.TabPage2.Controls.Add(Me.obj_Order_descr)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(0, 88)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Description"
-        '
-        'obj_Order_descr
-        '
-        Me.obj_Order_descr.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.obj_Order_descr.Location = New System.Drawing.Point(3, 3)
-        Me.obj_Order_descr.MaxLength = 2000
-        Me.obj_Order_descr.Multiline = True
-        Me.obj_Order_descr.Name = "obj_Order_descr"
-        Me.obj_Order_descr.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.obj_Order_descr.Size = New System.Drawing.Size(0, 82)
-        Me.obj_Order_descr.TabIndex = 23
-        '
-        'PnlDataFooter_Cost
-        '
-        Me.PnlDataFooter_Cost.BackColor = System.Drawing.Color.Snow
-        Me.PnlDataFooter_Cost.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PnlDataFooter_Cost.Controls.Add(Me.calc_Order_discount)
-        Me.PnlDataFooter_Cost.Controls.Add(Me.lbl_Order_ppn_percent)
-        Me.PnlDataFooter_Cost.Controls.Add(Me.Label12)
-        Me.PnlDataFooter_Cost.Controls.Add(Me.Label7)
-        Me.PnlDataFooter_Cost.Controls.Add(Me.obj_Order_ppn_percent)
-        Me.PnlDataFooter_Cost.Controls.Add(Me.obj_Order_pph_percent)
-        Me.PnlDataFooter_Cost.Controls.Add(Me.obj_Order_discount)
-        Me.PnlDataFooter_Cost.Dock = System.Windows.Forms.DockStyle.Right
-        Me.PnlDataFooter_Cost.Location = New System.Drawing.Point(417, 0)
-        Me.PnlDataFooter_Cost.Name = "PnlDataFooter_Cost"
-        Me.PnlDataFooter_Cost.Size = New System.Drawing.Size(123, 117)
-        Me.PnlDataFooter_Cost.TabIndex = 42
-        '
-        'calc_Order_discount
-        '
-        Me.calc_Order_discount.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.calc_Order_discount.ForeColor = System.Drawing.Color.DarkBlue
-        Me.calc_Order_discount.Location = New System.Drawing.Point(5, 88)
-        Me.calc_Order_discount.Name = "calc_Order_discount"
-        Me.calc_Order_discount.ReadOnly = True
-        Me.calc_Order_discount.Size = New System.Drawing.Size(109, 20)
-        Me.calc_Order_discount.TabIndex = 42
-        Me.calc_Order_discount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'lbl_Order_ppn_percent
-        '
-        Me.lbl_Order_ppn_percent.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lbl_Order_ppn_percent.AutoSize = True
-        Me.lbl_Order_ppn_percent.Location = New System.Drawing.Point(5, 70)
-        Me.lbl_Order_ppn_percent.Name = "lbl_Order_ppn_percent"
-        Me.lbl_Order_ppn_percent.Size = New System.Drawing.Size(67, 13)
-        Me.lbl_Order_ppn_percent.TabIndex = 41
-        Me.lbl_Order_ppn_percent.Text = "Disc - PPN%"
-        '
-        'Label12
-        '
-        Me.Label12.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(5, 49)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(65, 13)
-        Me.Label12.TabIndex = 40
-        Me.Label12.Text = "Disc - PPh%"
-        '
-        'Label7
-        '
-        Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(5, 7)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(57, 13)
-        Me.Label7.TabIndex = 39
-        Me.Label7.Text = "Order Disc"
-        '
-        'obj_Order_ppn_percent
-        '
-        Me.obj_Order_ppn_percent.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.obj_Order_ppn_percent.Location = New System.Drawing.Point(75, 67)
-        Me.obj_Order_ppn_percent.Name = "obj_Order_ppn_percent"
-        Me.obj_Order_ppn_percent.ReadOnly = True
-        Me.obj_Order_ppn_percent.Size = New System.Drawing.Size(39, 20)
-        Me.obj_Order_ppn_percent.TabIndex = 26
-        Me.obj_Order_ppn_percent.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'obj_Order_pph_percent
-        '
-        Me.obj_Order_pph_percent.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.obj_Order_pph_percent.Location = New System.Drawing.Point(75, 46)
-        Me.obj_Order_pph_percent.Name = "obj_Order_pph_percent"
-        Me.obj_Order_pph_percent.ReadOnly = True
-        Me.obj_Order_pph_percent.Size = New System.Drawing.Size(39, 20)
-        Me.obj_Order_pph_percent.TabIndex = 25
-        Me.obj_Order_pph_percent.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'obj_Order_discount
-        '
-        Me.obj_Order_discount.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.obj_Order_discount.ForeColor = System.Drawing.Color.DarkBlue
-        Me.obj_Order_discount.Location = New System.Drawing.Point(5, 25)
-        Me.obj_Order_discount.Name = "obj_Order_discount"
-        Me.obj_Order_discount.ReadOnly = True
-        Me.obj_Order_discount.Size = New System.Drawing.Size(109, 20)
-        Me.obj_Order_discount.TabIndex = 38
-        Me.obj_Order_discount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'PnlDataFooter_Total
-        '
-        Me.PnlDataFooter_Total.BackColor = System.Drawing.Color.MistyRose
-        Me.PnlDataFooter_Total.Controls.Add(Me.Label8)
-        Me.PnlDataFooter_Total.Controls.Add(Me.Label1)
-        Me.PnlDataFooter_Total.Controls.Add(Me.calc_Order_GTotal)
-        Me.PnlDataFooter_Total.Controls.Add(Me.calc_Order_subPPN)
-        Me.PnlDataFooter_Total.Controls.Add(Me.calc_Order_subPPH)
-        Me.PnlDataFooter_Total.Controls.Add(Me.calc_Order_subtotal)
-        Me.PnlDataFooter_Total.Controls.Add(Me.lbl_Order_pph_percent)
-        Me.PnlDataFooter_Total.Controls.Add(Me.calc_Order_subdiscount)
-        Me.PnlDataFooter_Total.Controls.Add(Me.lbl_order_discount)
-        Me.PnlDataFooter_Total.Dock = System.Windows.Forms.DockStyle.Right
-        Me.PnlDataFooter_Total.Location = New System.Drawing.Point(540, 0)
-        Me.PnlDataFooter_Total.Name = "PnlDataFooter_Total"
-        Me.PnlDataFooter_Total.Size = New System.Drawing.Size(201, 117)
-        Me.PnlDataFooter_Total.TabIndex = 5
-        '
-        'Label8
-        '
-        Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(6, 70)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(51, 13)
-        Me.Label8.TabIndex = 43
-        Me.Label8.Text = "Sub PPN"
-        '
-        'Label1
-        '
-        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 7)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(65, 13)
-        Me.Label1.TabIndex = 30
-        Me.Label1.Text = "Sub Amount"
-        '
-        'calc_Order_GTotal
-        '
-        Me.calc_Order_GTotal.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.calc_Order_GTotal.BackColor = System.Drawing.Color.PapayaWhip
-        Me.calc_Order_GTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.calc_Order_GTotal.ForeColor = System.Drawing.Color.DarkGreen
-        Me.calc_Order_GTotal.Location = New System.Drawing.Point(9, 88)
-        Me.calc_Order_GTotal.Name = "calc_Order_GTotal"
-        Me.calc_Order_GTotal.ReadOnly = True
-        Me.calc_Order_GTotal.Size = New System.Drawing.Size(187, 24)
-        Me.calc_Order_GTotal.TabIndex = 37
-        Me.calc_Order_GTotal.TabStop = False
-        Me.calc_Order_GTotal.Text = "9,999,999,999.99"
-        Me.calc_Order_GTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'calc_Order_subPPN
-        '
-        Me.calc_Order_subPPN.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.calc_Order_subPPN.Location = New System.Drawing.Point(75, 67)
-        Me.calc_Order_subPPN.Name = "calc_Order_subPPN"
-        Me.calc_Order_subPPN.ReadOnly = True
-        Me.calc_Order_subPPN.Size = New System.Drawing.Size(121, 20)
-        Me.calc_Order_subPPN.TabIndex = 35
-        Me.calc_Order_subPPN.TabStop = False
-        Me.calc_Order_subPPN.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'calc_Order_subPPH
-        '
-        Me.calc_Order_subPPH.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.calc_Order_subPPH.ForeColor = System.Drawing.Color.DarkBlue
-        Me.calc_Order_subPPH.Location = New System.Drawing.Point(75, 46)
-        Me.calc_Order_subPPH.Name = "calc_Order_subPPH"
-        Me.calc_Order_subPPH.ReadOnly = True
-        Me.calc_Order_subPPH.Size = New System.Drawing.Size(121, 20)
-        Me.calc_Order_subPPH.TabIndex = 34
-        Me.calc_Order_subPPH.TabStop = False
-        Me.calc_Order_subPPH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'calc_Order_subtotal
-        '
-        Me.calc_Order_subtotal.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.calc_Order_subtotal.Location = New System.Drawing.Point(75, 4)
-        Me.calc_Order_subtotal.Name = "calc_Order_subtotal"
-        Me.calc_Order_subtotal.ReadOnly = True
-        Me.calc_Order_subtotal.Size = New System.Drawing.Size(121, 20)
-        Me.calc_Order_subtotal.TabIndex = 31
-        Me.calc_Order_subtotal.TabStop = False
-        Me.calc_Order_subtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'lbl_Order_pph_percent
-        '
-        Me.lbl_Order_pph_percent.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lbl_Order_pph_percent.AutoSize = True
-        Me.lbl_Order_pph_percent.Location = New System.Drawing.Point(6, 49)
-        Me.lbl_Order_pph_percent.Name = "lbl_Order_pph_percent"
-        Me.lbl_Order_pph_percent.Size = New System.Drawing.Size(49, 13)
-        Me.lbl_Order_pph_percent.TabIndex = 29
-        Me.lbl_Order_pph_percent.Text = "Sub PPh"
-        '
-        'calc_Order_subdiscount
-        '
-        Me.calc_Order_subdiscount.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.calc_Order_subdiscount.ForeColor = System.Drawing.Color.DarkBlue
-        Me.calc_Order_subdiscount.Location = New System.Drawing.Point(75, 25)
-        Me.calc_Order_subdiscount.Name = "calc_Order_subdiscount"
-        Me.calc_Order_subdiscount.ReadOnly = True
-        Me.calc_Order_subdiscount.Size = New System.Drawing.Size(121, 20)
-        Me.calc_Order_subdiscount.TabIndex = 24
-        Me.calc_Order_subdiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'lbl_order_discount
-        '
-        Me.lbl_order_discount.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lbl_order_discount.AutoSize = True
-        Me.lbl_order_discount.Location = New System.Drawing.Point(6, 28)
-        Me.lbl_order_discount.Name = "lbl_order_discount"
-        Me.lbl_order_discount.Size = New System.Drawing.Size(53, 13)
-        Me.lbl_order_discount.TabIndex = 27
-        Me.lbl_order_discount.Text = "Sub Disc."
         '
         'object_attach_dlg
         '
@@ -2849,13 +2851,14 @@ Partial Class uiTrnRentalOrder3
         Me.Controls.SetChildIndex(Me.FlatTabMain, 0)
         Me.FlatTabMain.ResumeLayout(False)
         Me.ftabMain_List.ResumeLayout(False)
+        CType(Me.PnlDfSearch, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PnlDfSearch.ResumeLayout(False)
+        Me.PnlDfSearch.PerformLayout()
+        CType(Me.nudSearchRowLimit, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PnlDfMain.ResumeLayout(False)
         CType(Me.DgvTrnOrder, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PnlDfFooter.ResumeLayout(False)
         Me.PnlDfFooter.PerformLayout()
-        Me.PnlDfSearch.ResumeLayout(False)
-        Me.PnlDfSearch.PerformLayout()
-        CType(Me.nudSearchRowLimit, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ftabMain_Data.ResumeLayout(False)
         Me.ftabDataDetil.ResumeLayout(False)
         Me.ftabDataDetil_Detil.ResumeLayout(False)
@@ -2906,15 +2909,7 @@ Partial Class uiTrnRentalOrder3
         CType(Me.dgvAdvance, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ftabDataDetil_Eps.ResumeLayout(False)
         CType(Me.DgvEpisode, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.PnlDataMaster.ResumeLayout(False)
-        Me.PnlDataMaster3.ResumeLayout(False)
-        Me.PnlDataMaster3.PerformLayout()
-        Me.PnlDataMaster2.ResumeLayout(False)
-        Me.PnlDataMaster2.PerformLayout()
-        Me.PnlDataMaster1.ResumeLayout(False)
-        Me.PnlDataMaster1.PerformLayout()
-        Me.gboRevision.ResumeLayout(False)
-        Me.gboRevision.PerformLayout()
+        CType(Me.PnlDataFooter, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PnlDataFooter.ResumeLayout(False)
         Me.fTabTOP.ResumeLayout(False)
         Me.fTabTOPDetil.ResumeLayout(False)
@@ -2925,10 +2920,25 @@ Partial Class uiTrnRentalOrder3
         Me.TabPage1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
+        CType(Me.PnlDataFooter_Cost, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PnlDataFooter_Cost.ResumeLayout(False)
         Me.PnlDataFooter_Cost.PerformLayout()
+        CType(Me.PnlDataFooter_Total, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PnlDataFooter_Total.ResumeLayout(False)
         Me.PnlDataFooter_Total.PerformLayout()
+        CType(Me.PnlDataMaster, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PnlDataMaster.ResumeLayout(False)
+        CType(Me.PnlDataMaster3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PnlDataMaster3.ResumeLayout(False)
+        Me.PnlDataMaster3.PerformLayout()
+        CType(Me.PnlDataMaster2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PnlDataMaster2.ResumeLayout(False)
+        Me.PnlDataMaster2.PerformLayout()
+        CType(Me.PnlDataMaster1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PnlDataMaster1.ResumeLayout(False)
+        Me.PnlDataMaster1.PerformLayout()
+        Me.gboRevision.ResumeLayout(False)
+        Me.gboRevision.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -2936,21 +2946,16 @@ Partial Class uiTrnRentalOrder3
     Friend WithEvents FlatTabMain As FlatTabControl.FlatTabControl
     Friend WithEvents ftabMain_List As System.Windows.Forms.TabPage
     Friend WithEvents ftabMain_Data As System.Windows.Forms.TabPage
-    Friend WithEvents PnlDfSearch As System.Windows.Forms.Panel
     Friend WithEvents PnlDfMain As System.Windows.Forms.Panel
     Friend WithEvents PnlDfFooter As System.Windows.Forms.Panel
-    Friend WithEvents PnlDataMaster As System.Windows.Forms.Panel
-    Friend WithEvents PnlDataFooter As System.Windows.Forms.Panel
     Friend WithEvents ftabDataDetil As FlatTabControl.FlatTabControl
     Friend WithEvents ftabDataDetil_Detil As System.Windows.Forms.TabPage
     Friend WithEvents DgvTrnOrder As System.Windows.Forms.DataGridView
     Friend WithEvents chkSearchChannel As System.Windows.Forms.CheckBox
     Friend WithEvents cboSearchChannel As System.Windows.Forms.ComboBox
     Friend WithEvents ftabDataDetil_UtilizedItems As System.Windows.Forms.TabPage
-    Friend WithEvents PnlDataMaster1 As System.Windows.Forms.Panel
     Friend WithEvents ftabDataDetil_PaymReq As System.Windows.Forms.TabPage
     Friend WithEvents ftabDataDetil_RentReq As System.Windows.Forms.TabPage
-    Friend WithEvents PnlDataMaster2 As System.Windows.Forms.Panel
     Friend WithEvents ftabDataDetil_SPK As System.Windows.Forms.TabPage
     Friend WithEvents obj_Order_spkdesc As System.Windows.Forms.TextBox
     Friend WithEvents lbl_Order_spkdesc As System.Windows.Forms.Label
@@ -3008,7 +3013,6 @@ Partial Class uiTrnRentalOrder3
     Friend WithEvents lbl_Order_id As System.Windows.Forms.Label
     Friend WithEvents obj_Request_id As System.Windows.Forms.TextBox
     Friend WithEvents lbl_Request_id As System.Windows.Forms.Label
-    Friend WithEvents PnlDataFooter_Total As System.Windows.Forms.Panel
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents calc_Order_GTotal As System.Windows.Forms.TextBox
     Friend WithEvents calc_Order_subPPN As System.Windows.Forms.TextBox
@@ -3025,7 +3029,6 @@ Partial Class uiTrnRentalOrder3
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents cbo_Deptname As System.Windows.Forms.ComboBox
     Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents PnlDataMaster3 As System.Windows.Forms.Panel
     Friend WithEvents obj_Order_setlocation As System.Windows.Forms.TextBox
     Friend WithEvents obj_Order_utilizedlocation As System.Windows.Forms.TextBox
     Friend WithEvents mtb_Order_utilizedtimeend As System.Windows.Forms.MaskedTextBox
@@ -3060,7 +3063,6 @@ Partial Class uiTrnRentalOrder3
     Friend WithEvents DgvTrnOrderdetil As System.Windows.Forms.DataGridView
     Friend WithEvents obj_Order_discount As System.Windows.Forms.TextBox
     Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents PnlDataFooter_Cost As System.Windows.Forms.Panel
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents lbl_Order_ppn_percent As System.Windows.Forms.Label
@@ -3156,6 +3158,14 @@ Partial Class uiTrnRentalOrder3
     Friend WithEvents obj_addattachment As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents object_attach_dlg As System.Windows.Forms.OpenFileDialog
     Friend WithEvents SaveFileDialog1 As System.Windows.Forms.SaveFileDialog
+    Friend WithEvents PnlDfSearch As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents PnlDataMaster As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents PnlDataMaster2 As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents PnlDataMaster1 As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents PnlDataMaster3 As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents PnlDataFooter As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents PnlDataFooter_Cost As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents PnlDataFooter_Total As DevExpress.XtraEditors.PanelControl
 
 End Class
 

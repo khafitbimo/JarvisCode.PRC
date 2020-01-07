@@ -86,8 +86,8 @@ Public Class uiTrnRentalOrder3
 
 #Region " Overrides "
     Public Overrides Function btnQuery_Click() As Boolean
-        Me.PnlDfSearch.Visible = Not Me.PnlDfSearch.Visible
-        If Me.PnlDfSearch.Visible Then
+        Me.PnlDataMaster2.Visible = Not Me.PnlDataMaster2.Visible
+        If Me.PnlDataMaster2.Visible Then
             FILTER_QUERY_MODE = True
             Me.tbtnQuery.CheckState = CheckState.Checked
         Else
@@ -111,7 +111,7 @@ Public Class uiTrnRentalOrder3
         Else
             Me.FlatTabMain.SelectedIndex = 0
         End If
-        
+
         Me.Cursor = Cursors.Arrow
         Return MyBase.btnNew_Click()
     End Function
@@ -3052,8 +3052,8 @@ Public Class uiTrnRentalOrder3
         Me.FlatTabMain.Anchor += AnchorStyles.Left
 
         Me.FlatTabMain.TabPages.Item(1).BackColor = Color.Gainsboro
-        Me.PnlDfSearch.Dock = DockStyle.Top
-        Me.PnlDfSearch.Visible = False
+        Me.PnlDataMaster2.Dock = DockStyle.Top
+        Me.PnlDataMaster2.Visible = False
         Me.PnlDfMain.Dock = DockStyle.Fill
         Me.DgvTrnOrder.Dock = DockStyle.Fill
         Me.DgvTrnOrderdetil.Dock = DockStyle.Fill
@@ -3247,7 +3247,7 @@ Public Class uiTrnRentalOrder3
 
     Private Function uiTrnRentalOrder3_GetOrderSource() As Boolean
         Dim dlgRequest As New dlgGetRequest(Me.DSN)
-      
+
         Try
             Select Case Me._PROGRAMTYPE
                 Case "PG"
@@ -3256,7 +3256,7 @@ Public Class uiTrnRentalOrder3
 
                     Me.DataFill(Me.tbl_RequestSelect, "pr_TrnRequest_Select2", "jurnaltype_id = 'RQ' AND request_programtype='" & Me._PROGRAMTYPE & _
                     "' AND requestdetil_ordered = 0  AND requestdetil_approvedbma = 1 AND requestdetil_canceled = 0 AND rekanan_id <> 0 AND request_canceled = 0 AND channel_id = '" & _CHANNEL & "' ")
-                   
+
                     With dlgRequest
                         .tbl_RequestSelect = Me.tbl_RequestSelect
                         .ProgType = Me._PROGRAMTYPE
@@ -3623,8 +3623,8 @@ Public Class uiTrnRentalOrder3
 
             End Select
 
-            
-          
+
+
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         End Try
@@ -3727,7 +3727,7 @@ Public Class uiTrnRentalOrder3
         Catch ex As Exception
             MessageBox.Show("Error occured when trying to get requested items. " & ex.Message)
         End Try
-         Try
+        Try
             Dim i As Integer = 0
             Dim j As Integer = 0
             Dim sift As String
@@ -4142,7 +4142,7 @@ Public Class uiTrnRentalOrder3
                 'Note perhitungan total incl disc dan days RO berbeda dengan PO  cek store pr_trnordetil2_select--------
 
                 Me.tbl_TrnOrderdetil.Rows(i).Item("orderdetil_discount") = Me.tbl_TrnOrderdetil.Rows(i).Item("orderdetil_discount")
-              
+
                 tbl_TrnOrderdetil_Changes.Rows(i).Item("orderdetil_rowtotalidr_incldisc") = Math.Round((tbl_TrnOrderdetil_Changes.Rows(i).Item("orderdetil_foreignrate") * _
                                                                                             tbl_TrnOrderdetil_Changes.Rows(i).Item("orderdetil_qty") * _
                                                                                             tbl_TrnOrderdetil_Changes.Rows(i).Item("orderdetil_days") * _
@@ -6553,7 +6553,7 @@ save_confirmation:
 
         Try
             dbDA.Fill(tbl_CekReqNotOrdered)
-            
+
         Catch ex As Exception
             MsgBox(ex.Message, MsgBoxStyle.Critical)
         Finally
@@ -7277,7 +7277,7 @@ save_confirmation:
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
-        
+
     End Sub
 
     Private Sub uiTrnRentalOrder3_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -7785,7 +7785,7 @@ save_confirmation:
             MsgBox(ex.Message)
         End Try
     End Function
-  
+
     Private Sub ftabDataDetil_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ftabDataDetil.SelectedIndexChanged
         Dim i, activetab As Byte
         Dim dbConn As OleDb.OleDbConnection = New OleDb.OleDbConnection(Me.DSN)
@@ -7831,7 +7831,7 @@ save_confirmation:
             Me.PnlDataFooter_Total.Enabled = False
             Me.obj_Order_descr.Enabled = False
 
-            Me.PnlDataMaster1.Enabled = False
+            Me.PnlDataMaster2.Enabled = False
             Me.PnlDataMaster2.Enabled = False
             Me.ftabDataDetil_Detil.Enabled = False
             Me.ftabDataDetil_Info.Enabled = False
@@ -7861,7 +7861,7 @@ save_confirmation:
             Me.PnlDataFooter_Total.Enabled = True
             Me.obj_Order_descr.Enabled = True
 
-            Me.PnlDataMaster1.Enabled = True
+            Me.PnlDataMaster2.Enabled = True
             Me.PnlDataMaster2.Enabled = True
             Me.ftabDataDetil_Detil.Enabled = True
             Me.ftabDataDetil_Info.Enabled = True

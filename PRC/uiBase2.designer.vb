@@ -156,7 +156,7 @@ Partial Class uiBase2
         Me.BarDockControl1.CausesValidation = False
         Me.BarDockControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.BarDockControl1.Location = New System.Drawing.Point(0, 0)
-        Me.BarDockControl1.Size = New System.Drawing.Size(800, 24)
+        Me.BarDockControl1.Size = New System.Drawing.Size(800, 26)
         '
         'BarDockControl2
         '
@@ -169,15 +169,15 @@ Partial Class uiBase2
         '
         Me.BarDockControl3.CausesValidation = False
         Me.BarDockControl3.Dock = System.Windows.Forms.DockStyle.Left
-        Me.BarDockControl3.Location = New System.Drawing.Point(0, 24)
-        Me.BarDockControl3.Size = New System.Drawing.Size(0, 524)
+        Me.BarDockControl3.Location = New System.Drawing.Point(0, 26)
+        Me.BarDockControl3.Size = New System.Drawing.Size(0, 522)
         '
         'BarDockControl4
         '
         Me.BarDockControl4.CausesValidation = False
         Me.BarDockControl4.Dock = System.Windows.Forms.DockStyle.Right
-        Me.BarDockControl4.Location = New System.Drawing.Point(800, 24)
-        Me.BarDockControl4.Size = New System.Drawing.Size(0, 524)
+        Me.BarDockControl4.Location = New System.Drawing.Point(800, 26)
+        Me.BarDockControl4.Size = New System.Drawing.Size(0, 522)
         '
         'tbtnRefresh
         '

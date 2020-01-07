@@ -734,7 +734,7 @@ Public Class uiOrderExpView
         Me.dtpHiddenDate2.Value = Me.dtpSearchDate2.Value.AddDays(1)
     End Sub
 
-    Private Sub PnlDfSearch_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles PnlDfSearch.Paint
+    Private Sub PnlDfSearch_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs)
 
     End Sub
 
@@ -863,6 +863,7 @@ Public Class uiOrderExpView
         retString = dlg.OpenDialog(Me)
         Me.txtSearchAdv.Text = retString
     End Sub
+
 End Class
 
 

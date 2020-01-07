@@ -476,7 +476,7 @@ Partial Class uiOrderVoid
         'obj_Channelid
         '
         Me.obj_Channelid.Enabled = False
-        Me.obj_Channelid.Location = New System.Drawing.Point(320, 10)
+        Me.obj_Channelid.Location = New System.Drawing.Point(324, 10)
         Me.obj_Channelid.Name = "obj_Channelid"
         Me.obj_Channelid.Properties.ReadOnly = True
         Me.obj_Channelid.Size = New System.Drawing.Size(53, 20)
@@ -486,9 +486,9 @@ Partial Class uiOrderVoid
         '
         Me.lbldata_channelid.Location = New System.Drawing.Point(258, 13)
         Me.lbldata_channelid.Name = "lbldata_channelid"
-        Me.lbldata_channelid.Size = New System.Drawing.Size(53, 13)
+        Me.lbldata_channelid.Size = New System.Drawing.Size(59, 13)
         Me.lbldata_channelid.TabIndex = 29
-        Me.lbldata_channelid.Text = "Channel ID"
+        Me.lbldata_channelid.Text = "Company ID"
         '
         'GroupControl3
         '

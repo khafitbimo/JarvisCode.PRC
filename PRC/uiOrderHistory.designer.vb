@@ -19,35 +19,36 @@ Partial Class uiOrderHistory
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.FlatTabMain = New System.Windows.Forms.TabControl
-        Me.TabPage1 = New System.Windows.Forms.TabPage
-        Me.Panel3 = New System.Windows.Forms.Panel
-        Me.Panel2 = New System.Windows.Forms.Panel
-        Me.dgvToExport = New System.Windows.Forms.DataGridView
-        Me.Panel1 = New System.Windows.Forms.Panel
-        Me.lb_export = New System.Windows.Forms.Label
-        Me.pb_export = New System.Windows.Forms.ProgressBar
-        Me.PnlDfSearch = New System.Windows.Forms.Panel
-        Me.Panel4 = New System.Windows.Forms.Panel
-        Me.txt_request_id = New System.Windows.Forms.TextBox
-        Me.txt_order_id = New System.Windows.Forms.TextBox
-        Me.chk_request_id = New System.Windows.Forms.CheckBox
-        Me.chk_order_id = New System.Windows.Forms.CheckBox
-        Me.chk_requestdate = New System.Windows.Forms.CheckBox
-        Me.Label4 = New System.Windows.Forms.Label
-        Me.Label5 = New System.Windows.Forms.Label
-        Me.dtpReqDateEnd = New System.Windows.Forms.DateTimePicker
-        Me.dtpReqDateStart = New System.Windows.Forms.DateTimePicker
-        Me.cboReportName = New System.Windows.Forms.ComboBox
-        Me.Label6 = New System.Windows.Forms.Label
-        Me.TextBox1 = New System.Windows.Forms.TextBox
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.cboSearchChannel = New System.Windows.Forms.ComboBox
-        Me.chkSearchChannel = New System.Windows.Forms.CheckBox
-        Me.HelpProvider1 = New System.Windows.Forms.HelpProvider
-        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(uiOrderHistory))
+        Me.FlatTabMain = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.dgvToExport = New System.Windows.Forms.DataGridView()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.lb_export = New System.Windows.Forms.Label()
+        Me.pb_export = New System.Windows.Forms.ProgressBar()
+        Me.PnlDfSearch = New System.Windows.Forms.Panel()
+        Me.Panel4 = New DevExpress.XtraEditors.PanelControl()
+        Me.chk_order_id = New DevExpress.XtraEditors.CheckEdit()
+        Me.txt_order_id = New System.Windows.Forms.TextBox()
+        Me.GroupBox1 = New DevExpress.XtraEditors.GroupControl()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txt_request_id = New System.Windows.Forms.TextBox()
+        Me.dtpReqDateEnd = New System.Windows.Forms.DateTimePicker()
+        Me.dtpReqDateStart = New System.Windows.Forms.DateTimePicker()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.cboReportName = New System.Windows.Forms.ComboBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.cboSearchChannel = New System.Windows.Forms.ComboBox()
+        Me.chkSearchChannel = New System.Windows.Forms.CheckBox()
+        Me.HelpProvider1 = New System.Windows.Forms.HelpProvider()
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.chk_request_id = New DevExpress.XtraEditors.CheckEdit()
+        Me.chk_requestdate = New DevExpress.XtraEditors.CheckEdit()
         Me.FlatTabMain.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -55,8 +56,13 @@ Partial Class uiOrderHistory
         CType(Me.dgvToExport, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.PnlDfSearch.SuspendLayout()
+        CType(Me.Panel4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel4.SuspendLayout()
+        CType(Me.chk_order_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GroupBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.chk_request_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.chk_requestdate.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'FlatTabMain
@@ -158,91 +164,80 @@ Partial Class uiOrderHistory
         '
         'Panel4
         '
-        Me.Panel4.BackColor = System.Drawing.Color.FloralWhite
-        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel4.Controls.Add(Me.GroupBox1)
-        Me.Panel4.Controls.Add(Me.txt_order_id)
         Me.Panel4.Controls.Add(Me.chk_order_id)
-        Me.Panel4.Controls.Add(Me.cboReportName)
+        Me.Panel4.Controls.Add(Me.txt_order_id)
+        Me.Panel4.Controls.Add(Me.GroupBox1)
         Me.Panel4.Controls.Add(Me.Label6)
+        Me.Panel4.Controls.Add(Me.cboReportName)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel4.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Panel4.Location = New System.Drawing.Point(0, 0)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(733, 120)
         Me.Panel4.TabIndex = 195
         '
-        'txt_request_id
+        'chk_order_id
         '
-        Me.txt_request_id.Location = New System.Drawing.Point(150, 25)
-        Me.txt_request_id.Name = "txt_request_id"
-        Me.txt_request_id.Size = New System.Drawing.Size(153, 20)
-        Me.txt_request_id.TabIndex = 196
+        Me.chk_order_id.Location = New System.Drawing.Point(21, 61)
+        Me.chk_order_id.Name = "chk_order_id"
+        Me.chk_order_id.Properties.Caption = "Order ID"
+        Me.chk_order_id.Size = New System.Drawing.Size(75, 19)
+        Me.chk_order_id.TabIndex = 198
         '
         'txt_order_id
         '
-        Me.txt_order_id.Location = New System.Drawing.Point(112, 33)
+        Me.txt_order_id.Location = New System.Drawing.Point(121, 60)
         Me.txt_order_id.Name = "txt_order_id"
         Me.txt_order_id.Size = New System.Drawing.Size(153, 20)
         Me.txt_order_id.TabIndex = 195
         '
-        'chk_request_id
+        'GroupBox1
         '
-        Me.chk_request_id.AutoSize = True
-        Me.chk_request_id.Location = New System.Drawing.Point(14, 23)
-        Me.chk_request_id.Name = "chk_request_id"
-        Me.chk_request_id.Size = New System.Drawing.Size(80, 17)
-        Me.chk_request_id.TabIndex = 194
-        Me.chk_request_id.Text = "Request ID"
-        Me.chk_request_id.UseVisualStyleBackColor = True
+        Me.GroupBox1.Controls.Add(Me.chk_requestdate)
+        Me.GroupBox1.Controls.Add(Me.Label5)
+        Me.GroupBox1.Controls.Add(Me.chk_request_id)
+        Me.GroupBox1.Controls.Add(Me.Label4)
+        Me.GroupBox1.Controls.Add(Me.txt_request_id)
+        Me.GroupBox1.Controls.Add(Me.dtpReqDateEnd)
+        Me.GroupBox1.Controls.Add(Me.dtpReqDateStart)
+        Me.GroupBox1.Location = New System.Drawing.Point(350, 5)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(378, 110)
+        Me.GroupBox1.TabIndex = 197
+        Me.GroupBox1.Text = "Request Filter"
         '
-        'chk_order_id
+        'Label5
         '
-        Me.chk_order_id.AutoSize = True
-        Me.chk_order_id.Location = New System.Drawing.Point(14, 35)
-        Me.chk_order_id.Name = "chk_order_id"
-        Me.chk_order_id.Size = New System.Drawing.Size(66, 17)
-        Me.chk_order_id.TabIndex = 193
-        Me.chk_order_id.Text = "Order ID"
-        Me.chk_order_id.UseVisualStyleBackColor = True
-        '
-        'chk_requestdate
-        '
-        Me.chk_requestdate.AutoSize = True
-        Me.chk_requestdate.Location = New System.Drawing.Point(14, 51)
-        Me.chk_requestdate.Name = "chk_requestdate"
-        Me.chk_requestdate.Size = New System.Drawing.Size(92, 17)
-        Me.chk_requestdate.TabIndex = 192
-        Me.chk_requestdate.Text = "Request Date"
-        Me.chk_requestdate.UseVisualStyleBackColor = True
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(13, 85)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(55, 13)
+        Me.Label5.TabIndex = 171
+        Me.Label5.Text = "Start Date"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(216, 78)
+        Me.Label4.Location = New System.Drawing.Point(216, 85)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(52, 13)
         Me.Label4.TabIndex = 172
         Me.Label4.Text = "End Date"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'Label5
+        'txt_request_id
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(13, 78)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(55, 13)
-        Me.Label5.TabIndex = 171
-        Me.Label5.Text = "Start Date"
+        Me.txt_request_id.Location = New System.Drawing.Point(150, 32)
+        Me.txt_request_id.Name = "txt_request_id"
+        Me.txt_request_id.Size = New System.Drawing.Size(153, 20)
+        Me.txt_request_id.TabIndex = 196
         '
         'dtpReqDateEnd
         '
         Me.dtpReqDateEnd.CustomFormat = "dd/MM/yyyy"
         Me.dtpReqDateEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpReqDateEnd.Location = New System.Drawing.Point(284, 75)
+        Me.dtpReqDateEnd.Location = New System.Drawing.Point(284, 82)
         Me.dtpReqDateEnd.Name = "dtpReqDateEnd"
         Me.dtpReqDateEnd.Size = New System.Drawing.Size(85, 20)
         Me.dtpReqDateEnd.TabIndex = 12
@@ -251,29 +246,29 @@ Partial Class uiOrderHistory
         '
         Me.dtpReqDateStart.CustomFormat = "dd/MM/yyyy"
         Me.dtpReqDateStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpReqDateStart.Location = New System.Drawing.Point(114, 75)
+        Me.dtpReqDateStart.Location = New System.Drawing.Point(114, 82)
         Me.dtpReqDateStart.Name = "dtpReqDateStart"
         Me.dtpReqDateStart.Size = New System.Drawing.Size(96, 20)
         Me.dtpReqDateStart.TabIndex = 11
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(20, 35)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(70, 13)
+        Me.Label6.TabIndex = 170
+        Me.Label6.Text = "Report Name"
         '
         'cboReportName
         '
         Me.cboReportName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboReportName.FormattingEnabled = True
-        Me.cboReportName.Location = New System.Drawing.Point(112, 8)
+        Me.cboReportName.Location = New System.Drawing.Point(121, 35)
         Me.cboReportName.MaxDropDownItems = 12
         Me.cboReportName.Name = "cboReportName"
         Me.cboReportName.Size = New System.Drawing.Size(201, 21)
         Me.cboReportName.TabIndex = 2
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(11, 8)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(70, 13)
-        Me.Label6.TabIndex = 170
-        Me.Label6.Text = "Report Name"
         '
         'TextBox1
         '
@@ -324,27 +319,28 @@ Partial Class uiOrderHistory
         '
         Me.HelpProvider1.HelpNamespace = "http://insosys_start.trans7.co.id/ema.chm"
         '
-        'GroupBox1
+        'chk_request_id
         '
-        Me.GroupBox1.BackColor = System.Drawing.Color.AntiqueWhite
-        Me.GroupBox1.Controls.Add(Me.chk_request_id)
-        Me.GroupBox1.Controls.Add(Me.txt_request_id)
-        Me.GroupBox1.Controls.Add(Me.dtpReqDateStart)
-        Me.GroupBox1.Controls.Add(Me.dtpReqDateEnd)
-        Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.chk_requestdate)
-        Me.GroupBox1.Location = New System.Drawing.Point(343, 5)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(383, 105)
-        Me.GroupBox1.TabIndex = 197
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Request Filter"
+        Me.chk_request_id.Location = New System.Drawing.Point(12, 32)
+        Me.chk_request_id.Name = "chk_request_id"
+        Me.chk_request_id.Properties.Caption = "Request ID"
+        Me.chk_request_id.Size = New System.Drawing.Size(75, 19)
+        Me.chk_request_id.TabIndex = 199
+        '
+        'chk_requestdate
+        '
+        Me.chk_requestdate.Location = New System.Drawing.Point(12, 55)
+        Me.chk_requestdate.Name = "chk_requestdate"
+        Me.chk_requestdate.Properties.Caption = "Request Date"
+        Me.chk_requestdate.Size = New System.Drawing.Size(98, 19)
+        Me.chk_requestdate.TabIndex = 199
         '
         'uiOrderHistory
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.Controls.Add(Me.FlatTabMain)
+        Me.DSN = resources.GetString("$this.DSN")
+        Me.DSNFiles = resources.GetString("$this.DSNFiles")
         Me.Name = "uiOrderHistory"
         Me.Controls.SetChildIndex(Me.FlatTabMain, 0)
         Me.FlatTabMain.ResumeLayout(False)
@@ -355,10 +351,15 @@ Partial Class uiOrderHistory
         Me.Panel1.ResumeLayout(False)
         Me.PnlDfSearch.ResumeLayout(False)
         Me.PnlDfSearch.PerformLayout()
+        CType(Me.Panel4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
+        CType(Me.chk_order_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GroupBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.chk_request_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.chk_requestdate.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -374,12 +375,8 @@ Partial Class uiOrderHistory
     Friend WithEvents dgvToExport As System.Windows.Forms.DataGridView
     Friend WithEvents SaveFileDialog1 As System.Windows.Forms.SaveFileDialog
     Friend WithEvents PnlDfSearch As System.Windows.Forms.Panel
-    Friend WithEvents Panel4 As System.Windows.Forms.Panel
     Friend WithEvents txt_request_id As System.Windows.Forms.TextBox
     Friend WithEvents txt_order_id As System.Windows.Forms.TextBox
-    Friend WithEvents chk_request_id As System.Windows.Forms.CheckBox
-    Friend WithEvents chk_order_id As System.Windows.Forms.CheckBox
-    Friend WithEvents chk_requestdate As System.Windows.Forms.CheckBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents dtpReqDateEnd As System.Windows.Forms.DateTimePicker
@@ -391,6 +388,10 @@ Partial Class uiOrderHistory
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents cboSearchChannel As System.Windows.Forms.ComboBox
     Friend WithEvents chkSearchChannel As System.Windows.Forms.CheckBox
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents Panel4 As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents GroupBox1 As DevExpress.XtraEditors.GroupControl
+    Friend WithEvents chk_order_id As DevExpress.XtraEditors.CheckEdit
+    Friend WithEvents chk_requestdate As DevExpress.XtraEditors.CheckEdit
+    Friend WithEvents chk_request_id As DevExpress.XtraEditors.CheckEdit
 
 End Class

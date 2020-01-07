@@ -26,7 +26,6 @@ Partial Class uiTrnOrderDetilReport
         Me.ftabmain = New FlatTabControl.FlatTabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.PnlReport = New System.Windows.Forms.Panel()
-        Me.PnlDfSearch = New System.Windows.Forms.Panel()
         Me.obj_strukturunit_id = New System.Windows.Forms.TextBox()
         Me.btnDepartment = New System.Windows.Forms.Button()
         Me.obj_strukturunit_name = New System.Windows.Forms.TextBox()
@@ -42,8 +41,10 @@ Partial Class uiTrnOrderDetilReport
         Me.obj_vendor_srch = New System.Windows.Forms.TextBox()
         Me.chk_vendor_srch = New System.Windows.Forms.CheckBox()
         Me.cboTypeSearch = New System.Windows.Forms.ComboBox()
+        Me.PnlDfSearch = New DevExpress.XtraEditors.PanelControl()
         Me.ftabmain.SuspendLayout()
         Me.TabPage1.SuspendLayout()
+        CType(Me.PnlDfSearch, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PnlDfSearch.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -74,38 +75,15 @@ Partial Class uiTrnOrderDetilReport
         '
         Me.PnlReport.BackColor = System.Drawing.Color.DarkGray
         Me.PnlReport.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PnlReport.Location = New System.Drawing.Point(3, 128)
+        Me.PnlReport.Location = New System.Drawing.Point(3, 129)
         Me.PnlReport.Name = "PnlReport"
         Me.PnlReport.Padding = New System.Windows.Forms.Padding(3)
-        Me.PnlReport.Size = New System.Drawing.Size(978, 363)
+        Me.PnlReport.Size = New System.Drawing.Size(978, 362)
         Me.PnlReport.TabIndex = 4
-        '
-        'PnlDfSearch
-        '
-        Me.PnlDfSearch.Controls.Add(Me.obj_strukturunit_id)
-        Me.PnlDfSearch.Controls.Add(Me.btnDepartment)
-        Me.PnlDfSearch.Controls.Add(Me.obj_strukturunit_name)
-        Me.PnlDfSearch.Controls.Add(Me.chk_dept_search)
-        Me.PnlDfSearch.Controls.Add(Me.obj_currency_srch)
-        Me.PnlDfSearch.Controls.Add(Me.btnVendor)
-        Me.PnlDfSearch.Controls.Add(Me.Label1)
-        Me.PnlDfSearch.Controls.Add(Me.obj_bookdate_search_akhir)
-        Me.PnlDfSearch.Controls.Add(Me.obj_bookdate_search_awal)
-        Me.PnlDfSearch.Controls.Add(Me.chk_periode_srch)
-        Me.PnlDfSearch.Controls.Add(Me.chk_type_srch)
-        Me.PnlDfSearch.Controls.Add(Me.chk_currency_srch)
-        Me.PnlDfSearch.Controls.Add(Me.obj_vendor_srch)
-        Me.PnlDfSearch.Controls.Add(Me.chk_vendor_srch)
-        Me.PnlDfSearch.Controls.Add(Me.cboTypeSearch)
-        Me.PnlDfSearch.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PnlDfSearch.Location = New System.Drawing.Point(3, 3)
-        Me.PnlDfSearch.Name = "PnlDfSearch"
-        Me.PnlDfSearch.Size = New System.Drawing.Size(978, 125)
-        Me.PnlDfSearch.TabIndex = 3
         '
         'obj_strukturunit_id
         '
-        Me.obj_strukturunit_id.Location = New System.Drawing.Point(116, 98)
+        Me.obj_strukturunit_id.Location = New System.Drawing.Point(113, 95)
         Me.obj_strukturunit_id.Name = "obj_strukturunit_id"
         Me.obj_strukturunit_id.ReadOnly = True
         Me.obj_strukturunit_id.Size = New System.Drawing.Size(68, 20)
@@ -114,7 +92,7 @@ Partial Class uiTrnOrderDetilReport
         '
         'btnDepartment
         '
-        Me.btnDepartment.Location = New System.Drawing.Point(458, 98)
+        Me.btnDepartment.Location = New System.Drawing.Point(455, 95)
         Me.btnDepartment.Name = "btnDepartment"
         Me.btnDepartment.Size = New System.Drawing.Size(30, 21)
         Me.btnDepartment.TabIndex = 62
@@ -123,7 +101,7 @@ Partial Class uiTrnOrderDetilReport
         '
         'obj_strukturunit_name
         '
-        Me.obj_strukturunit_name.Location = New System.Drawing.Point(190, 98)
+        Me.obj_strukturunit_name.Location = New System.Drawing.Point(187, 95)
         Me.obj_strukturunit_name.Name = "obj_strukturunit_name"
         Me.obj_strukturunit_name.ReadOnly = True
         Me.obj_strukturunit_name.Size = New System.Drawing.Size(262, 20)
@@ -133,7 +111,7 @@ Partial Class uiTrnOrderDetilReport
         'chk_dept_search
         '
         Me.chk_dept_search.AutoSize = True
-        Me.chk_dept_search.Location = New System.Drawing.Point(17, 100)
+        Me.chk_dept_search.Location = New System.Drawing.Point(14, 97)
         Me.chk_dept_search.Name = "chk_dept_search"
         Me.chk_dept_search.Size = New System.Drawing.Size(81, 17)
         Me.chk_dept_search.TabIndex = 60
@@ -145,14 +123,14 @@ Partial Class uiTrnOrderDetilReport
         Me.obj_currency_srch.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.obj_currency_srch.FormattingEnabled = True
         Me.obj_currency_srch.Items.AddRange(New Object() {"GQ", "NQ", "RQ", "TQ"})
-        Me.obj_currency_srch.Location = New System.Drawing.Point(116, 52)
+        Me.obj_currency_srch.Location = New System.Drawing.Point(113, 49)
         Me.obj_currency_srch.Name = "obj_currency_srch"
         Me.obj_currency_srch.Size = New System.Drawing.Size(121, 21)
         Me.obj_currency_srch.TabIndex = 59
         '
         'btnVendor
         '
-        Me.btnVendor.Location = New System.Drawing.Point(340, 6)
+        Me.btnVendor.Location = New System.Drawing.Point(337, 3)
         Me.btnVendor.Name = "btnVendor"
         Me.btnVendor.Size = New System.Drawing.Size(30, 21)
         Me.btnVendor.TabIndex = 58
@@ -162,7 +140,7 @@ Partial Class uiTrnOrderDetilReport
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(200, 33)
+        Me.Label1.Location = New System.Drawing.Point(197, 30)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(23, 13)
         Me.Label1.TabIndex = 57
@@ -172,7 +150,7 @@ Partial Class uiTrnOrderDetilReport
         '
         Me.obj_bookdate_search_akhir.CustomFormat = "dd/MM/yyyy"
         Me.obj_bookdate_search_akhir.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.obj_bookdate_search_akhir.Location = New System.Drawing.Point(222, 29)
+        Me.obj_bookdate_search_akhir.Location = New System.Drawing.Point(219, 26)
         Me.obj_bookdate_search_akhir.Name = "obj_bookdate_search_akhir"
         Me.obj_bookdate_search_akhir.Size = New System.Drawing.Size(82, 20)
         Me.obj_bookdate_search_akhir.TabIndex = 56
@@ -181,7 +159,7 @@ Partial Class uiTrnOrderDetilReport
         '
         Me.obj_bookdate_search_awal.CustomFormat = "dd/MM/yyyy"
         Me.obj_bookdate_search_awal.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.obj_bookdate_search_awal.Location = New System.Drawing.Point(115, 29)
+        Me.obj_bookdate_search_awal.Location = New System.Drawing.Point(112, 26)
         Me.obj_bookdate_search_awal.Name = "obj_bookdate_search_awal"
         Me.obj_bookdate_search_awal.Size = New System.Drawing.Size(84, 20)
         Me.obj_bookdate_search_awal.TabIndex = 55
@@ -189,7 +167,7 @@ Partial Class uiTrnOrderDetilReport
         'chk_periode_srch
         '
         Me.chk_periode_srch.AutoSize = True
-        Me.chk_periode_srch.Location = New System.Drawing.Point(17, 31)
+        Me.chk_periode_srch.Location = New System.Drawing.Point(14, 28)
         Me.chk_periode_srch.Name = "chk_periode_srch"
         Me.chk_periode_srch.Size = New System.Drawing.Size(62, 17)
         Me.chk_periode_srch.TabIndex = 53
@@ -199,7 +177,7 @@ Partial Class uiTrnOrderDetilReport
         'chk_type_srch
         '
         Me.chk_type_srch.AutoSize = True
-        Me.chk_type_srch.Location = New System.Drawing.Point(17, 77)
+        Me.chk_type_srch.Location = New System.Drawing.Point(14, 74)
         Me.chk_type_srch.Name = "chk_type_srch"
         Me.chk_type_srch.Size = New System.Drawing.Size(79, 17)
         Me.chk_type_srch.TabIndex = 52
@@ -209,7 +187,7 @@ Partial Class uiTrnOrderDetilReport
         'chk_currency_srch
         '
         Me.chk_currency_srch.AutoSize = True
-        Me.chk_currency_srch.Location = New System.Drawing.Point(17, 54)
+        Me.chk_currency_srch.Location = New System.Drawing.Point(14, 51)
         Me.chk_currency_srch.Name = "chk_currency_srch"
         Me.chk_currency_srch.Size = New System.Drawing.Size(68, 17)
         Me.chk_currency_srch.TabIndex = 50
@@ -218,7 +196,7 @@ Partial Class uiTrnOrderDetilReport
         '
         'obj_vendor_srch
         '
-        Me.obj_vendor_srch.Location = New System.Drawing.Point(115, 6)
+        Me.obj_vendor_srch.Location = New System.Drawing.Point(112, 3)
         Me.obj_vendor_srch.Name = "obj_vendor_srch"
         Me.obj_vendor_srch.ReadOnly = True
         Me.obj_vendor_srch.Size = New System.Drawing.Size(219, 20)
@@ -228,7 +206,7 @@ Partial Class uiTrnOrderDetilReport
         'chk_vendor_srch
         '
         Me.chk_vendor_srch.AutoSize = True
-        Me.chk_vendor_srch.Location = New System.Drawing.Point(17, 8)
+        Me.chk_vendor_srch.Location = New System.Drawing.Point(14, 5)
         Me.chk_vendor_srch.Name = "chk_vendor_srch"
         Me.chk_vendor_srch.Size = New System.Drawing.Size(60, 17)
         Me.chk_vendor_srch.TabIndex = 48
@@ -240,10 +218,33 @@ Partial Class uiTrnOrderDetilReport
         Me.cboTypeSearch.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboTypeSearch.FormattingEnabled = True
         Me.cboTypeSearch.Items.AddRange(New Object() {"RO", "PO", "NO", "TO"})
-        Me.cboTypeSearch.Location = New System.Drawing.Point(116, 75)
+        Me.cboTypeSearch.Location = New System.Drawing.Point(113, 72)
         Me.cboTypeSearch.Name = "cboTypeSearch"
         Me.cboTypeSearch.Size = New System.Drawing.Size(121, 21)
         Me.cboTypeSearch.TabIndex = 39
+        '
+        'PnlDfSearch
+        '
+        Me.PnlDfSearch.Controls.Add(Me.obj_vendor_srch)
+        Me.PnlDfSearch.Controls.Add(Me.obj_strukturunit_id)
+        Me.PnlDfSearch.Controls.Add(Me.obj_bookdate_search_awal)
+        Me.PnlDfSearch.Controls.Add(Me.chk_periode_srch)
+        Me.PnlDfSearch.Controls.Add(Me.btnDepartment)
+        Me.PnlDfSearch.Controls.Add(Me.obj_bookdate_search_akhir)
+        Me.PnlDfSearch.Controls.Add(Me.obj_strukturunit_name)
+        Me.PnlDfSearch.Controls.Add(Me.chk_type_srch)
+        Me.PnlDfSearch.Controls.Add(Me.chk_vendor_srch)
+        Me.PnlDfSearch.Controls.Add(Me.Label1)
+        Me.PnlDfSearch.Controls.Add(Me.chk_dept_search)
+        Me.PnlDfSearch.Controls.Add(Me.chk_currency_srch)
+        Me.PnlDfSearch.Controls.Add(Me.cboTypeSearch)
+        Me.PnlDfSearch.Controls.Add(Me.btnVendor)
+        Me.PnlDfSearch.Controls.Add(Me.obj_currency_srch)
+        Me.PnlDfSearch.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PnlDfSearch.Location = New System.Drawing.Point(3, 3)
+        Me.PnlDfSearch.Name = "PnlDfSearch"
+        Me.PnlDfSearch.Size = New System.Drawing.Size(978, 126)
+        Me.PnlDfSearch.TabIndex = 64
         '
         'uiTrnOrderDetilReport
         '
@@ -251,11 +252,13 @@ Partial Class uiTrnOrderDetilReport
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.ftabmain)
         Me.DSN = resources.GetString("$this.DSN")
+        Me.DSNFiles = resources.GetString("$this.DSNFiles")
         Me.Name = "uiTrnOrderDetilReport"
         Me.Size = New System.Drawing.Size(992, 548)
         Me.Controls.SetChildIndex(Me.ftabmain, 0)
         Me.ftabmain.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
+        CType(Me.PnlDfSearch, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PnlDfSearch.ResumeLayout(False)
         Me.PnlDfSearch.PerformLayout()
         Me.ResumeLayout(False)
@@ -264,7 +267,6 @@ Partial Class uiTrnOrderDetilReport
     End Sub
     Friend WithEvents ftabmain As FlatTabControl.FlatTabControl
     Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
-    Friend WithEvents PnlDfSearch As System.Windows.Forms.Panel
     Friend WithEvents chk_type_srch As System.Windows.Forms.CheckBox
     Friend WithEvents chk_currency_srch As System.Windows.Forms.CheckBox
     Friend WithEvents chk_vendor_srch As System.Windows.Forms.CheckBox
@@ -281,5 +283,6 @@ Partial Class uiTrnOrderDetilReport
     Friend WithEvents chk_dept_search As System.Windows.Forms.CheckBox
     Friend WithEvents obj_strukturunit_id As System.Windows.Forms.TextBox
     Friend WithEvents PnlReport As System.Windows.Forms.Panel
+    Friend WithEvents PnlDfSearch As DevExpress.XtraEditors.PanelControl
 
 End Class

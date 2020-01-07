@@ -129,4 +129,7 @@
   <data name="$this.DSN" xml:space="preserve">
     <value>User ID=sa; Password=rahasia; Data Source="172.16.8.102"; Initial Catalog=E_FRM; Tag with column collation when possible=False; Use Procedure for Prepare=1; Auto Translate=True; Persist Security Info=True; Provider="SQLOLEDB.1"; Use Encryption for Data=False; Packet Size=4096</value>
   </data>
+  <data name="$this.DSNFiles" xml:space="preserve">
+    <value>User ID=sa; Password=Lantai27; Data Source="172.16.11.7"; Initial Catalog=E_FILES; Tag with column collation when possible=False; Use Procedure for Prepare=1; Auto Translate=True; Persist Security Info=True; Provider="SQLOLEDB.1"; Use Encryption for Data=False; Packet Size=4096</value>
+  </data>
 </root>
