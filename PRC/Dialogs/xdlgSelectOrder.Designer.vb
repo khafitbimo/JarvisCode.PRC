@@ -20,11 +20,11 @@ Partial Class xdlgSelectOrder
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
+        Me.btnOrder = New DevExpress.XtraEditors.SimpleButton()
+        Me.objSearchOrder = New DevExpress.XtraEditors.TextEdit()
+        Me.lborder_id = New DevExpress.XtraEditors.LabelControl()
         Me.gcSelectOrder = New DevExpress.XtraGrid.GridControl()
         Me.gvSelectOrder = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.lborder_id = New DevExpress.XtraEditors.LabelControl()
-        Me.objSearchOrder = New DevExpress.XtraEditors.TextEdit()
-        Me.btnOrder = New DevExpress.XtraEditors.SimpleButton()
         Me.colOrderID = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colOrderDate = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colOrderDescr = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -37,13 +37,13 @@ Partial Class xdlgSelectOrder
         Me.colOrderUtilizeddatestart = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colOrderUtilizeddateend = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.PanelControl2 = New DevExpress.XtraEditors.PanelControl()
-        Me.btnCancel = New DevExpress.XtraEditors.SimpleButton()
         Me.btnPick = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnCancel = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
+        CType(Me.objSearchOrder.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gcSelectOrder, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gvSelectOrder, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.objSearchOrder.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl2.SuspendLayout()
         Me.SuspendLayout()
@@ -58,6 +58,29 @@ Partial Class xdlgSelectOrder
         Me.PanelControl1.Name = "PanelControl1"
         Me.PanelControl1.Size = New System.Drawing.Size(742, 55)
         Me.PanelControl1.TabIndex = 0
+        '
+        'btnOrder
+        '
+        Me.btnOrder.Location = New System.Drawing.Point(199, 16)
+        Me.btnOrder.Name = "btnOrder"
+        Me.btnOrder.Size = New System.Drawing.Size(75, 23)
+        Me.btnOrder.TabIndex = 2
+        Me.btnOrder.Text = "Load"
+        '
+        'objSearchOrder
+        '
+        Me.objSearchOrder.Location = New System.Drawing.Point(70, 17)
+        Me.objSearchOrder.Name = "objSearchOrder"
+        Me.objSearchOrder.Size = New System.Drawing.Size(123, 20)
+        Me.objSearchOrder.TabIndex = 1
+        '
+        'lborder_id
+        '
+        Me.lborder_id.Location = New System.Drawing.Point(12, 20)
+        Me.lborder_id.Name = "lborder_id"
+        Me.lborder_id.Size = New System.Drawing.Size(42, 13)
+        Me.lborder_id.TabIndex = 0
+        Me.lborder_id.Text = "Order ID"
         '
         'gcSelectOrder
         '
@@ -78,29 +101,6 @@ Partial Class xdlgSelectOrder
         Me.gvSelectOrder.OptionsBehavior.ReadOnly = True
         Me.gvSelectOrder.OptionsView.ColumnAutoWidth = False
         Me.gvSelectOrder.OptionsView.ShowGroupPanel = False
-        '
-        'lborder_id
-        '
-        Me.lborder_id.Location = New System.Drawing.Point(12, 20)
-        Me.lborder_id.Name = "lborder_id"
-        Me.lborder_id.Size = New System.Drawing.Size(42, 13)
-        Me.lborder_id.TabIndex = 0
-        Me.lborder_id.Text = "Order ID"
-        '
-        'objSearchOrder
-        '
-        Me.objSearchOrder.Location = New System.Drawing.Point(70, 17)
-        Me.objSearchOrder.Name = "objSearchOrder"
-        Me.objSearchOrder.Size = New System.Drawing.Size(123, 20)
-        Me.objSearchOrder.TabIndex = 1
-        '
-        'btnOrder
-        '
-        Me.btnOrder.Location = New System.Drawing.Point(199, 16)
-        Me.btnOrder.Name = "btnOrder"
-        Me.btnOrder.Size = New System.Drawing.Size(75, 23)
-        Me.btnOrder.TabIndex = 2
-        Me.btnOrder.Text = "Load"
         '
         'colOrderID
         '
@@ -214,14 +214,6 @@ Partial Class xdlgSelectOrder
         Me.PanelControl2.Size = New System.Drawing.Size(742, 42)
         Me.PanelControl2.TabIndex = 2
         '
-        'btnCancel
-        '
-        Me.btnCancel.Location = New System.Drawing.Point(655, 7)
-        Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(75, 23)
-        Me.btnCancel.TabIndex = 0
-        Me.btnCancel.Text = "Cancel"
-        '
         'btnPick
         '
         Me.btnPick.Location = New System.Drawing.Point(565, 7)
@@ -229,6 +221,14 @@ Partial Class xdlgSelectOrder
         Me.btnPick.Size = New System.Drawing.Size(75, 23)
         Me.btnPick.TabIndex = 3
         Me.btnPick.Text = "Pick"
+        '
+        'btnCancel
+        '
+        Me.btnCancel.Location = New System.Drawing.Point(655, 7)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(75, 23)
+        Me.btnCancel.TabIndex = 0
+        Me.btnCancel.Text = "Cancel"
         '
         'xdlgSelectOrder
         '
@@ -243,9 +243,9 @@ Partial Class xdlgSelectOrder
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
         Me.PanelControl1.PerformLayout()
+        CType(Me.objSearchOrder.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gcSelectOrder, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gvSelectOrder, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.objSearchOrder.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl2.ResumeLayout(False)
         Me.ResumeLayout(False)

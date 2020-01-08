@@ -50,10 +50,10 @@ Partial Class uiOrderExpView
         Me.lblSearchAccrDate = New System.Windows.Forms.Label()
         Me.chkSearchRekanan = New System.Windows.Forms.CheckBox()
         Me.cboDateType = New System.Windows.Forms.ComboBox()
-        Me.dtpHiddenDate2 = New System.Windows.Forms.DateTimePicker()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.chkSearchBudget = New System.Windows.Forms.CheckBox()
         Me.lboSearchLocation = New System.Windows.Forms.ListBox()
+        Me.dtpHiddenDate2 = New System.Windows.Forms.DateTimePicker()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.lblProgress = New System.Windows.Forms.Label()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
@@ -375,16 +375,6 @@ Partial Class uiOrderExpView
         Me.cboDateType.TabIndex = 182
         Me.cboDateType.Text = "By Order Date"
         '
-        'dtpHiddenDate2
-        '
-        Me.dtpHiddenDate2.CustomFormat = "dd/MM/yyyy"
-        Me.dtpHiddenDate2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpHiddenDate2.Location = New System.Drawing.Point(29, 95)
-        Me.dtpHiddenDate2.Name = "dtpHiddenDate2"
-        Me.dtpHiddenDate2.Size = New System.Drawing.Size(85, 20)
-        Me.dtpHiddenDate2.TabIndex = 180
-        Me.dtpHiddenDate2.Visible = False
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -411,6 +401,16 @@ Partial Class uiOrderExpView
         Me.lboSearchLocation.Name = "lboSearchLocation"
         Me.lboSearchLocation.Size = New System.Drawing.Size(201, 69)
         Me.lboSearchLocation.TabIndex = 181
+        '
+        'dtpHiddenDate2
+        '
+        Me.dtpHiddenDate2.CustomFormat = "dd/MM/yyyy"
+        Me.dtpHiddenDate2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpHiddenDate2.Location = New System.Drawing.Point(29, 95)
+        Me.dtpHiddenDate2.Name = "dtpHiddenDate2"
+        Me.dtpHiddenDate2.Size = New System.Drawing.Size(85, 20)
+        Me.dtpHiddenDate2.TabIndex = 180
+        Me.dtpHiddenDate2.Visible = False
         '
         'Panel1
         '
