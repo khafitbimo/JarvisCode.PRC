@@ -44,7 +44,7 @@ Public Class uiAdvanceRequestExpView
     Private _CHANNEL_CANBE_CHANGED As Boolean = True
     Private _CHANNEL_CANBE_BROWSED As Boolean = True
 
-    Private _REQUESTTYPE_ID As String = "VQ"
+    Private _REQUESTTYPE_ID As String = "AR" '"VQ"
     Private _ORDER_ID As String = "MO"
 #End Region
 
@@ -125,8 +125,8 @@ Public Class uiAdvanceRequestExpView
             Me.AddReportList(Me.reports, "000", "-- PILIH --")
 
             Select Case Me._REQUESTTYPE_ID
-                Case "VQ"
-                    Me.AddReportList(Me.reports, "111", " VQ Detail List ")
+                Case "AR" '"VQ"
+                    Me.AddReportList(Me.reports, "111", " AR Detail List ")
                     'Me.AddReportList(Me.reports, "112", " RQ Category Detail List ")
                     'Me.AddReportList(Me.reports, "113", " RQ Budget Summary List ")
                     'Me.AddReportList(Me.reports, "114", " RQ Vendor Summary List ")
@@ -148,7 +148,7 @@ Public Class uiAdvanceRequestExpView
                     '    Me.AddReportList(Me.reports, "116", " PQ Item Detail List ")
             End Select
 
-            If Me._REQUESTTYPE_ID = "RQ" Then
+            If Me._REQUESTTYPE_ID = "RR" Then '"RQ"
                 'Me.txtSearchBudget.Enabled = False
             End If
 

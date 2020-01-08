@@ -69,7 +69,7 @@ Public Class uiTrnPurchaseOrder3
     Private _CHANNEL As String = "TAS" 'clsConfig.globDefaultChannel
     Private _CHANNEL_CANBE_CHANGED As Boolean = True
     Private _CHANNEL_CANBE_BROWSED As Boolean = True
-    Private _ORDER_SOURCE As String = "PQ"  '[ML=Manual, PQ, MQ] 
+    Private _ORDER_SOURCE As String = "PR"  '[ML=Manual, PQ, MQ] 
     Private _ORDERTYPE_ID As String = "PO"  '[PO    , MO]
     Private _ORDER_AUTHNAME As String = "Marina Nurdiana"
     Private _ORDER_AUTHPOS As String = "Procurement Dept. Head"
@@ -6217,8 +6217,8 @@ save_confirmation:
                     Me.uiTrnPurchaseOrder3_LoadDataCombo()
                 End If
 
-                Me.AddPayingData("VQ", "Advance")
-                Me.AddPayingData("AP", "AP")
+                Me.AddPayingData("AR", "Advance")
+                Me.AddPayingData("YV", "YV")
 
                 Me.DgvTrnOrder.DataSource = Me.tbl_TrnOrder
 

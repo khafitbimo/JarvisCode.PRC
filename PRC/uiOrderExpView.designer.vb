@@ -25,49 +25,49 @@ Partial Class uiOrderExpView
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.lbl_querybuilder = New DevExpress.XtraEditors.LabelControl()
         Me.dgvToExport = New System.Windows.Forms.DataGridView()
-        Me.lbl_Clear = New DevExpress.XtraEditors.LabelControl()
-        Me.dtpSearchDate1 = New System.Windows.Forms.DateTimePicker()
-        Me.chkSearchAdv = New DevExpress.XtraEditors.CheckEdit()
-        Me.lblLocationInfo = New System.Windows.Forms.Label()
-        Me.txtSearchAdv = New DevExpress.XtraEditors.MemoEdit()
-        Me.chkSearchChannel = New System.Windows.Forms.CheckBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.cboSearchChannel = New System.Windows.Forms.ComboBox()
-        Me.lblDateType = New System.Windows.Forms.Label()
+        Me.PnlDfSearch = New DevExpress.XtraEditors.PanelControl()
+        Me.lbl_querybuilder = New DevExpress.XtraEditors.LabelControl()
         Me.cboReportName = New System.Windows.Forms.ComboBox()
-        Me.cboDateType = New System.Windows.Forms.ComboBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.lboSearchLocation = New System.Windows.Forms.ListBox()
-        Me.chkSearchBudget = New System.Windows.Forms.CheckBox()
-        Me.dtpHiddenDate2 = New System.Windows.Forms.DateTimePicker()
-        Me.chkSearchRekanan = New System.Windows.Forms.CheckBox()
-        Me.lblSearchAccrDate = New System.Windows.Forms.Label()
-        Me.cboSearchCategory = New System.Windows.Forms.ComboBox()
-        Me.dtpSearchAccrDate = New System.Windows.Forms.DateTimePicker()
-        Me.chkSearchCategory = New System.Windows.Forms.CheckBox()
-        Me.chkSearchLocation = New System.Windows.Forms.CheckBox()
-        Me.txtSearchBudget = New System.Windows.Forms.TextBox()
-        Me.lblSearchDate2 = New System.Windows.Forms.Label()
-        Me.cboSearchRekanan = New System.Windows.Forms.ComboBox()
-        Me.lblSearchDate1 = New System.Windows.Forms.Label()
         Me.dtpSearchDate2 = New System.Windows.Forms.DateTimePicker()
+        Me.lbl_Clear = New DevExpress.XtraEditors.LabelControl()
+        Me.lblSearchDate1 = New System.Windows.Forms.Label()
+        Me.dtpSearchDate1 = New System.Windows.Forms.DateTimePicker()
+        Me.cboSearchRekanan = New System.Windows.Forms.ComboBox()
+        Me.chkSearchAdv = New DevExpress.XtraEditors.CheckEdit()
+        Me.lblSearchDate2 = New System.Windows.Forms.Label()
+        Me.lblLocationInfo = New System.Windows.Forms.Label()
+        Me.txtSearchBudget = New System.Windows.Forms.TextBox()
+        Me.txtSearchAdv = New DevExpress.XtraEditors.MemoEdit()
+        Me.chkSearchLocation = New System.Windows.Forms.CheckBox()
+        Me.chkSearchChannel = New System.Windows.Forms.CheckBox()
+        Me.chkSearchCategory = New System.Windows.Forms.CheckBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.dtpSearchAccrDate = New System.Windows.Forms.DateTimePicker()
+        Me.cboSearchChannel = New System.Windows.Forms.ComboBox()
+        Me.cboSearchCategory = New System.Windows.Forms.ComboBox()
+        Me.lblDateType = New System.Windows.Forms.Label()
+        Me.lblSearchAccrDate = New System.Windows.Forms.Label()
+        Me.chkSearchRekanan = New System.Windows.Forms.CheckBox()
+        Me.cboDateType = New System.Windows.Forms.ComboBox()
+        Me.dtpHiddenDate2 = New System.Windows.Forms.DateTimePicker()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.chkSearchBudget = New System.Windows.Forms.CheckBox()
+        Me.lboSearchLocation = New System.Windows.Forms.ListBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.lblProgress = New System.Windows.Forms.Label()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.HelpProvider1 = New System.Windows.Forms.HelpProvider()
-        Me.PnlDfSearch = New DevExpress.XtraEditors.PanelControl()
         Me.FlatTabMain.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.dgvToExport, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PnlDfSearch, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PnlDfSearch.SuspendLayout()
         CType(Me.chkSearchAdv.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtSearchAdv.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
-        CType(Me.PnlDfSearch, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.PnlDfSearch.SuspendLayout()
         Me.SuspendLayout()
         '
         'FlatTabMain
@@ -110,16 +110,6 @@ Partial Class uiOrderExpView
         Me.Panel2.Size = New System.Drawing.Size(982, 321)
         Me.Panel2.TabIndex = 179
         '
-        'lbl_querybuilder
-        '
-        Me.lbl_querybuilder.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Underline)
-        Me.lbl_querybuilder.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.lbl_querybuilder.Location = New System.Drawing.Point(898, 108)
-        Me.lbl_querybuilder.Name = "lbl_querybuilder"
-        Me.lbl_querybuilder.Size = New System.Drawing.Size(65, 13)
-        Me.lbl_querybuilder.TabIndex = 200
-        Me.lbl_querybuilder.Text = "Query Builder"
-        '
         'dgvToExport
         '
         Me.dgvToExport.AllowUserToAddRows = False
@@ -131,89 +121,50 @@ Partial Class uiOrderExpView
         Me.dgvToExport.Size = New System.Drawing.Size(982, 321)
         Me.dgvToExport.TabIndex = 0
         '
-        'lbl_Clear
+        'PnlDfSearch
         '
-        Me.lbl_Clear.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Underline)
-        Me.lbl_Clear.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.lbl_Clear.Location = New System.Drawing.Point(749, 108)
-        Me.lbl_Clear.Name = "lbl_Clear"
-        Me.lbl_Clear.Size = New System.Drawing.Size(25, 13)
-        Me.lbl_Clear.TabIndex = 199
-        Me.lbl_Clear.Text = "Clear"
+        Me.PnlDfSearch.Controls.Add(Me.lbl_querybuilder)
+        Me.PnlDfSearch.Controls.Add(Me.cboReportName)
+        Me.PnlDfSearch.Controls.Add(Me.dtpSearchDate2)
+        Me.PnlDfSearch.Controls.Add(Me.lbl_Clear)
+        Me.PnlDfSearch.Controls.Add(Me.lblSearchDate1)
+        Me.PnlDfSearch.Controls.Add(Me.dtpSearchDate1)
+        Me.PnlDfSearch.Controls.Add(Me.cboSearchRekanan)
+        Me.PnlDfSearch.Controls.Add(Me.chkSearchAdv)
+        Me.PnlDfSearch.Controls.Add(Me.lblSearchDate2)
+        Me.PnlDfSearch.Controls.Add(Me.lblLocationInfo)
+        Me.PnlDfSearch.Controls.Add(Me.txtSearchBudget)
+        Me.PnlDfSearch.Controls.Add(Me.txtSearchAdv)
+        Me.PnlDfSearch.Controls.Add(Me.chkSearchLocation)
+        Me.PnlDfSearch.Controls.Add(Me.chkSearchChannel)
+        Me.PnlDfSearch.Controls.Add(Me.chkSearchCategory)
+        Me.PnlDfSearch.Controls.Add(Me.Button1)
+        Me.PnlDfSearch.Controls.Add(Me.dtpSearchAccrDate)
+        Me.PnlDfSearch.Controls.Add(Me.cboSearchChannel)
+        Me.PnlDfSearch.Controls.Add(Me.cboSearchCategory)
+        Me.PnlDfSearch.Controls.Add(Me.lblDateType)
+        Me.PnlDfSearch.Controls.Add(Me.lblSearchAccrDate)
+        Me.PnlDfSearch.Controls.Add(Me.chkSearchRekanan)
+        Me.PnlDfSearch.Controls.Add(Me.cboDateType)
+        Me.PnlDfSearch.Controls.Add(Me.Label1)
+        Me.PnlDfSearch.Controls.Add(Me.chkSearchBudget)
+        Me.PnlDfSearch.Controls.Add(Me.lboSearchLocation)
+        Me.PnlDfSearch.Controls.Add(Me.dtpHiddenDate2)
+        Me.PnlDfSearch.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PnlDfSearch.Location = New System.Drawing.Point(0, 0)
+        Me.PnlDfSearch.Name = "PnlDfSearch"
+        Me.PnlDfSearch.Size = New System.Drawing.Size(982, 129)
+        Me.PnlDfSearch.TabIndex = 180
         '
-        'dtpSearchDate1
+        'lbl_querybuilder
         '
-        Me.dtpSearchDate1.CustomFormat = "dd/MM/yyyy"
-        Me.dtpSearchDate1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpSearchDate1.Location = New System.Drawing.Point(440, 28)
-        Me.dtpSearchDate1.Name = "dtpSearchDate1"
-        Me.dtpSearchDate1.Size = New System.Drawing.Size(96, 20)
-        Me.dtpSearchDate1.TabIndex = 11
-        '
-        'chkSearchAdv
-        '
-        Me.chkSearchAdv.Location = New System.Drawing.Point(730, 5)
-        Me.chkSearchAdv.Name = "chkSearchAdv"
-        Me.chkSearchAdv.Properties.Caption = "Adv. Search"
-        Me.chkSearchAdv.Size = New System.Drawing.Size(87, 19)
-        Me.chkSearchAdv.TabIndex = 198
-        '
-        'lblLocationInfo
-        '
-        Me.lblLocationInfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLocationInfo.Location = New System.Drawing.Point(7, 87)
-        Me.lblLocationInfo.Name = "lblLocationInfo"
-        Me.lblLocationInfo.Size = New System.Drawing.Size(134, 32)
-        Me.lblLocationInfo.TabIndex = 175
-        Me.lblLocationInfo.Text = "Use Shift Key or Alt Key to select more than one Locations"
-        Me.lblLocationInfo.TextAlign = System.Drawing.ContentAlignment.BottomRight
-        '
-        'txtSearchAdv
-        '
-        Me.txtSearchAdv.Location = New System.Drawing.Point(749, 25)
-        Me.txtSearchAdv.Name = "txtSearchAdv"
-        Me.txtSearchAdv.Size = New System.Drawing.Size(214, 77)
-        Me.txtSearchAdv.TabIndex = 197
-        '
-        'chkSearchChannel
-        '
-        Me.chkSearchChannel.AutoSize = True
-        Me.chkSearchChannel.Enabled = False
-        Me.chkSearchChannel.Location = New System.Drawing.Point(29, 8)
-        Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
-        Me.chkSearchChannel.TabIndex = 0
-        Me.chkSearchChannel.Text = "Company"
-        Me.chkSearchChannel.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(713, 100)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(20, 22)
-        Me.Button1.TabIndex = 184
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        Me.Button1.Visible = False
-        '
-        'cboSearchChannel
-        '
-        Me.cboSearchChannel.Enabled = False
-        Me.cboSearchChannel.FormattingEnabled = True
-        Me.cboSearchChannel.Location = New System.Drawing.Point(145, 5)
-        Me.cboSearchChannel.Name = "cboSearchChannel"
-        Me.cboSearchChannel.Size = New System.Drawing.Size(201, 21)
-        Me.cboSearchChannel.TabIndex = 1
-        '
-        'lblDateType
-        '
-        Me.lblDateType.AutoSize = True
-        Me.lblDateType.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDateType.Location = New System.Drawing.Point(355, 55)
-        Me.lblDateType.Name = "lblDateType"
-        Me.lblDateType.Size = New System.Drawing.Size(57, 13)
-        Me.lblDateType.TabIndex = 183
-        Me.lblDateType.Text = "Date Type"
+        Me.lbl_querybuilder.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Underline)
+        Me.lbl_querybuilder.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.lbl_querybuilder.Location = New System.Drawing.Point(898, 108)
+        Me.lbl_querybuilder.Name = "lbl_querybuilder"
+        Me.lbl_querybuilder.Size = New System.Drawing.Size(65, 13)
+        Me.lbl_querybuilder.TabIndex = 200
+        Me.lbl_querybuilder.Text = "Query Builder"
         '
         'cboReportName
         '
@@ -225,119 +176,59 @@ Partial Class uiOrderExpView
         Me.cboReportName.Size = New System.Drawing.Size(267, 21)
         Me.cboReportName.TabIndex = 2
         '
-        'cboDateType
+        'dtpSearchDate2
         '
-        Me.cboDateType.FormattingEnabled = True
-        Me.cboDateType.Items.AddRange(New Object() {"By Order Date", "By Utilizing/Shooting Date"})
-        Me.cboDateType.Location = New System.Drawing.Point(440, 51)
-        Me.cboDateType.MaxDropDownItems = 12
-        Me.cboDateType.Name = "cboDateType"
-        Me.cboDateType.Size = New System.Drawing.Size(267, 21)
-        Me.cboDateType.TabIndex = 182
-        Me.cboDateType.Text = "By Order Date"
+        Me.dtpSearchDate2.CustomFormat = "dd/MM/yyyy"
+        Me.dtpSearchDate2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpSearchDate2.Location = New System.Drawing.Point(622, 28)
+        Me.dtpSearchDate2.Name = "dtpSearchDate2"
+        Me.dtpSearchDate2.Size = New System.Drawing.Size(85, 20)
+        Me.dtpSearchDate2.TabIndex = 12
         '
-        'Label1
+        'lbl_Clear
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(355, 8)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(70, 13)
-        Me.Label1.TabIndex = 170
-        Me.Label1.Text = "Report Name"
+        Me.lbl_Clear.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Underline)
+        Me.lbl_Clear.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.lbl_Clear.Location = New System.Drawing.Point(749, 108)
+        Me.lbl_Clear.Name = "lbl_Clear"
+        Me.lbl_Clear.Size = New System.Drawing.Size(25, 13)
+        Me.lbl_Clear.TabIndex = 199
+        Me.lbl_Clear.Text = "Clear"
         '
-        'lboSearchLocation
+        'lblSearchDate1
         '
-        Me.lboSearchLocation.FormattingEnabled = True
-        Me.lboSearchLocation.Location = New System.Drawing.Point(145, 51)
-        Me.lboSearchLocation.Name = "lboSearchLocation"
-        Me.lboSearchLocation.Size = New System.Drawing.Size(201, 69)
-        Me.lboSearchLocation.TabIndex = 181
+        Me.lblSearchDate1.AutoSize = True
+        Me.lblSearchDate1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSearchDate1.Location = New System.Drawing.Point(355, 32)
+        Me.lblSearchDate1.Name = "lblSearchDate1"
+        Me.lblSearchDate1.Size = New System.Drawing.Size(55, 13)
+        Me.lblSearchDate1.TabIndex = 171
+        Me.lblSearchDate1.Text = "Start Date"
         '
-        'chkSearchBudget
+        'dtpSearchDate1
         '
-        Me.chkSearchBudget.AutoSize = True
-        Me.chkSearchBudget.Location = New System.Drawing.Point(358, 78)
-        Me.chkSearchBudget.Name = "chkSearchBudget"
-        Me.chkSearchBudget.Size = New System.Drawing.Size(74, 17)
-        Me.chkSearchBudget.TabIndex = 5
-        Me.chkSearchBudget.Text = "Budget ID"
-        Me.chkSearchBudget.UseVisualStyleBackColor = True
+        Me.dtpSearchDate1.CustomFormat = "dd/MM/yyyy"
+        Me.dtpSearchDate1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpSearchDate1.Location = New System.Drawing.Point(440, 28)
+        Me.dtpSearchDate1.Name = "dtpSearchDate1"
+        Me.dtpSearchDate1.Size = New System.Drawing.Size(96, 20)
+        Me.dtpSearchDate1.TabIndex = 11
         '
-        'dtpHiddenDate2
+        'cboSearchRekanan
         '
-        Me.dtpHiddenDate2.CustomFormat = "dd/MM/yyyy"
-        Me.dtpHiddenDate2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpHiddenDate2.Location = New System.Drawing.Point(26, 72)
-        Me.dtpHiddenDate2.Name = "dtpHiddenDate2"
-        Me.dtpHiddenDate2.Size = New System.Drawing.Size(85, 20)
-        Me.dtpHiddenDate2.TabIndex = 180
-        Me.dtpHiddenDate2.Visible = False
+        Me.cboSearchRekanan.FormattingEnabled = True
+        Me.cboSearchRekanan.Location = New System.Drawing.Point(440, 98)
+        Me.cboSearchRekanan.Name = "cboSearchRekanan"
+        Me.cboSearchRekanan.Size = New System.Drawing.Size(267, 21)
+        Me.cboSearchRekanan.TabIndex = 4
         '
-        'chkSearchRekanan
+        'chkSearchAdv
         '
-        Me.chkSearchRekanan.AutoSize = True
-        Me.chkSearchRekanan.Location = New System.Drawing.Point(358, 100)
-        Me.chkSearchRekanan.Name = "chkSearchRekanan"
-        Me.chkSearchRekanan.Size = New System.Drawing.Size(60, 17)
-        Me.chkSearchRekanan.TabIndex = 3
-        Me.chkSearchRekanan.Text = "Vendor"
-        Me.chkSearchRekanan.UseVisualStyleBackColor = True
-        '
-        'lblSearchAccrDate
-        '
-        Me.lblSearchAccrDate.AutoSize = True
-        Me.lblSearchAccrDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblSearchAccrDate.Location = New System.Drawing.Point(543, 78)
-        Me.lblSearchAccrDate.Name = "lblSearchAccrDate"
-        Me.lblSearchAccrDate.Size = New System.Drawing.Size(73, 13)
-        Me.lblSearchAccrDate.TabIndex = 179
-        Me.lblSearchAccrDate.Text = "Accrued Date"
-        '
-        'cboSearchCategory
-        '
-        Me.cboSearchCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cboSearchCategory.FormattingEnabled = True
-        Me.cboSearchCategory.Location = New System.Drawing.Point(145, 28)
-        Me.cboSearchCategory.Name = "cboSearchCategory"
-        Me.cboSearchCategory.Size = New System.Drawing.Size(201, 21)
-        Me.cboSearchCategory.TabIndex = 8
-        '
-        'dtpSearchAccrDate
-        '
-        Me.dtpSearchAccrDate.CustomFormat = "dd/MM/yyyy"
-        Me.dtpSearchAccrDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpSearchAccrDate.Location = New System.Drawing.Point(622, 75)
-        Me.dtpSearchAccrDate.Name = "dtpSearchAccrDate"
-        Me.dtpSearchAccrDate.Size = New System.Drawing.Size(85, 20)
-        Me.dtpSearchAccrDate.TabIndex = 178
-        '
-        'chkSearchCategory
-        '
-        Me.chkSearchCategory.AutoSize = True
-        Me.chkSearchCategory.Location = New System.Drawing.Point(29, 32)
-        Me.chkSearchCategory.Name = "chkSearchCategory"
-        Me.chkSearchCategory.Size = New System.Drawing.Size(68, 17)
-        Me.chkSearchCategory.TabIndex = 7
-        Me.chkSearchCategory.Text = "Category"
-        Me.chkSearchCategory.UseVisualStyleBackColor = True
-        '
-        'chkSearchLocation
-        '
-        Me.chkSearchLocation.AutoSize = True
-        Me.chkSearchLocation.Location = New System.Drawing.Point(29, 54)
-        Me.chkSearchLocation.Name = "chkSearchLocation"
-        Me.chkSearchLocation.Size = New System.Drawing.Size(67, 17)
-        Me.chkSearchLocation.TabIndex = 13
-        Me.chkSearchLocation.Text = "Location"
-        Me.chkSearchLocation.UseVisualStyleBackColor = True
-        '
-        'txtSearchBudget
-        '
-        Me.txtSearchBudget.Location = New System.Drawing.Point(440, 75)
-        Me.txtSearchBudget.MaxLength = 8
-        Me.txtSearchBudget.Name = "txtSearchBudget"
-        Me.txtSearchBudget.Size = New System.Drawing.Size(96, 20)
-        Me.txtSearchBudget.TabIndex = 6
+        Me.chkSearchAdv.Location = New System.Drawing.Point(730, 5)
+        Me.chkSearchAdv.Name = "chkSearchAdv"
+        Me.chkSearchAdv.Properties.Caption = "Adv. Search"
+        Me.chkSearchAdv.Size = New System.Drawing.Size(87, 19)
+        Me.chkSearchAdv.TabIndex = 198
         '
         'lblSearchDate2
         '
@@ -350,32 +241,176 @@ Partial Class uiOrderExpView
         Me.lblSearchDate2.Text = "End Date"
         Me.lblSearchDate2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'cboSearchRekanan
+        'lblLocationInfo
         '
-        Me.cboSearchRekanan.FormattingEnabled = True
-        Me.cboSearchRekanan.Location = New System.Drawing.Point(440, 98)
-        Me.cboSearchRekanan.Name = "cboSearchRekanan"
-        Me.cboSearchRekanan.Size = New System.Drawing.Size(267, 21)
-        Me.cboSearchRekanan.TabIndex = 4
+        Me.lblLocationInfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLocationInfo.Location = New System.Drawing.Point(7, 87)
+        Me.lblLocationInfo.Name = "lblLocationInfo"
+        Me.lblLocationInfo.Size = New System.Drawing.Size(134, 32)
+        Me.lblLocationInfo.TabIndex = 175
+        Me.lblLocationInfo.Text = "Use Shift Key or Alt Key to select more than one Locations"
+        Me.lblLocationInfo.TextAlign = System.Drawing.ContentAlignment.BottomRight
         '
-        'lblSearchDate1
+        'txtSearchBudget
         '
-        Me.lblSearchDate1.AutoSize = True
-        Me.lblSearchDate1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblSearchDate1.Location = New System.Drawing.Point(355, 32)
-        Me.lblSearchDate1.Name = "lblSearchDate1"
-        Me.lblSearchDate1.Size = New System.Drawing.Size(55, 13)
-        Me.lblSearchDate1.TabIndex = 171
-        Me.lblSearchDate1.Text = "Start Date"
+        Me.txtSearchBudget.Location = New System.Drawing.Point(440, 75)
+        Me.txtSearchBudget.MaxLength = 8
+        Me.txtSearchBudget.Name = "txtSearchBudget"
+        Me.txtSearchBudget.Size = New System.Drawing.Size(96, 20)
+        Me.txtSearchBudget.TabIndex = 6
         '
-        'dtpSearchDate2
+        'txtSearchAdv
         '
-        Me.dtpSearchDate2.CustomFormat = "dd/MM/yyyy"
-        Me.dtpSearchDate2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpSearchDate2.Location = New System.Drawing.Point(622, 28)
-        Me.dtpSearchDate2.Name = "dtpSearchDate2"
-        Me.dtpSearchDate2.Size = New System.Drawing.Size(85, 20)
-        Me.dtpSearchDate2.TabIndex = 12
+        Me.txtSearchAdv.Location = New System.Drawing.Point(749, 25)
+        Me.txtSearchAdv.Name = "txtSearchAdv"
+        Me.txtSearchAdv.Size = New System.Drawing.Size(214, 77)
+        Me.txtSearchAdv.TabIndex = 197
+        '
+        'chkSearchLocation
+        '
+        Me.chkSearchLocation.AutoSize = True
+        Me.chkSearchLocation.Location = New System.Drawing.Point(29, 54)
+        Me.chkSearchLocation.Name = "chkSearchLocation"
+        Me.chkSearchLocation.Size = New System.Drawing.Size(67, 17)
+        Me.chkSearchLocation.TabIndex = 13
+        Me.chkSearchLocation.Text = "Location"
+        Me.chkSearchLocation.UseVisualStyleBackColor = True
+        '
+        'chkSearchChannel
+        '
+        Me.chkSearchChannel.AutoSize = True
+        Me.chkSearchChannel.Enabled = False
+        Me.chkSearchChannel.Location = New System.Drawing.Point(29, 8)
+        Me.chkSearchChannel.Name = "chkSearchChannel"
+        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
+        Me.chkSearchChannel.TabIndex = 0
+        Me.chkSearchChannel.Text = "Company"
+        Me.chkSearchChannel.UseVisualStyleBackColor = True
+        '
+        'chkSearchCategory
+        '
+        Me.chkSearchCategory.AutoSize = True
+        Me.chkSearchCategory.Location = New System.Drawing.Point(29, 32)
+        Me.chkSearchCategory.Name = "chkSearchCategory"
+        Me.chkSearchCategory.Size = New System.Drawing.Size(68, 17)
+        Me.chkSearchCategory.TabIndex = 7
+        Me.chkSearchCategory.Text = "Category"
+        Me.chkSearchCategory.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(713, 100)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(20, 22)
+        Me.Button1.TabIndex = 184
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Visible = False
+        '
+        'dtpSearchAccrDate
+        '
+        Me.dtpSearchAccrDate.CustomFormat = "dd/MM/yyyy"
+        Me.dtpSearchAccrDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpSearchAccrDate.Location = New System.Drawing.Point(622, 75)
+        Me.dtpSearchAccrDate.Name = "dtpSearchAccrDate"
+        Me.dtpSearchAccrDate.Size = New System.Drawing.Size(85, 20)
+        Me.dtpSearchAccrDate.TabIndex = 178
+        '
+        'cboSearchChannel
+        '
+        Me.cboSearchChannel.Enabled = False
+        Me.cboSearchChannel.FormattingEnabled = True
+        Me.cboSearchChannel.Location = New System.Drawing.Point(145, 5)
+        Me.cboSearchChannel.Name = "cboSearchChannel"
+        Me.cboSearchChannel.Size = New System.Drawing.Size(201, 21)
+        Me.cboSearchChannel.TabIndex = 1
+        '
+        'cboSearchCategory
+        '
+        Me.cboSearchCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboSearchCategory.FormattingEnabled = True
+        Me.cboSearchCategory.Location = New System.Drawing.Point(145, 28)
+        Me.cboSearchCategory.Name = "cboSearchCategory"
+        Me.cboSearchCategory.Size = New System.Drawing.Size(201, 21)
+        Me.cboSearchCategory.TabIndex = 8
+        '
+        'lblDateType
+        '
+        Me.lblDateType.AutoSize = True
+        Me.lblDateType.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDateType.Location = New System.Drawing.Point(355, 55)
+        Me.lblDateType.Name = "lblDateType"
+        Me.lblDateType.Size = New System.Drawing.Size(57, 13)
+        Me.lblDateType.TabIndex = 183
+        Me.lblDateType.Text = "Date Type"
+        '
+        'lblSearchAccrDate
+        '
+        Me.lblSearchAccrDate.AutoSize = True
+        Me.lblSearchAccrDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSearchAccrDate.Location = New System.Drawing.Point(543, 78)
+        Me.lblSearchAccrDate.Name = "lblSearchAccrDate"
+        Me.lblSearchAccrDate.Size = New System.Drawing.Size(73, 13)
+        Me.lblSearchAccrDate.TabIndex = 179
+        Me.lblSearchAccrDate.Text = "Accrued Date"
+        '
+        'chkSearchRekanan
+        '
+        Me.chkSearchRekanan.AutoSize = True
+        Me.chkSearchRekanan.Location = New System.Drawing.Point(358, 100)
+        Me.chkSearchRekanan.Name = "chkSearchRekanan"
+        Me.chkSearchRekanan.Size = New System.Drawing.Size(60, 17)
+        Me.chkSearchRekanan.TabIndex = 3
+        Me.chkSearchRekanan.Text = "Vendor"
+        Me.chkSearchRekanan.UseVisualStyleBackColor = True
+        '
+        'cboDateType
+        '
+        Me.cboDateType.FormattingEnabled = True
+        Me.cboDateType.Items.AddRange(New Object() {"By Order Date", "By Utilizing/Shooting Date"})
+        Me.cboDateType.Location = New System.Drawing.Point(440, 51)
+        Me.cboDateType.MaxDropDownItems = 12
+        Me.cboDateType.Name = "cboDateType"
+        Me.cboDateType.Size = New System.Drawing.Size(267, 21)
+        Me.cboDateType.TabIndex = 182
+        Me.cboDateType.Text = "By Order Date"
+        '
+        'dtpHiddenDate2
+        '
+        Me.dtpHiddenDate2.CustomFormat = "dd/MM/yyyy"
+        Me.dtpHiddenDate2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpHiddenDate2.Location = New System.Drawing.Point(29, 95)
+        Me.dtpHiddenDate2.Name = "dtpHiddenDate2"
+        Me.dtpHiddenDate2.Size = New System.Drawing.Size(85, 20)
+        Me.dtpHiddenDate2.TabIndex = 180
+        Me.dtpHiddenDate2.Visible = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(355, 8)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(70, 13)
+        Me.Label1.TabIndex = 170
+        Me.Label1.Text = "Report Name"
+        '
+        'chkSearchBudget
+        '
+        Me.chkSearchBudget.AutoSize = True
+        Me.chkSearchBudget.Location = New System.Drawing.Point(358, 78)
+        Me.chkSearchBudget.Name = "chkSearchBudget"
+        Me.chkSearchBudget.Size = New System.Drawing.Size(74, 17)
+        Me.chkSearchBudget.TabIndex = 5
+        Me.chkSearchBudget.Text = "Budget ID"
+        Me.chkSearchBudget.UseVisualStyleBackColor = True
+        '
+        'lboSearchLocation
+        '
+        Me.lboSearchLocation.FormattingEnabled = True
+        Me.lboSearchLocation.Location = New System.Drawing.Point(145, 51)
+        Me.lboSearchLocation.Name = "lboSearchLocation"
+        Me.lboSearchLocation.Size = New System.Drawing.Size(201, 69)
+        Me.lboSearchLocation.TabIndex = 181
         '
         'Panel1
         '
@@ -412,41 +447,6 @@ Partial Class uiOrderExpView
         '
         Me.HelpProvider1.HelpNamespace = "http://insosys_start.trans7.co.id/ema.chm"
         '
-        'PnlDfSearch
-        '
-        Me.PnlDfSearch.Controls.Add(Me.lbl_querybuilder)
-        Me.PnlDfSearch.Controls.Add(Me.cboReportName)
-        Me.PnlDfSearch.Controls.Add(Me.dtpSearchDate2)
-        Me.PnlDfSearch.Controls.Add(Me.lbl_Clear)
-        Me.PnlDfSearch.Controls.Add(Me.lblSearchDate1)
-        Me.PnlDfSearch.Controls.Add(Me.dtpSearchDate1)
-        Me.PnlDfSearch.Controls.Add(Me.cboSearchRekanan)
-        Me.PnlDfSearch.Controls.Add(Me.chkSearchAdv)
-        Me.PnlDfSearch.Controls.Add(Me.lblSearchDate2)
-        Me.PnlDfSearch.Controls.Add(Me.lblLocationInfo)
-        Me.PnlDfSearch.Controls.Add(Me.txtSearchBudget)
-        Me.PnlDfSearch.Controls.Add(Me.txtSearchAdv)
-        Me.PnlDfSearch.Controls.Add(Me.chkSearchLocation)
-        Me.PnlDfSearch.Controls.Add(Me.chkSearchChannel)
-        Me.PnlDfSearch.Controls.Add(Me.chkSearchCategory)
-        Me.PnlDfSearch.Controls.Add(Me.Button1)
-        Me.PnlDfSearch.Controls.Add(Me.dtpSearchAccrDate)
-        Me.PnlDfSearch.Controls.Add(Me.cboSearchChannel)
-        Me.PnlDfSearch.Controls.Add(Me.cboSearchCategory)
-        Me.PnlDfSearch.Controls.Add(Me.lblDateType)
-        Me.PnlDfSearch.Controls.Add(Me.lblSearchAccrDate)
-        Me.PnlDfSearch.Controls.Add(Me.chkSearchRekanan)
-        Me.PnlDfSearch.Controls.Add(Me.cboDateType)
-        Me.PnlDfSearch.Controls.Add(Me.dtpHiddenDate2)
-        Me.PnlDfSearch.Controls.Add(Me.Label1)
-        Me.PnlDfSearch.Controls.Add(Me.chkSearchBudget)
-        Me.PnlDfSearch.Controls.Add(Me.lboSearchLocation)
-        Me.PnlDfSearch.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PnlDfSearch.Location = New System.Drawing.Point(0, 0)
-        Me.PnlDfSearch.Name = "PnlDfSearch"
-        Me.PnlDfSearch.Size = New System.Drawing.Size(982, 129)
-        Me.PnlDfSearch.TabIndex = 180
-        '
         'uiOrderExpView
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -461,12 +461,12 @@ Partial Class uiOrderExpView
         Me.Panel3.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         CType(Me.dgvToExport, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.chkSearchAdv.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtSearchAdv.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel1.ResumeLayout(False)
         CType(Me.PnlDfSearch, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PnlDfSearch.ResumeLayout(False)
         Me.PnlDfSearch.PerformLayout()
+        CType(Me.chkSearchAdv.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtSearchAdv.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -1,7 +1,7 @@
 Public Class uiBase2
 
     Public Const _Name As String = "MainControl"
-    Public Const _ProductName As String = "Gamba"
+    Public Const _ProductName As String = "Jarvis"
     Public IsDevelopment As Boolean = False
 
     Public Enum FormSaveResult

@@ -48,7 +48,7 @@ Public Class uiRequestExpView
     Private _CHANNEL_CANBE_CHANGED As Boolean = True
     Private _CHANNEL_CANBE_BROWSED As Boolean = True
 
-    Private _REQUESTTYPE_ID As String = "RQ"
+    Private _REQUESTTYPE_ID As String = "RR" '"RQ"
 
 #End Region
 
@@ -158,26 +158,26 @@ Public Class uiRequestExpView
 
             Select Case Me._REQUESTTYPE_ID
                 Case "RQ"
-                    Me.AddReportList(Me.reports, "111", " RQ Detail List ")
-                    Me.AddReportList(Me.reports, "112", " RQ Category Detail List ")
-                    Me.AddReportList(Me.reports, "113", " RQ Budget Summary List ")
-                    Me.AddReportList(Me.reports, "114", " RQ Vendor Summary List ")
-                    Me.AddReportList(Me.reports, "115", " RQ Item Summary List ")
-                    Me.AddReportList(Me.reports, "116", " RQ Item Detail List ")
+                    Me.AddReportList(Me.reports, "111", " RR Detail List ")
+                    Me.AddReportList(Me.reports, "112", " RR Category Detail List ")
+                    Me.AddReportList(Me.reports, "113", " RR Budget Summary List ")
+                    Me.AddReportList(Me.reports, "114", " RR Vendor Summary List ")
+                    Me.AddReportList(Me.reports, "115", " RR Item Summary List ")
+                    Me.AddReportList(Me.reports, "116", " RR Item Detail List ")
                 Case "MQ"
-                    Me.AddReportList(Me.reports, "111", " MQ Detail List ")
-                    Me.AddReportList(Me.reports, "112", " MQ Category Detail List ")
-                    Me.AddReportList(Me.reports, "113", " MQ Budget Summary List ")
-                    Me.AddReportList(Me.reports, "114", " MQ Vendor Summary List ")
-                    Me.AddReportList(Me.reports, "115", " MQ Item Summary List ")
-                    Me.AddReportList(Me.reports, "116", " MQ Item Detail List ")
+                    Me.AddReportList(Me.reports, "111", " MR Detail List ")
+                    Me.AddReportList(Me.reports, "112", " MR Category Detail List ")
+                    Me.AddReportList(Me.reports, "113", " MR Budget Summary List ")
+                    Me.AddReportList(Me.reports, "114", " MR Vendor Summary List ")
+                    Me.AddReportList(Me.reports, "115", " MR Item Summary List ")
+                    Me.AddReportList(Me.reports, "116", " MR Item Detail List ")
                 Case "PQ"
-                    Me.AddReportList(Me.reports, "111", " PQ Detail List ")
-                    Me.AddReportList(Me.reports, "112", " PQCategory Detail List ")
-                    Me.AddReportList(Me.reports, "113", " PQ Budget Summary List ")
-                    Me.AddReportList(Me.reports, "114", " PQ Vendor Summary List ")
-                    Me.AddReportList(Me.reports, "115", " PQ Item Summary List ")
-                    Me.AddReportList(Me.reports, "116", " PQ Item Detail List ")
+                    Me.AddReportList(Me.reports, "111", " PR Detail List ")
+                    Me.AddReportList(Me.reports, "112", " PRCategory Detail List ")
+                    Me.AddReportList(Me.reports, "113", " PR Budget Summary List ")
+                    Me.AddReportList(Me.reports, "114", " PR Vendor Summary List ")
+                    Me.AddReportList(Me.reports, "115", " PR Item Summary List ")
+                    Me.AddReportList(Me.reports, "116", " PR Item Detail List ")
             End Select
 
             If Me._REQUESTTYPE_ID = "RQ" Then

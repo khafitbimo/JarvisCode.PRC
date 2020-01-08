@@ -55,7 +55,7 @@ Public Class uiOrderExpView
     Private _CHANNEL_CANBE_CHANGED As Boolean = True
     Private _CHANNEL_CANBE_BROWSED As Boolean = True
     '===Tambah NO tgl.20130418
-    Private _ORDERTYPE_ID As String = "PO"  '[RO, PO, MO, BG, NO]
+    Private _ORDERTYPE_ID As String = "PO" '[RO, PO, MO, BG, NO]
 
 #End Region
 
