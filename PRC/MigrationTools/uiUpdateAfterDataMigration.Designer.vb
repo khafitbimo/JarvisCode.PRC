@@ -19,12 +19,13 @@ Partial Class uiUpdateAfterDataMigration
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.txtSource = New System.Windows.Forms.TextBox
-        Me.txtChannel = New System.Windows.Forms.TextBox
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Button2 = New System.Windows.Forms.Button
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(uiUpdateAfterDataMigration))
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.txtSource = New System.Windows.Forms.TextBox()
+        Me.txtChannel = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -72,9 +73,9 @@ Partial Class uiUpdateAfterDataMigration
         Me.Label2.Enabled = False
         Me.Label2.Location = New System.Drawing.Point(173, 91)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(60, 13)
+        Me.Label2.Size = New System.Drawing.Size(65, 13)
         Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Channel ID"
+        Me.Label2.Text = "Company ID"
         '
         'Button2
         '
@@ -96,6 +97,8 @@ Partial Class uiUpdateAfterDataMigration
         Me.Controls.Add(Me.txtChannel)
         Me.Controls.Add(Me.txtSource)
         Me.Controls.Add(Me.Button1)
+        Me.DSN = resources.GetString("$this.DSN")
+        Me.DSNFiles = resources.GetString("$this.DSNFiles")
         Me.Name = "uiUpdateAfterDataMigration"
         Me.Controls.SetChildIndex(Me.Button1, 0)
         Me.Controls.SetChildIndex(Me.txtSource, 0)

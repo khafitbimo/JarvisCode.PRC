@@ -48,7 +48,7 @@ Public Class uiRequestExpView
     Private _CHANNEL_CANBE_CHANGED As Boolean = True
     Private _CHANNEL_CANBE_BROWSED As Boolean = True
 
-    Private _REQUESTTYPE_ID As String = "RR" '"RQ"
+    Private _REQUESTTYPE_ID As String = "RQ" '"RQ"
 
 #End Region
 
@@ -164,7 +164,7 @@ Public Class uiRequestExpView
                     Me.AddReportList(Me.reports, "114", " RR Vendor Summary List ")
                     Me.AddReportList(Me.reports, "115", " RR Item Summary List ")
                     Me.AddReportList(Me.reports, "116", " RR Item Detail List ")
-                Case "MQ"
+                Case "MR"
                     Me.AddReportList(Me.reports, "111", " MR Detail List ")
                     Me.AddReportList(Me.reports, "112", " MR Category Detail List ")
                     Me.AddReportList(Me.reports, "113", " MR Budget Summary List ")

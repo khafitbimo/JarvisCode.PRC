@@ -3254,7 +3254,7 @@ Public Class uiTrnRentalOrder3
                     Dim i As Integer
                     Me.tbl_RequestSelect.Clear()
 
-                    Me.DataFill(Me.tbl_RequestSelect, "pr_TrnRequest_Select2", "jurnaltype_id = 'RQ' AND request_programtype='" & Me._PROGRAMTYPE & _
+                    Me.DataFill(Me.tbl_RequestSelect, "pr_TrnRequest_Select2", "jurnaltype_id = 'RR' AND request_programtype='" & Me._PROGRAMTYPE & _
                     "' AND requestdetil_ordered = 0  AND requestdetil_approvedbma = 1 AND requestdetil_canceled = 0 AND rekanan_id <> 0 AND request_canceled = 0 AND channel_id = '" & _CHANNEL & "' ")
 
                     With dlgRequest
@@ -3404,7 +3404,7 @@ Public Class uiTrnRentalOrder3
 
                     If Me.ReservedItem = False Then
                         Me.tbl_RequestdetilSelect.Clear()
-                        Me.DataFill(Me.tbl_RequestdetilSelect, "pr_TrnRequestHD_Select2", " jurnaltype_id = 'RQ' AND request_programtype='" & Me._PROGRAMTYPE & _
+                        Me.DataFill(Me.tbl_RequestdetilSelect, "pr_TrnRequestHD_Select2", " jurnaltype_id = 'RR' AND request_programtype='" & Me._PROGRAMTYPE & _
                         "' AND requestdetil_ordered=0  AND requestdetil_approvedbma = 1 AND requestdetil_canceled = 0 AND rekanan_id <> 0 AND request_canceled = 0 AND channel_id = '" & _CHANNEL & "' ")
                         Me.tbl_RequestdetilSelect.DefaultView.RowFilter = Nothing
                     Else
