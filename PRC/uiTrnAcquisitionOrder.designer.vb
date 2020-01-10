@@ -326,7 +326,7 @@ Partial Class uiTrnAcquisitionOrder
         Me.FlatTabMain.Controls.Add(Me.ftabMain_Data)
         Me.FlatTabMain.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FlatTabMain.Location = New System.Drawing.Point(3, 28)
-        Me.FlatTabMain.myBackColor = System.Drawing.Color.White
+        Me.FlatTabMain.myBackColor = System.Drawing.SystemColors.Control
         Me.FlatTabMain.Name = "FlatTabMain"
         Me.FlatTabMain.SelectedIndex = 0
         Me.FlatTabMain.Size = New System.Drawing.Size(755, 517)
@@ -334,7 +334,7 @@ Partial Class uiTrnAcquisitionOrder
         '
         'ftabMain_List
         '
-        Me.ftabMain_List.BackColor = System.Drawing.Color.White
+        Me.ftabMain_List.BackColor = System.Drawing.SystemColors.Control
         Me.ftabMain_List.Controls.Add(Me.PnlDfSearch)
         Me.ftabMain_List.Controls.Add(Me.PnlDfMain)
         Me.ftabMain_List.Controls.Add(Me.PnlDfFooter)
@@ -670,7 +670,7 @@ Partial Class uiTrnAcquisitionOrder
         '
         'ftabMain_Data
         '
-        Me.ftabMain_Data.BackColor = System.Drawing.Color.White
+        Me.ftabMain_Data.BackColor = System.Drawing.SystemColors.Control
         Me.ftabMain_Data.Controls.Add(Me.PnlDataMaster3)
         Me.ftabMain_Data.Location = New System.Drawing.Point(4, 25)
         Me.ftabMain_Data.Name = "ftabMain_Data"
@@ -2091,7 +2091,7 @@ Partial Class uiTrnAcquisitionOrder
         Me.lbl_rekanan_id.Name = "lbl_rekanan_id"
         Me.lbl_rekanan_id.Size = New System.Drawing.Size(42, 14)
         Me.lbl_rekanan_id.TabIndex = 140
-        Me.lbl_rekanan_id.Text = "Vendor"
+        Me.lbl_rekanan_id.Text = "Partner"
         '
         'Label9
         '

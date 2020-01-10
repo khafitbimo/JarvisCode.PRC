@@ -64,7 +64,7 @@ Partial Class uiAdvanceRequestExpView
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.White
+        Me.TabPage1.BackColor = System.Drawing.SystemColors.Control
         Me.TabPage1.Controls.Add(Me.Panel3)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
@@ -148,7 +148,7 @@ Partial Class uiAdvanceRequestExpView
         Me.dtpSearchDate2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpSearchDate2.Location = New System.Drawing.Point(636, 52)
         Me.dtpSearchDate2.Name = "dtpSearchDate2"
-        Me.dtpSearchDate2.Size = New System.Drawing.Size(85, 20)
+        Me.dtpSearchDate2.Size = New System.Drawing.Size(85, 21)
         Me.dtpSearchDate2.TabIndex = 12
         '
         'txtSearchRequestID
@@ -166,7 +166,7 @@ Partial Class uiAdvanceRequestExpView
         Me.dtpSearchDate1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpSearchDate1.Location = New System.Drawing.Point(454, 52)
         Me.dtpSearchDate1.Name = "dtpSearchDate1"
-        Me.dtpSearchDate1.Size = New System.Drawing.Size(83, 20)
+        Me.dtpSearchDate1.Size = New System.Drawing.Size(83, 21)
         Me.dtpSearchDate1.TabIndex = 11
         '
         'lblSearchDate1
@@ -184,7 +184,7 @@ Partial Class uiAdvanceRequestExpView
         Me.chkSearchRequestID.AutoSize = True
         Me.chkSearchRequestID.Location = New System.Drawing.Point(10, 34)
         Me.chkSearchRequestID.Name = "chkSearchRequestID"
-        Me.chkSearchRequestID.Size = New System.Drawing.Size(48, 17)
+        Me.chkSearchRequestID.Size = New System.Drawing.Size(50, 17)
         Me.chkSearchRequestID.TabIndex = 193
         Me.chkSearchRequestID.Text = "ID(s)"
         Me.chkSearchRequestID.UseVisualStyleBackColor = True
@@ -204,7 +204,7 @@ Partial Class uiAdvanceRequestExpView
         Me.chkSearchChannel.Enabled = False
         Me.chkSearchChannel.Location = New System.Drawing.Point(10, 8)
         Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
+        Me.chkSearchChannel.Size = New System.Drawing.Size(71, 17)
         Me.chkSearchChannel.TabIndex = 0
         Me.chkSearchChannel.Text = "Company"
         Me.chkSearchChannel.UseVisualStyleBackColor = True
@@ -280,6 +280,7 @@ Partial Class uiAdvanceRequestExpView
         Me.Controls.Add(Me.FlatTabMain)
         Me.DSN = resources.GetString("$this.DSN")
         Me.DSNFiles = resources.GetString("$this.DSNFiles")
+        Me.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "uiAdvanceRequestExpView"
         Me.Controls.SetChildIndex(Me.FlatTabMain, 0)
         Me.FlatTabMain.ResumeLayout(False)

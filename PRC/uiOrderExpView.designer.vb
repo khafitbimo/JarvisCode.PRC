@@ -81,7 +81,7 @@ Partial Class uiOrderExpView
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.White
+        Me.TabPage1.BackColor = System.Drawing.SystemColors.Control
         Me.TabPage1.Controls.Add(Me.Panel3)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
@@ -182,7 +182,7 @@ Partial Class uiOrderExpView
         Me.dtpSearchDate2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpSearchDate2.Location = New System.Drawing.Point(622, 28)
         Me.dtpSearchDate2.Name = "dtpSearchDate2"
-        Me.dtpSearchDate2.Size = New System.Drawing.Size(85, 20)
+        Me.dtpSearchDate2.Size = New System.Drawing.Size(85, 21)
         Me.dtpSearchDate2.TabIndex = 12
         '
         'lbl_Clear
@@ -198,10 +198,10 @@ Partial Class uiOrderExpView
         'lblSearchDate1
         '
         Me.lblSearchDate1.AutoSize = True
-        Me.lblSearchDate1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSearchDate1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSearchDate1.Location = New System.Drawing.Point(355, 32)
         Me.lblSearchDate1.Name = "lblSearchDate1"
-        Me.lblSearchDate1.Size = New System.Drawing.Size(55, 13)
+        Me.lblSearchDate1.Size = New System.Drawing.Size(57, 13)
         Me.lblSearchDate1.TabIndex = 171
         Me.lblSearchDate1.Text = "Start Date"
         '
@@ -211,7 +211,7 @@ Partial Class uiOrderExpView
         Me.dtpSearchDate1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpSearchDate1.Location = New System.Drawing.Point(440, 28)
         Me.dtpSearchDate1.Name = "dtpSearchDate1"
-        Me.dtpSearchDate1.Size = New System.Drawing.Size(96, 20)
+        Me.dtpSearchDate1.Size = New System.Drawing.Size(96, 21)
         Me.dtpSearchDate1.TabIndex = 11
         '
         'cboSearchRekanan
@@ -256,7 +256,7 @@ Partial Class uiOrderExpView
         Me.txtSearchBudget.Location = New System.Drawing.Point(440, 75)
         Me.txtSearchBudget.MaxLength = 8
         Me.txtSearchBudget.Name = "txtSearchBudget"
-        Me.txtSearchBudget.Size = New System.Drawing.Size(96, 20)
+        Me.txtSearchBudget.Size = New System.Drawing.Size(96, 21)
         Me.txtSearchBudget.TabIndex = 6
         '
         'txtSearchAdv
@@ -271,7 +271,7 @@ Partial Class uiOrderExpView
         Me.chkSearchLocation.AutoSize = True
         Me.chkSearchLocation.Location = New System.Drawing.Point(29, 54)
         Me.chkSearchLocation.Name = "chkSearchLocation"
-        Me.chkSearchLocation.Size = New System.Drawing.Size(67, 17)
+        Me.chkSearchLocation.Size = New System.Drawing.Size(66, 17)
         Me.chkSearchLocation.TabIndex = 13
         Me.chkSearchLocation.Text = "Location"
         Me.chkSearchLocation.UseVisualStyleBackColor = True
@@ -282,7 +282,7 @@ Partial Class uiOrderExpView
         Me.chkSearchChannel.Enabled = False
         Me.chkSearchChannel.Location = New System.Drawing.Point(29, 8)
         Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
+        Me.chkSearchChannel.Size = New System.Drawing.Size(71, 17)
         Me.chkSearchChannel.TabIndex = 0
         Me.chkSearchChannel.Text = "Company"
         Me.chkSearchChannel.UseVisualStyleBackColor = True
@@ -292,7 +292,7 @@ Partial Class uiOrderExpView
         Me.chkSearchCategory.AutoSize = True
         Me.chkSearchCategory.Location = New System.Drawing.Point(29, 32)
         Me.chkSearchCategory.Name = "chkSearchCategory"
-        Me.chkSearchCategory.Size = New System.Drawing.Size(68, 17)
+        Me.chkSearchCategory.Size = New System.Drawing.Size(71, 17)
         Me.chkSearchCategory.TabIndex = 7
         Me.chkSearchCategory.Text = "Category"
         Me.chkSearchCategory.UseVisualStyleBackColor = True
@@ -313,7 +313,7 @@ Partial Class uiOrderExpView
         Me.dtpSearchAccrDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpSearchAccrDate.Location = New System.Drawing.Point(622, 75)
         Me.dtpSearchAccrDate.Name = "dtpSearchAccrDate"
-        Me.dtpSearchAccrDate.Size = New System.Drawing.Size(85, 20)
+        Me.dtpSearchAccrDate.Size = New System.Drawing.Size(85, 21)
         Me.dtpSearchAccrDate.TabIndex = 178
         '
         'cboSearchChannel
@@ -337,7 +337,7 @@ Partial Class uiOrderExpView
         'lblDateType
         '
         Me.lblDateType.AutoSize = True
-        Me.lblDateType.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDateType.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDateType.Location = New System.Drawing.Point(355, 55)
         Me.lblDateType.Name = "lblDateType"
         Me.lblDateType.Size = New System.Drawing.Size(57, 13)
@@ -361,7 +361,7 @@ Partial Class uiOrderExpView
         Me.chkSearchRekanan.Name = "chkSearchRekanan"
         Me.chkSearchRekanan.Size = New System.Drawing.Size(60, 17)
         Me.chkSearchRekanan.TabIndex = 3
-        Me.chkSearchRekanan.Text = "Vendor"
+        Me.chkSearchRekanan.Text = "Partner"
         Me.chkSearchRekanan.UseVisualStyleBackColor = True
         '
         'cboDateType
@@ -408,7 +408,7 @@ Partial Class uiOrderExpView
         Me.dtpHiddenDate2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpHiddenDate2.Location = New System.Drawing.Point(29, 95)
         Me.dtpHiddenDate2.Name = "dtpHiddenDate2"
-        Me.dtpHiddenDate2.Size = New System.Drawing.Size(85, 20)
+        Me.dtpHiddenDate2.Size = New System.Drawing.Size(85, 21)
         Me.dtpHiddenDate2.TabIndex = 180
         Me.dtpHiddenDate2.Visible = False
         '
@@ -453,6 +453,7 @@ Partial Class uiOrderExpView
         Me.Controls.Add(Me.FlatTabMain)
         Me.DSN = resources.GetString("$this.DSN")
         Me.DSNFiles = resources.GetString("$this.DSNFiles")
+        Me.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "uiOrderExpView"
         Me.Size = New System.Drawing.Size(997, 548)
         Me.Controls.SetChildIndex(Me.FlatTabMain, 0)

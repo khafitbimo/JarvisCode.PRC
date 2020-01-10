@@ -446,7 +446,7 @@ Partial Class hapus_uiTrnRentalOrder2
         Me.chkSearchChannel.Name = "chkSearchChannel"
         Me.chkSearchChannel.Size = New System.Drawing.Size(65, 17)
         Me.chkSearchChannel.TabIndex = 0
-        Me.chkSearchChannel.Text = "Channel"
+        Me.chkSearchChannel.Text = "Company"
         Me.chkSearchChannel.UseVisualStyleBackColor = True
         '
         'ftabMain_Data
@@ -1397,7 +1397,7 @@ Partial Class hapus_uiTrnRentalOrder2
         Me.lbl_Project_id.Name = "lbl_Project_id"
         Me.lbl_Project_id.Size = New System.Drawing.Size(46, 13)
         Me.lbl_Project_id.TabIndex = 61
-        Me.lbl_Project_id.Text = "Program"
+        Me.lbl_Project_id.Text = "PROJECT"
         '
         'lbl_cp
         '

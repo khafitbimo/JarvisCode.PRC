@@ -79,7 +79,7 @@ Partial Class uiRequestExpView
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.White
+        Me.TabPage1.BackColor = System.Drawing.SystemColors.Control
         Me.TabPage1.Controls.Add(Me.Panel3)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
@@ -221,7 +221,7 @@ Partial Class uiRequestExpView
         Me.dtpSearchDate2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpSearchDate2.Location = New System.Drawing.Point(615, 56)
         Me.dtpSearchDate2.Name = "dtpSearchDate2"
-        Me.dtpSearchDate2.Size = New System.Drawing.Size(85, 20)
+        Me.dtpSearchDate2.Size = New System.Drawing.Size(85, 21)
         Me.dtpSearchDate2.TabIndex = 12
         '
         'chkSearchAdv
@@ -240,7 +240,7 @@ Partial Class uiRequestExpView
         Me.dtpSearchApoKadiv1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpSearchApoKadiv1.Location = New System.Drawing.Point(134, 49)
         Me.dtpSearchApoKadiv1.Name = "dtpSearchApoKadiv1"
-        Me.dtpSearchApoKadiv1.Size = New System.Drawing.Size(96, 20)
+        Me.dtpSearchApoKadiv1.Size = New System.Drawing.Size(96, 21)
         Me.dtpSearchApoKadiv1.TabIndex = 184
         '
         'chkSearchChannel
@@ -249,7 +249,7 @@ Partial Class uiRequestExpView
         Me.chkSearchChannel.Enabled = False
         Me.chkSearchChannel.Location = New System.Drawing.Point(8, 8)
         Me.chkSearchChannel.Name = "chkSearchChannel"
-        Me.chkSearchChannel.Size = New System.Drawing.Size(70, 17)
+        Me.chkSearchChannel.Size = New System.Drawing.Size(71, 17)
         Me.chkSearchChannel.TabIndex = 0
         Me.chkSearchChannel.Text = "Company"
         Me.chkSearchChannel.UseVisualStyleBackColor = True
@@ -260,7 +260,7 @@ Partial Class uiRequestExpView
         Me.dtpSearchDate1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpSearchDate1.Location = New System.Drawing.Point(433, 56)
         Me.dtpSearchDate1.Name = "dtpSearchDate1"
-        Me.dtpSearchDate1.Size = New System.Drawing.Size(96, 20)
+        Me.dtpSearchDate1.Size = New System.Drawing.Size(96, 21)
         Me.dtpSearchDate1.TabIndex = 11
         '
         'txtSearchAdv
@@ -278,7 +278,7 @@ Partial Class uiRequestExpView
         Me.dtpSearchApoKadiv2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpSearchApoKadiv2.Location = New System.Drawing.Point(134, 73)
         Me.dtpSearchApoKadiv2.Name = "dtpSearchApoKadiv2"
-        Me.dtpSearchApoKadiv2.Size = New System.Drawing.Size(96, 20)
+        Me.dtpSearchApoKadiv2.Size = New System.Drawing.Size(96, 21)
         Me.dtpSearchApoKadiv2.TabIndex = 185
         '
         'cboSearchChannel
@@ -333,7 +333,7 @@ Partial Class uiRequestExpView
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(8, 102)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(58, 13)
+        Me.Label4.Size = New System.Drawing.Size(59, 13)
         Me.Label4.TabIndex = 191
         Me.Label4.Text = "Item Name"
         '
@@ -377,7 +377,7 @@ Partial Class uiRequestExpView
         Me.chkSearchAppKadiv.AutoSize = True
         Me.chkSearchAppKadiv.Location = New System.Drawing.Point(8, 29)
         Me.chkSearchAppKadiv.Name = "chkSearchAppKadiv"
-        Me.chkSearchAppKadiv.Size = New System.Drawing.Size(115, 17)
+        Me.chkSearchAppKadiv.Size = New System.Drawing.Size(117, 17)
         Me.chkSearchAppKadiv.TabIndex = 188
         Me.chkSearchAppKadiv.Text = "Approval by Kadiv."
         Me.chkSearchAppKadiv.UseVisualStyleBackColor = True
@@ -387,7 +387,7 @@ Partial Class uiRequestExpView
         Me.chkSearchStruktur.AutoSize = True
         Me.chkSearchStruktur.Location = New System.Drawing.Point(351, 106)
         Me.chkSearchStruktur.Name = "chkSearchStruktur"
-        Me.chkSearchStruktur.Size = New System.Drawing.Size(81, 17)
+        Me.chkSearchStruktur.Size = New System.Drawing.Size(83, 17)
         Me.chkSearchStruktur.TabIndex = 3
         Me.chkSearchStruktur.Text = "Department"
         Me.chkSearchStruktur.UseVisualStyleBackColor = True
@@ -433,6 +433,7 @@ Partial Class uiRequestExpView
         Me.Controls.Add(Me.FlatTabMain)
         Me.DSN = resources.GetString("$this.DSN")
         Me.DSNFiles = resources.GetString("$this.DSNFiles")
+        Me.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "uiRequestExpView"
         Me.Size = New System.Drawing.Size(972, 548)
         Me.Controls.SetChildIndex(Me.FlatTabMain, 0)

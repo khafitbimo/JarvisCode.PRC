@@ -216,7 +216,7 @@ Partial Class uiOrderVoid
         '
         'colChannelID
         '
-        Me.colChannelID.Caption = "Channel"
+        Me.colChannelID.Caption = "Company"
         Me.colChannelID.FieldName = "channel_id"
         Me.colChannelID.Name = "colChannelID"
         Me.colChannelID.Visible = True

@@ -73,7 +73,7 @@ Partial Class dlgOrderSource
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(41, 13)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Vendor"
+        Me.Label1.Text = "Partner"
         '
         'Button1
         '

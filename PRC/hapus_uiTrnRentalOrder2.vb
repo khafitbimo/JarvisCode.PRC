@@ -4361,10 +4361,10 @@ Public Class hapus_uiTrnRentalOrder2
             'Me.cboSearchStatus.SelectedValue = 0
 
             If Me._PROGRAMTYPE = "PG" Then
-                Me.lblProgType.Text = "PROGRAM"
+                Me.lblProgType.Text = "PROJECT"
                 Me.btnAddItem.Enabled = False
             ElseIf Me._PROGRAMTYPE = "NP" Then
-                Me.lblProgType.Text = "NON PROGRAM"
+                Me.lblProgType.Text = "CORPORATE"
                 Me.btnAddItem.Enabled = True
             End If
 

@@ -19,27 +19,28 @@ Partial Class uiMstItem
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ftabMain = New FlatTabControl.FlatTabControl
-        Me.ftabMain_Group = New System.Windows.Forms.TabPage
-        Me.PnlDfMain = New System.Windows.Forms.Panel
-        Me.DgvMstItemCategoryGroup = New System.Windows.Forms.DataGridView
-        Me.PnlDfFooter = New System.Windows.Forms.Panel
-        Me.PnlDfSearch = New System.Windows.Forms.Panel
-        Me.ftabMain_ItemPerGroup = New System.Windows.Forms.TabPage
-        Me.ftabDataDetil = New FlatTabControl.FlatTabControl
-        Me.ftabDataDetil_Detil = New System.Windows.Forms.TabPage
-        Me.DgvMstItem = New System.Windows.Forms.DataGridView
-        Me.PnlDataMaster = New System.Windows.Forms.Panel
-        Me.btnAddItem = New System.Windows.Forms.Button
-        Me.cbo_Category_name = New System.Windows.Forms.ComboBox
-        Me.obj_Group_name = New System.Windows.Forms.TextBox
-        Me.obj_Category_id = New System.Windows.Forms.TextBox
-        Me.lbl_Category_id = New System.Windows.Forms.Label
-        Me.obj_Group_id = New System.Windows.Forms.TextBox
-        Me.lbl_Group_id = New System.Windows.Forms.Label
-        Me.fTabMain_AllItem = New System.Windows.Forms.TabPage
-        Me.DgvMstItem_All = New System.Windows.Forms.DataGridView
-        Me.PnlDfSearchItem = New System.Windows.Forms.Panel
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(uiMstItem))
+        Me.ftabMain = New FlatTabControl.FlatTabControl()
+        Me.ftabMain_Group = New System.Windows.Forms.TabPage()
+        Me.PnlDfMain = New System.Windows.Forms.Panel()
+        Me.DgvMstItemCategoryGroup = New System.Windows.Forms.DataGridView()
+        Me.PnlDfFooter = New System.Windows.Forms.Panel()
+        Me.PnlDfSearch = New System.Windows.Forms.Panel()
+        Me.ftabMain_ItemPerGroup = New System.Windows.Forms.TabPage()
+        Me.ftabDataDetil = New FlatTabControl.FlatTabControl()
+        Me.ftabDataDetil_Detil = New System.Windows.Forms.TabPage()
+        Me.DgvMstItem = New System.Windows.Forms.DataGridView()
+        Me.PnlDataMaster = New System.Windows.Forms.Panel()
+        Me.btnAddItem = New System.Windows.Forms.Button()
+        Me.cbo_Category_name = New System.Windows.Forms.ComboBox()
+        Me.obj_Group_name = New System.Windows.Forms.TextBox()
+        Me.obj_Category_id = New System.Windows.Forms.TextBox()
+        Me.lbl_Category_id = New System.Windows.Forms.Label()
+        Me.obj_Group_id = New System.Windows.Forms.TextBox()
+        Me.lbl_Group_id = New System.Windows.Forms.Label()
+        Me.fTabMain_AllItem = New System.Windows.Forms.TabPage()
+        Me.DgvMstItem_All = New System.Windows.Forms.DataGridView()
+        Me.PnlDfSearchItem = New System.Windows.Forms.Panel()
         Me.ftabMain.SuspendLayout()
         Me.ftabMain_Group.SuspendLayout()
         Me.PnlDfMain.SuspendLayout()
@@ -59,7 +60,7 @@ Partial Class uiMstItem
         Me.ftabMain.Controls.Add(Me.ftabMain_ItemPerGroup)
         Me.ftabMain.Controls.Add(Me.fTabMain_AllItem)
         Me.ftabMain.Location = New System.Drawing.Point(3, 28)
-        Me.ftabMain.myBackColor = System.Drawing.Color.White
+        Me.ftabMain.myBackColor = System.Drawing.SystemColors.Control
         Me.ftabMain.Name = "ftabMain"
         Me.ftabMain.SelectedIndex = 0
         Me.ftabMain.Size = New System.Drawing.Size(747, 517)
@@ -67,7 +68,7 @@ Partial Class uiMstItem
         '
         'ftabMain_Group
         '
-        Me.ftabMain_Group.BackColor = System.Drawing.Color.White
+        Me.ftabMain_Group.BackColor = System.Drawing.SystemColors.Control
         Me.ftabMain_Group.Controls.Add(Me.PnlDfMain)
         Me.ftabMain_Group.Controls.Add(Me.PnlDfFooter)
         Me.ftabMain_Group.Controls.Add(Me.PnlDfSearch)
@@ -113,7 +114,7 @@ Partial Class uiMstItem
         '
         'ftabMain_ItemPerGroup
         '
-        Me.ftabMain_ItemPerGroup.BackColor = System.Drawing.Color.White
+        Me.ftabMain_ItemPerGroup.BackColor = System.Drawing.SystemColors.Control
         Me.ftabMain_ItemPerGroup.Controls.Add(Me.ftabDataDetil)
         Me.ftabMain_ItemPerGroup.Controls.Add(Me.PnlDataMaster)
         Me.ftabMain_ItemPerGroup.Location = New System.Drawing.Point(4, 25)
@@ -128,7 +129,7 @@ Partial Class uiMstItem
         Me.ftabDataDetil.Controls.Add(Me.ftabDataDetil_Detil)
         Me.ftabDataDetil.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ftabDataDetil.Location = New System.Drawing.Point(3, 79)
-        Me.ftabDataDetil.myBackColor = System.Drawing.Color.White
+        Me.ftabDataDetil.myBackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil.Name = "ftabDataDetil"
         Me.ftabDataDetil.SelectedIndex = 0
         Me.ftabDataDetil.Size = New System.Drawing.Size(733, 406)
@@ -136,7 +137,7 @@ Partial Class uiMstItem
         '
         'ftabDataDetil_Detil
         '
-        Me.ftabDataDetil_Detil.BackColor = System.Drawing.Color.White
+        Me.ftabDataDetil_Detil.BackColor = System.Drawing.SystemColors.Control
         Me.ftabDataDetil_Detil.Controls.Add(Me.DgvMstItem)
         Me.ftabDataDetil_Detil.Location = New System.Drawing.Point(4, 25)
         Me.ftabDataDetil_Detil.Name = "ftabDataDetil_Detil"
@@ -203,7 +204,7 @@ Partial Class uiMstItem
         Me.obj_Category_id.Location = New System.Drawing.Point(167, 41)
         Me.obj_Category_id.Name = "obj_Category_id"
         Me.obj_Category_id.ReadOnly = True
-        Me.obj_Category_id.Size = New System.Drawing.Size(102, 20)
+        Me.obj_Category_id.Size = New System.Drawing.Size(102, 21)
         Me.obj_Category_id.TabIndex = 1
         '
         'lbl_Category_id
@@ -211,7 +212,7 @@ Partial Class uiMstItem
         Me.lbl_Category_id.AutoSize = True
         Me.lbl_Category_id.Location = New System.Drawing.Point(68, 44)
         Me.lbl_Category_id.Name = "lbl_Category_id"
-        Me.lbl_Category_id.Size = New System.Drawing.Size(63, 13)
+        Me.lbl_Category_id.Size = New System.Drawing.Size(66, 13)
         Me.lbl_Category_id.TabIndex = 0
         Me.lbl_Category_id.Text = "Category ID"
         '
@@ -221,7 +222,7 @@ Partial Class uiMstItem
         Me.obj_Group_id.Location = New System.Drawing.Point(167, 15)
         Me.obj_Group_id.Name = "obj_Group_id"
         Me.obj_Group_id.ReadOnly = True
-        Me.obj_Group_id.Size = New System.Drawing.Size(102, 20)
+        Me.obj_Group_id.Size = New System.Drawing.Size(102, 21)
         Me.obj_Group_id.TabIndex = 1
         '
         'lbl_Group_id
@@ -235,7 +236,7 @@ Partial Class uiMstItem
         '
         'fTabMain_AllItem
         '
-        Me.fTabMain_AllItem.BackColor = System.Drawing.Color.White
+        Me.fTabMain_AllItem.BackColor = System.Drawing.SystemColors.Control
         Me.fTabMain_AllItem.Controls.Add(Me.DgvMstItem_All)
         Me.fTabMain_AllItem.Controls.Add(Me.PnlDfSearchItem)
         Me.fTabMain_AllItem.Location = New System.Drawing.Point(4, 25)
@@ -264,6 +265,9 @@ Partial Class uiMstItem
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.Controls.Add(Me.ftabMain)
+        Me.DSN = resources.GetString("$this.DSN")
+        Me.DSNFiles = resources.GetString("$this.DSNFiles")
+        Me.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "uiMstItem"
         Me.Controls.SetChildIndex(Me.ftabMain, 0)
         Me.ftabMain.ResumeLayout(False)

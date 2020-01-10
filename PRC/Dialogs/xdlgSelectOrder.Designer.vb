@@ -154,7 +154,7 @@ Partial Class xdlgSelectOrder
         '
         'colRekananName
         '
-        Me.colRekananName.Caption = "Rekanan"
+        Me.colRekananName.Caption = "Partner"
         Me.colRekananName.FieldName = "rekanan_name"
         Me.colRekananName.Name = "colRekananName"
         Me.colRekananName.Visible = True

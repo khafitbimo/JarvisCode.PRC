@@ -66,7 +66,7 @@ Partial Class uiROReportViewer
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.White
+        Me.TabPage1.BackColor = System.Drawing.SystemColors.Control
         Me.TabPage1.Controls.Add(Me.Panel3)
         Me.TabPage1.Controls.Add(Me.PnlDfSearch)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
@@ -264,7 +264,7 @@ Partial Class uiROReportViewer
         Me.chkSearchRekanan.Name = "chkSearchRekanan"
         Me.chkSearchRekanan.Size = New System.Drawing.Size(60, 17)
         Me.chkSearchRekanan.TabIndex = 3
-        Me.chkSearchRekanan.Text = "Vendor"
+        Me.chkSearchRekanan.Text = "Partner"
         Me.chkSearchRekanan.UseVisualStyleBackColor = True
         '
         'chkSearchChannel

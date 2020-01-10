@@ -3053,7 +3053,7 @@ Public Class uiTrnRentalOrder3
 
         Me.FlatTabMain.TabPages.Item(1).BackColor = Color.Gainsboro
         Me.PnlDataMaster2.Dock = DockStyle.Top
-        Me.PnlDataMaster2.Visible = False
+        Me.PnlDataMaster2.Visible = True
         Me.PnlDfMain.Dock = DockStyle.Fill
         Me.DgvTrnOrder.Dock = DockStyle.Fill
         Me.DgvTrnOrderdetil.Dock = DockStyle.Fill
@@ -3069,11 +3069,11 @@ Public Class uiTrnRentalOrder3
         Me.FormatDgvTrnTerimajasa(Me.dgvTrnBPJ)
         Me.FormatDgvTrnOrderTOPdetil(Me.DgvTrnOrderTOPdetil)
 
-        For i = 0 To (Me.ftabDataDetil.TabCount - 1)
-            Me.ftabDataDetil.TabPages.Item(i).BackColor = Color.Gainsboro
-        Next
+        'For i = 0 To (Me.ftabDataDetil.TabCount - 1)
+        '    Me.ftabDataDetil.TabPages.Item(i).BackColor = Color.Gainsboro
+        'Next
 
-        Me.ftabDataDetil.TabPages.Item(0).BackColor = Color.White
+        'Me.ftabDataDetil.TabPages.Item(0).BackColor = Color.White
 
 
         If Me._FORMMODE = "VIEW" Then
@@ -7236,9 +7236,9 @@ save_confirmation:
                 End If
 
                 If Me._PROGRAMTYPE = "PG" Then
-                    Me.lblProgType.Text = "PROGRAM"
+                    Me.lblProgType.Text = "PROJECT"
                 ElseIf Me._PROGRAMTYPE = "NP" Then
-                    Me.lblProgType.Text = "NON PROGRAM"
+                    Me.lblProgType.Text = "CORPORATE"
                 End If
 
                 Me.AddPayingData("VQ", "Advance")
@@ -7325,8 +7325,8 @@ save_confirmation:
                     Me.tbtnQuery.Enabled = False
                 End If
 
-                Me.FlatTabMain.TabPages.Item(0).BackColor = Color.Gainsboro
-                Me.FlatTabMain.TabPages.Item(1).BackColor = Color.White
+                'Me.FlatTabMain.TabPages.Item(0).BackColor = Color.Gainsboro
+                'Me.FlatTabMain.TabPages.Item(1).BackColor = Color.White
 
                 If Me.DgvTrnOrder.CurrentRow IsNot Nothing Then
                     If NewData = False Then
@@ -7791,12 +7791,12 @@ save_confirmation:
         Dim dbConn As OleDb.OleDbConnection = New OleDb.OleDbConnection(Me.DSN)
         Dim cookie As Byte() = Nothing
 
-        For i = 0 To (Me.ftabDataDetil.TabCount - 1)
-            Me.ftabDataDetil.TabPages.Item(i).BackColor = Color.Gainsboro
-        Next
+        'For i = 0 To (Me.ftabDataDetil.TabCount - 1)
+        '    Me.ftabDataDetil.TabPages.Item(i).BackColor = Color.Gainsboro
+        'Next
 
-        activetab = Me.ftabDataDetil.SelectedIndex
-        Me.ftabDataDetil.TabPages.Item(activetab).BackColor = Color.White
+        'activetab = Me.ftabDataDetil.SelectedIndex
+        'Me.ftabDataDetil.TabPages.Item(activetab).BackColor = Color.White
 
         If Me.obj_Order_id.Text <> "" Then
             Try

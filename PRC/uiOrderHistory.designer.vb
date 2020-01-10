@@ -33,7 +33,9 @@ Partial Class uiOrderHistory
         Me.chk_order_id = New DevExpress.XtraEditors.CheckEdit()
         Me.txt_order_id = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New DevExpress.XtraEditors.GroupControl()
+        Me.chk_requestdate = New DevExpress.XtraEditors.CheckEdit()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.chk_request_id = New DevExpress.XtraEditors.CheckEdit()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txt_request_id = New System.Windows.Forms.TextBox()
         Me.dtpReqDateEnd = New System.Windows.Forms.DateTimePicker()
@@ -47,8 +49,6 @@ Partial Class uiOrderHistory
         Me.chkSearchChannel = New System.Windows.Forms.CheckBox()
         Me.HelpProvider1 = New System.Windows.Forms.HelpProvider()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
-        Me.chk_request_id = New DevExpress.XtraEditors.CheckEdit()
-        Me.chk_requestdate = New DevExpress.XtraEditors.CheckEdit()
         Me.FlatTabMain.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -61,8 +61,8 @@ Partial Class uiOrderHistory
         CType(Me.chk_order_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
-        CType(Me.chk_request_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.chk_requestdate.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.chk_request_id.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'FlatTabMain
@@ -76,7 +76,7 @@ Partial Class uiOrderHistory
         '
         'TabPage1
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.White
+        Me.TabPage1.BackColor = System.Drawing.SystemColors.Control
         Me.TabPage1.Controls.Add(Me.Panel3)
         Me.TabPage1.Controls.Add(Me.PnlDfSearch)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
@@ -205,23 +205,39 @@ Partial Class uiOrderHistory
         Me.GroupBox1.TabIndex = 197
         Me.GroupBox1.Text = "Request Filter"
         '
+        'chk_requestdate
+        '
+        Me.chk_requestdate.Location = New System.Drawing.Point(12, 55)
+        Me.chk_requestdate.Name = "chk_requestdate"
+        Me.chk_requestdate.Properties.Caption = "Request Date"
+        Me.chk_requestdate.Size = New System.Drawing.Size(98, 19)
+        Me.chk_requestdate.TabIndex = 199
+        '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(13, 85)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(55, 13)
+        Me.Label5.Size = New System.Drawing.Size(57, 13)
         Me.Label5.TabIndex = 171
         Me.Label5.Text = "Start Date"
+        '
+        'chk_request_id
+        '
+        Me.chk_request_id.Location = New System.Drawing.Point(12, 32)
+        Me.chk_request_id.Name = "chk_request_id"
+        Me.chk_request_id.Properties.Caption = "Request ID"
+        Me.chk_request_id.Size = New System.Drawing.Size(75, 19)
+        Me.chk_request_id.TabIndex = 199
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(216, 85)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(52, 13)
+        Me.Label4.Size = New System.Drawing.Size(51, 13)
         Me.Label4.TabIndex = 172
         Me.Label4.Text = "End Date"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -236,24 +252,27 @@ Partial Class uiOrderHistory
         'dtpReqDateEnd
         '
         Me.dtpReqDateEnd.CustomFormat = "dd/MM/yyyy"
+        Me.dtpReqDateEnd.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpReqDateEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpReqDateEnd.Location = New System.Drawing.Point(284, 82)
         Me.dtpReqDateEnd.Name = "dtpReqDateEnd"
-        Me.dtpReqDateEnd.Size = New System.Drawing.Size(85, 20)
+        Me.dtpReqDateEnd.Size = New System.Drawing.Size(85, 21)
         Me.dtpReqDateEnd.TabIndex = 12
         '
         'dtpReqDateStart
         '
         Me.dtpReqDateStart.CustomFormat = "dd/MM/yyyy"
+        Me.dtpReqDateStart.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpReqDateStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpReqDateStart.Location = New System.Drawing.Point(114, 82)
         Me.dtpReqDateStart.Name = "dtpReqDateStart"
-        Me.dtpReqDateStart.Size = New System.Drawing.Size(96, 20)
+        Me.dtpReqDateStart.Size = New System.Drawing.Size(96, 21)
         Me.dtpReqDateStart.TabIndex = 11
         '
         'Label6
         '
         Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(20, 35)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(70, 13)
@@ -312,28 +331,12 @@ Partial Class uiOrderHistory
         Me.chkSearchChannel.Name = "chkSearchChannel"
         Me.chkSearchChannel.Size = New System.Drawing.Size(65, 17)
         Me.chkSearchChannel.TabIndex = 0
-        Me.chkSearchChannel.Text = "Channel"
+        Me.chkSearchChannel.Text = "Company"
         Me.chkSearchChannel.UseVisualStyleBackColor = True
         '
         'HelpProvider1
         '
         Me.HelpProvider1.HelpNamespace = "http://insosys_start.trans7.co.id/ema.chm"
-        '
-        'chk_request_id
-        '
-        Me.chk_request_id.Location = New System.Drawing.Point(12, 32)
-        Me.chk_request_id.Name = "chk_request_id"
-        Me.chk_request_id.Properties.Caption = "Request ID"
-        Me.chk_request_id.Size = New System.Drawing.Size(75, 19)
-        Me.chk_request_id.TabIndex = 199
-        '
-        'chk_requestdate
-        '
-        Me.chk_requestdate.Location = New System.Drawing.Point(12, 55)
-        Me.chk_requestdate.Name = "chk_requestdate"
-        Me.chk_requestdate.Properties.Caption = "Request Date"
-        Me.chk_requestdate.Size = New System.Drawing.Size(98, 19)
-        Me.chk_requestdate.TabIndex = 199
         '
         'uiOrderHistory
         '
@@ -341,6 +344,7 @@ Partial Class uiOrderHistory
         Me.Controls.Add(Me.FlatTabMain)
         Me.DSN = resources.GetString("$this.DSN")
         Me.DSNFiles = resources.GetString("$this.DSNFiles")
+        Me.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "uiOrderHistory"
         Me.Controls.SetChildIndex(Me.FlatTabMain, 0)
         Me.FlatTabMain.ResumeLayout(False)
@@ -358,8 +362,8 @@ Partial Class uiOrderHistory
         CType(Me.GroupBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.chk_request_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.chk_requestdate.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.chk_request_id.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

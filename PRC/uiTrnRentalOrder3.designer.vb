@@ -242,16 +242,11 @@ Partial Class uiTrnRentalOrder3
         Me.dtp_Order_setdate = New System.Windows.Forms.DateTimePicker()
         Me.PnlDataMaster2 = New DevExpress.XtraEditors.PanelControl()
         Me.cbo_Currency = New System.Windows.Forms.ComboBox()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.lbl_Order_eps = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.lbl_Budget_id = New System.Windows.Forms.Label()
-        Me.obj_Order_epsend = New System.Windows.Forms.TextBox()
         Me.obj_Budget_id = New System.Windows.Forms.TextBox()
-        Me.obj_Order_epsstart = New System.Windows.Forms.TextBox()
         Me.lbl_rekanan_id = New System.Windows.Forms.Label()
         Me.btn_FindBudget = New System.Windows.Forms.Button()
-        Me.obj_Rekanan_id = New System.Windows.Forms.TextBox()
         Me.cbo_Budget_name = New System.Windows.Forms.ComboBox()
         Me.lbl_cp = New System.Windows.Forms.Label()
         Me.cbo_Rekanan_contact = New System.Windows.Forms.ComboBox()
@@ -260,6 +255,7 @@ Partial Class uiTrnRentalOrder3
         Me.cbo_Rekanan_name = New System.Windows.Forms.ComboBox()
         Me.cbo_Order_progsch = New System.Windows.Forms.ComboBox()
         Me.obj_Order_prognm = New System.Windows.Forms.TextBox()
+        Me.obj_Rekanan_id = New System.Windows.Forms.TextBox()
         Me.PnlDataMaster1 = New DevExpress.XtraEditors.PanelControl()
         Me.cbo_Deptname = New System.Windows.Forms.ComboBox()
         Me.cbo_Periode_id = New System.Windows.Forms.ComboBox()
@@ -277,6 +273,10 @@ Partial Class uiTrnRentalOrder3
         Me.lbl_order_date = New System.Windows.Forms.Label()
         Me.lbl_Periode_id = New System.Windows.Forms.Label()
         Me.obj_Order_id = New System.Windows.Forms.TextBox()
+        Me.obj_Order_epsend = New System.Windows.Forms.TextBox()
+        Me.obj_Order_epsstart = New System.Windows.Forms.TextBox()
+        Me.lbl_Order_eps = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.object_attach_dlg = New System.Windows.Forms.OpenFileDialog()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.FlatTabMain.SuspendLayout()
@@ -2324,6 +2324,10 @@ Partial Class uiTrnRentalOrder3
         Me.PnlDataMaster.Controls.Add(Me.PnlDataMaster3)
         Me.PnlDataMaster.Controls.Add(Me.PnlDataMaster2)
         Me.PnlDataMaster.Controls.Add(Me.PnlDataMaster1)
+        Me.PnlDataMaster.Controls.Add(Me.obj_Order_epsend)
+        Me.PnlDataMaster.Controls.Add(Me.obj_Order_epsstart)
+        Me.PnlDataMaster.Controls.Add(Me.lbl_Order_eps)
+        Me.PnlDataMaster.Controls.Add(Me.Label10)
         Me.PnlDataMaster.Dock = System.Windows.Forms.DockStyle.Top
         Me.PnlDataMaster.Location = New System.Drawing.Point(3, 3)
         Me.PnlDataMaster.Name = "PnlDataMaster"
@@ -2410,9 +2414,9 @@ Partial Class uiTrnRentalOrder3
         Me.lbl_Order_utilizeddatestart.AutoSize = True
         Me.lbl_Order_utilizeddatestart.Location = New System.Drawing.Point(4, 31)
         Me.lbl_Order_utilizeddatestart.Name = "lbl_Order_utilizeddatestart"
-        Me.lbl_Order_utilizeddatestart.Size = New System.Drawing.Size(101, 13)
+        Me.lbl_Order_utilizeddatestart.Size = New System.Drawing.Size(92, 13)
         Me.lbl_Order_utilizeddatestart.TabIndex = 122
-        Me.lbl_Order_utilizeddatestart.Text = "Shooting Date From"
+        Me.lbl_Order_utilizeddatestart.Text = "Project Date From"
         '
         'mtb_Order_settime
         '
@@ -2472,13 +2476,9 @@ Partial Class uiTrnRentalOrder3
         'PnlDataMaster2
         '
         Me.PnlDataMaster2.Controls.Add(Me.cbo_Currency)
-        Me.PnlDataMaster2.Controls.Add(Me.Label10)
-        Me.PnlDataMaster2.Controls.Add(Me.lbl_Order_eps)
         Me.PnlDataMaster2.Controls.Add(Me.Label6)
         Me.PnlDataMaster2.Controls.Add(Me.lbl_Budget_id)
-        Me.PnlDataMaster2.Controls.Add(Me.obj_Order_epsend)
         Me.PnlDataMaster2.Controls.Add(Me.obj_Budget_id)
-        Me.PnlDataMaster2.Controls.Add(Me.obj_Order_epsstart)
         Me.PnlDataMaster2.Controls.Add(Me.lbl_rekanan_id)
         Me.PnlDataMaster2.Controls.Add(Me.btn_FindBudget)
         Me.PnlDataMaster2.Controls.Add(Me.cbo_Budget_name)
@@ -2500,35 +2500,16 @@ Partial Class uiTrnRentalOrder3
         '
         Me.cbo_Currency.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbo_Currency.FormattingEnabled = True
-        Me.cbo_Currency.Location = New System.Drawing.Point(359, 5)
+        Me.cbo_Currency.Location = New System.Drawing.Point(104, 51)
         Me.cbo_Currency.Name = "cbo_Currency"
         Me.cbo_Currency.Size = New System.Drawing.Size(73, 22)
         Me.cbo_Currency.TabIndex = 151
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(600, 31)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(16, 13)
-        Me.Label10.TabIndex = 126
-        Me.Label10.Text = "to"
-        '
-        'lbl_Order_eps
-        '
-        Me.lbl_Order_eps.AutoSize = True
-        Me.lbl_Order_eps.Location = New System.Drawing.Point(451, 30)
-        Me.lbl_Order_eps.Name = "lbl_Order_eps"
-        Me.lbl_Order_eps.Size = New System.Drawing.Size(45, 13)
-        Me.lbl_Order_eps.TabIndex = 64
-        Me.lbl_Order_eps.Text = "Episode"
-        Me.lbl_Order_eps.Visible = False
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(322, 9)
+        Me.Label6.Location = New System.Drawing.Point(3, 55)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(30, 14)
         Me.Label6.TabIndex = 150
@@ -2537,48 +2518,32 @@ Partial Class uiTrnRentalOrder3
         'lbl_Budget_id
         '
         Me.lbl_Budget_id.AutoSize = True
-        Me.lbl_Budget_id.Location = New System.Drawing.Point(4, 30)
+        Me.lbl_Budget_id.Location = New System.Drawing.Point(3, 9)
         Me.lbl_Budget_id.Name = "lbl_Budget_id"
         Me.lbl_Budget_id.Size = New System.Drawing.Size(41, 13)
         Me.lbl_Budget_id.TabIndex = 63
         Me.lbl_Budget_id.Text = "Budget"
         '
-        'obj_Order_epsend
-        '
-        Me.obj_Order_epsend.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.obj_Order_epsend.Location = New System.Drawing.Point(640, 27)
-        Me.obj_Order_epsend.Name = "obj_Order_epsend"
-        Me.obj_Order_epsend.Size = New System.Drawing.Size(75, 20)
-        Me.obj_Order_epsend.TabIndex = 69
-        '
         'obj_Budget_id
         '
-        Me.obj_Budget_id.Location = New System.Drawing.Point(104, 28)
+        Me.obj_Budget_id.Location = New System.Drawing.Point(103, 5)
         Me.obj_Budget_id.Name = "obj_Budget_id"
         Me.obj_Budget_id.Size = New System.Drawing.Size(40, 20)
         Me.obj_Budget_id.TabIndex = 10
         '
-        'obj_Order_epsstart
-        '
-        Me.obj_Order_epsstart.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.obj_Order_epsstart.Location = New System.Drawing.Point(505, 27)
-        Me.obj_Order_epsstart.Name = "obj_Order_epsstart"
-        Me.obj_Order_epsstart.Size = New System.Drawing.Size(75, 20)
-        Me.obj_Order_epsstart.TabIndex = 68
-        '
         'lbl_rekanan_id
         '
         Me.lbl_rekanan_id.AutoSize = True
-        Me.lbl_rekanan_id.Location = New System.Drawing.Point(4, 9)
+        Me.lbl_rekanan_id.Location = New System.Drawing.Point(449, 10)
         Me.lbl_rekanan_id.Name = "lbl_rekanan_id"
         Me.lbl_rekanan_id.Size = New System.Drawing.Size(41, 13)
         Me.lbl_rekanan_id.TabIndex = 62
-        Me.lbl_rekanan_id.Text = "Vendor"
+        Me.lbl_rekanan_id.Text = "Partner"
         '
         'btn_FindBudget
         '
         Me.btn_FindBudget.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.btn_FindBudget.Location = New System.Drawing.Point(75, 26)
+        Me.btn_FindBudget.Location = New System.Drawing.Point(74, 5)
         Me.btn_FindBudget.Name = "btn_FindBudget"
         Me.btn_FindBudget.Size = New System.Drawing.Size(25, 21)
         Me.btn_FindBudget.TabIndex = 60
@@ -2586,28 +2551,20 @@ Partial Class uiTrnRentalOrder3
         Me.btn_FindBudget.UseVisualStyleBackColor = False
         Me.btn_FindBudget.Visible = False
         '
-        'obj_Rekanan_id
-        '
-        Me.obj_Rekanan_id.Location = New System.Drawing.Point(104, 7)
-        Me.obj_Rekanan_id.Name = "obj_Rekanan_id"
-        Me.obj_Rekanan_id.ReadOnly = True
-        Me.obj_Rekanan_id.Size = New System.Drawing.Size(40, 20)
-        Me.obj_Rekanan_id.TabIndex = 65
-        '
         'cbo_Budget_name
         '
         Me.cbo_Budget_name.BackColor = System.Drawing.SystemColors.Window
         Me.cbo_Budget_name.FormattingEnabled = True
         Me.cbo_Budget_name.ItemHeight = 13
-        Me.cbo_Budget_name.Location = New System.Drawing.Point(146, 28)
+        Me.cbo_Budget_name.Location = New System.Drawing.Point(145, 5)
         Me.cbo_Budget_name.Name = "cbo_Budget_name"
-        Me.cbo_Budget_name.Size = New System.Drawing.Size(286, 21)
+        Me.cbo_Budget_name.Size = New System.Drawing.Size(287, 21)
         Me.cbo_Budget_name.TabIndex = 11
         '
         'lbl_cp
         '
         Me.lbl_cp.AutoSize = True
-        Me.lbl_cp.Location = New System.Drawing.Point(451, 9)
+        Me.lbl_cp.Location = New System.Drawing.Point(451, 32)
         Me.lbl_cp.Name = "lbl_cp"
         Me.lbl_cp.Size = New System.Drawing.Size(21, 13)
         Me.lbl_cp.TabIndex = 66
@@ -2617,7 +2574,7 @@ Partial Class uiTrnRentalOrder3
         '
         Me.cbo_Rekanan_contact.Enabled = False
         Me.cbo_Rekanan_contact.FormattingEnabled = True
-        Me.cbo_Rekanan_contact.Location = New System.Drawing.Point(505, 5)
+        Me.cbo_Rekanan_contact.Location = New System.Drawing.Point(505, 28)
         Me.cbo_Rekanan_contact.Name = "cbo_Rekanan_contact"
         Me.cbo_Rekanan_contact.Size = New System.Drawing.Size(210, 21)
         Me.cbo_Rekanan_contact.TabIndex = 9
@@ -2625,16 +2582,16 @@ Partial Class uiTrnRentalOrder3
         'lbl_Project_id
         '
         Me.lbl_Project_id.AutoSize = True
-        Me.lbl_Project_id.Location = New System.Drawing.Point(4, 53)
+        Me.lbl_Project_id.Location = New System.Drawing.Point(3, 33)
         Me.lbl_Project_id.Name = "lbl_Project_id"
-        Me.lbl_Project_id.Size = New System.Drawing.Size(46, 13)
+        Me.lbl_Project_id.Size = New System.Drawing.Size(40, 13)
         Me.lbl_Project_id.TabIndex = 61
-        Me.lbl_Project_id.Text = "Program"
+        Me.lbl_Project_id.Text = "Project"
         '
         'lbl_Sch
         '
         Me.lbl_Sch.AutoSize = True
-        Me.lbl_Sch.Location = New System.Drawing.Point(451, 52)
+        Me.lbl_Sch.Location = New System.Drawing.Point(451, 54)
         Me.lbl_Sch.Name = "lbl_Sch"
         Me.lbl_Sch.Size = New System.Drawing.Size(52, 13)
         Me.lbl_Sch.TabIndex = 67
@@ -2644,26 +2601,34 @@ Partial Class uiTrnRentalOrder3
         '
         Me.cbo_Rekanan_name.Enabled = False
         Me.cbo_Rekanan_name.FormattingEnabled = True
-        Me.cbo_Rekanan_name.Location = New System.Drawing.Point(104, 6)
+        Me.cbo_Rekanan_name.Location = New System.Drawing.Point(505, 6)
         Me.cbo_Rekanan_name.Name = "cbo_Rekanan_name"
-        Me.cbo_Rekanan_name.Size = New System.Drawing.Size(212, 21)
+        Me.cbo_Rekanan_name.Size = New System.Drawing.Size(210, 21)
         Me.cbo_Rekanan_name.TabIndex = 8
         '
         'cbo_Order_progsch
         '
         Me.cbo_Order_progsch.FormattingEnabled = True
         Me.cbo_Order_progsch.Items.AddRange(New Object() {"-- PILIH --", "Regular", "Non-Regular"})
-        Me.cbo_Order_progsch.Location = New System.Drawing.Point(505, 49)
+        Me.cbo_Order_progsch.Location = New System.Drawing.Point(505, 50)
         Me.cbo_Order_progsch.Name = "cbo_Order_progsch"
         Me.cbo_Order_progsch.Size = New System.Drawing.Size(210, 21)
         Me.cbo_Order_progsch.TabIndex = 14
         '
         'obj_Order_prognm
         '
-        Me.obj_Order_prognm.Location = New System.Drawing.Point(104, 50)
+        Me.obj_Order_prognm.Location = New System.Drawing.Point(103, 29)
         Me.obj_Order_prognm.Name = "obj_Order_prognm"
         Me.obj_Order_prognm.Size = New System.Drawing.Size(328, 20)
         Me.obj_Order_prognm.TabIndex = 12
+        '
+        'obj_Rekanan_id
+        '
+        Me.obj_Rekanan_id.Location = New System.Drawing.Point(509, 7)
+        Me.obj_Rekanan_id.Name = "obj_Rekanan_id"
+        Me.obj_Rekanan_id.ReadOnly = True
+        Me.obj_Rekanan_id.Size = New System.Drawing.Size(40, 20)
+        Me.obj_Rekanan_id.TabIndex = 65
         '
         'PnlDataMaster1
         '
@@ -2714,9 +2679,9 @@ Partial Class uiTrnRentalOrder3
         Me.lbl_Request_id.AutoSize = True
         Me.lbl_Request_id.Location = New System.Drawing.Point(4, 33)
         Me.lbl_Request_id.Name = "lbl_Request_id"
-        Me.lbl_Request_id.Size = New System.Drawing.Size(61, 13)
+        Me.lbl_Request_id.Size = New System.Drawing.Size(71, 13)
         Me.lbl_Request_id.TabIndex = 25
-        Me.lbl_Request_id.Text = "Request ID"
+        Me.lbl_Request_id.Text = "Reference ID"
         '
         'gboRevision
         '
@@ -2836,6 +2801,41 @@ Partial Class uiTrnRentalOrder3
         Me.obj_Order_id.Size = New System.Drawing.Size(126, 20)
         Me.obj_Order_id.TabIndex = 1
         '
+        'obj_Order_epsend
+        '
+        Me.obj_Order_epsend.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.obj_Order_epsend.Location = New System.Drawing.Point(572, 158)
+        Me.obj_Order_epsend.Name = "obj_Order_epsend"
+        Me.obj_Order_epsend.Size = New System.Drawing.Size(75, 20)
+        Me.obj_Order_epsend.TabIndex = 69
+        '
+        'obj_Order_epsstart
+        '
+        Me.obj_Order_epsstart.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.obj_Order_epsstart.Location = New System.Drawing.Point(437, 158)
+        Me.obj_Order_epsstart.Name = "obj_Order_epsstart"
+        Me.obj_Order_epsstart.Size = New System.Drawing.Size(75, 20)
+        Me.obj_Order_epsstart.TabIndex = 68
+        '
+        'lbl_Order_eps
+        '
+        Me.lbl_Order_eps.AutoSize = True
+        Me.lbl_Order_eps.Location = New System.Drawing.Point(383, 161)
+        Me.lbl_Order_eps.Name = "lbl_Order_eps"
+        Me.lbl_Order_eps.Size = New System.Drawing.Size(45, 13)
+        Me.lbl_Order_eps.TabIndex = 64
+        Me.lbl_Order_eps.Text = "Episode"
+        Me.lbl_Order_eps.Visible = False
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(532, 162)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(16, 13)
+        Me.Label10.TabIndex = 126
+        Me.Label10.Text = "to"
+        '
         'object_attach_dlg
         '
         Me.object_attach_dlg.FileName = "OpenFileDialog1"
@@ -2928,6 +2928,7 @@ Partial Class uiTrnRentalOrder3
         Me.PnlDataFooter_Total.PerformLayout()
         CType(Me.PnlDataMaster, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PnlDataMaster.ResumeLayout(False)
+        Me.PnlDataMaster.PerformLayout()
         CType(Me.PnlDataMaster3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PnlDataMaster3.ResumeLayout(False)
         Me.PnlDataMaster3.PerformLayout()

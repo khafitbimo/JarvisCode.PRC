@@ -2814,12 +2814,15 @@ Public Class uiTrnPurchaseOrder3
     Private Function InitLayoutUI() As Boolean
         Dim i As Integer
 
+
+        '===================== hide =============================
+        Me.fTabPayment.Dispose()
         Me.FlatTabMain.Anchor = AnchorStyles.Bottom
         Me.FlatTabMain.Anchor += AnchorStyles.Top
         Me.FlatTabMain.Anchor += AnchorStyles.Right
         Me.FlatTabMain.Anchor += AnchorStyles.Left
 
-        Me.FlatTabMain.TabPages.Item(1).BackColor = Color.Gainsboro
+
         Me.PnlDfSearch.Dock = DockStyle.Top
         Me.PnlDfSearch.Visible = False
         Me.PnlDfMain.Dock = DockStyle.Fill
@@ -2835,11 +2838,11 @@ Public Class uiTrnPurchaseOrder3
         Me.FormatDgvTrnTerimabarang(Me.dgvtrnBPB)
         Me.FormatDgvTrnOrderTOPdetil(Me.DgvTrnOrderTOPdetil)
 
-        For i = 0 To (Me.ftabDataDetil.TabCount - 1)
-            Me.ftabDataDetil.TabPages.Item(i).BackColor = Color.Gainsboro
-        Next
+        'For i = 0 To (Me.ftabDataDetil.TabCount - 1)
+        '    Me.ftabDataDetil.TabPages.Item(i).BackColor = Color.Gainsboro
+        'Next
 
-        Me.ftabDataDetil.TabPages.Item(0).BackColor = Color.White
+        'Me.ftabDataDetil.TabPages.Item(0).BackColor = Color.White
 
         If Me._ORDERTYPE_ID = "PO" Then
             Me.ftabDataDetil.TabPages.Item(1).Text = "Purchase Request"
@@ -6243,10 +6246,10 @@ save_confirmation:
                
 
                 If Me._PROGRAMTYPE = "PG" Then
-                    Me.lblProgType.Text = "PROGRAM"
+                    Me.lblProgType.Text = "PROJECT"
                     Me.chkSingleBudget.Enabled = False
                 ElseIf Me._PROGRAMTYPE = "NP" Then
-                    Me.lblProgType.Text = "NON PROGRAM"
+                    Me.lblProgType.Text = "CORPORATE"
                     Me.chkSingleBudget.Enabled = False
                 End If
 
@@ -6281,8 +6284,8 @@ save_confirmation:
                 Me.tbtnDel.Enabled = False
                 Me.tbtnLoad.Enabled = True
                 Me.tbtnQuery.Enabled = True
-                Me.FlatTabMain.TabPages.Item(0).BackColor = Color.White
-                Me.FlatTabMain.TabPages.Item(1).BackColor = Color.Gainsboro
+                'Me.FlatTabMain.TabPages.Item(0).BackColor = Color.White
+                'Me.FlatTabMain.TabPages.Item(1).BackColor = Color.Gainsboro
 
                 If Me.tbl_RequestdetilSelect.Rows.Count > 0 Then
                     Me.tbl_RequestdetilSelect.Clear()
@@ -6306,8 +6309,8 @@ save_confirmation:
                     Me.tbtnQuery.Enabled = False
                 End If
                 'Me.btnApp.Enabled = True
-                Me.FlatTabMain.TabPages.Item(0).BackColor = Color.Gainsboro
-                Me.FlatTabMain.TabPages.Item(1).BackColor = Color.White
+                'Me.FlatTabMain.TabPages.Item(0).BackColor = Color.Gainsboro
+                'Me.FlatTabMain.TabPages.Item(1).BackColor = Color.White
 
                 If Me.DgvTrnOrder.CurrentRow IsNot Nothing Then
                     If Me.formstatus = "OPENROW" Then
@@ -6401,12 +6404,12 @@ save_confirmation:
         Dim dbConn As OleDb.OleDbConnection = New OleDb.OleDbConnection(Me.DSN)
         Dim cookie As Byte() = Nothing
 
-        For i = 0 To (Me.ftabDataDetil.TabCount - 1)
-            Me.ftabDataDetil.TabPages.Item(i).BackColor = Color.Gainsboro
-        Next
+        'For i = 0 To (Me.ftabDataDetil.TabCount - 1)
+        '    Me.ftabDataDetil.TabPages.Item(i).BackColor = Color.Gainsboro
+        'Next
 
-        activetab = Me.ftabDataDetil.SelectedIndex
-        Me.ftabDataDetil.TabPages.Item(activetab).BackColor = Color.White
+        'activetab = Me.ftabDataDetil.SelectedIndex
+        'Me.ftabDataDetil.TabPages.Item(activetab).BackColor = Color.White
 
         If Me.obj_Order_id.Text <> "" Then
             Try

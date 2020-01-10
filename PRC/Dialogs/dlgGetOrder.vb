@@ -1313,7 +1313,7 @@ Public Class dlgGetOrder
         cRekanan_id.ReadOnly = True
 
         cRekanan_name.Name = "rekanan_name"
-        cRekanan_name.HeaderText = "Vendor"
+        cRekanan_name.HeaderText = "Partner"
         cRekanan_name.DataPropertyName = "rekanan_name"
         cRekanan_name.Width = 120
         cRekanan_name.Visible = True
